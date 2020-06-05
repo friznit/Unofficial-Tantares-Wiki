@@ -1776,9 +1776,8 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
+		name = ModuleBdbRelayInfo
 		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1883,9 +1882,8 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
+		name = ModuleBdbRelayInfo
 		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1988,22 +1986,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
@@ -2085,22 +2067,6 @@ PART
 		useVariantMass = True
 		stagingEnabled = True
 		selectedVariant = variant2
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
 		EVENTS
 		{
 		}
@@ -2376,7 +2342,7 @@ PART
 	pos = -0.426125675,13.9296942,-0.608570874
 	attPos = 0,0,0
 	attPos0 = -0.426125675,0.167194366,-0.608570874
-	rot = 0.299561381,0.0831219628,0.950087786,-0.0262082405
+	rot = 0.299561381,0.0831219777,0.950087786,-0.0262082443
 	attRot = 0,-0.0871557668,-0.996194661,0
 	attRot0 = 0.299561381,0.0831219479,0.950087786,-0.0262082368
 	mir = 1,1,1

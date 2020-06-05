@@ -550,22 +550,6 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -734,7 +718,7 @@ PART
 	resPri = 0
 	dstg = 1
 	sidx = 0
-	sqor = 1
+	sqor = 0
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
@@ -941,7 +925,7 @@ PART
 	resPri = 0
 	dstg = 2
 	sidx = 0
-	sqor = 2
+	sqor = 1
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
@@ -1191,7 +1175,7 @@ PART
 	resPri = 0
 	dstg = 3
 	sidx = 0
-	sqor = 3
+	sqor = 2
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
@@ -1390,7 +1374,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 0
-	sqor = 4
+	sqor = 3
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
@@ -1679,7 +1663,7 @@ PART
 	pos = -0.482150435,4.89473915,-0.494990349
 	attPos = 0,0,0
 	attPos0 = -0.692480326,-0.249504089,-1.49011612E-08
-	rot = 0.0343961045,0.923239052,0.0142473346,0.382418215
+	rot = 0.0343961045,0.923239052,0.0142473336,0.382418215
 	attRot = 0,0,0,1
 	attRot0 = 0.0372300819,0.999306798,-9.31322575E-10,2.98023224E-08
 	mir = 1,1,1
@@ -1819,7 +1803,7 @@ PART
 	pos = 0.497164667,4.89473915,0.484324753
 	attPos = 0,0,0
 	attPos0 = 0.692480326,-0.249504089,-8.94069672E-08
-	rot = 0.0142473346,0.382418215,-0.0343961045,-0.923239052
+	rot = 0.0142473336,0.382418215,-0.0343961045,-0.923239052
 	attRot = 0,0,0,1
 	attRot0 = -9.31322575E-10,2.98023224E-08,-0.0372300819,-0.999306798
 	mir = 1,1,1

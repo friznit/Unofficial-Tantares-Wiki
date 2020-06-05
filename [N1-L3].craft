@@ -16,7 +16,7 @@ PART
 {
 	part = libra.structure.s1.1_4293832658
 	partName = Part
-	persistentId = 4294052700
+	persistentId = 3094666669
 	pos = 0.00100135885,42.0013199,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,0.287500381,0
@@ -149,7 +149,7 @@ PART
 {
 	part = lepus.landing.leg.srf.1_4293831974
 	partName = Part
-	persistentId = 1646435386
+	persistentId = 1975255835
 	pos = -0.51479882,42.0014496,0.837104201
 	attPos = 0,0,0
 	attPos0 = -0.515800178,0.000128746033,0.515800118
@@ -274,7 +274,7 @@ PART
 {
 	part = lepus.landing.leg.srf.1_4293830894
 	partName = Part
-	persistentId = 3351512686
+	persistentId = 509268607
 	pos = 0.516801417,42.0014496,0.837104321
 	attPos = 0,0,0
 	attPos0 = 0.515800059,0.000128746033,0.515800178
@@ -395,7 +395,7 @@ PART
 {
 	part = lepus.landing.leg.srf.1_4293830804
 	partName = Part
-	persistentId = 2769362275
+	persistentId = 1464183547
 	pos = 0.516801476,42.0014496,-0.194496065
 	attPos = 0,0,0
 	attPos0 = 0.515800118,0.000128746033,-0.515800178
@@ -516,7 +516,7 @@ PART
 {
 	part = lepus.landing.leg.srf.1_4293830714
 	partName = Part
-	persistentId = 3300116892
+	persistentId = 4288047611
 	pos = -0.51479876,42.0014496,-0.194496006
 	attPos = 0,0,0
 	attPos0 = -0.515800118,0.000128746033,-0.515800118
@@ -637,7 +637,7 @@ PART
 {
 	part = lepus.high.gain.antenna.srf.1_4293830398
 	partName = Part
-	persistentId = 1768247986
+	persistentId = 2779450218
 	pos = -0.656914234,42.1639252,-0.0585437119
 	attPos = 0,0,0
 	attPos0 = -0.657915592,0.162603378,-0.379847825
@@ -725,9 +725,8 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
+		name = ModuleBdbRelayInfo
 		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -744,7 +743,7 @@ PART
 {
 	part = lepus.high.gain.antenna.srf.1_4293829848
 	partName = Part
-	persistentId = 764483050
+	persistentId = 724527396
 	pos = 0.65891701,42.1639252,0.701151848
 	attPos = 0,0,0
 	attPos0 = 0.657915652,0.162603378,0.379847765
@@ -832,9 +831,8 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
+		name = ModuleBdbRelayInfo
 		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -851,7 +849,7 @@ PART
 {
 	part = lepus.rocket.motor.srf.1_4293827796
 	partName = Part
-	persistentId = 309325571
+	persistentId = 1436776277
 	pos = -0.424096644,42.1707115,0.928406954
 	attPos = 0,0,0
 	attPos0 = -0.425098002,0.169392586,0.607102811
@@ -983,7 +981,7 @@ PART
 {
 	part = lepus.rocket.motor.srf.1_4293827508
 	partName = Part
-	persistentId = 367664696
+	persistentId = 403177973
 	pos = 0.42609936,42.1707115,0.928406954
 	attPos = 0,0,0
 	attPos0 = 0.425098002,0.169392586,0.607102811
@@ -1107,11 +1105,11 @@ PART
 {
 	part = lepus.rocket.motor.srf.1_4293827084
 	partName = Part
-	persistentId = 3834353489
+	persistentId = 2002384270
 	pos = -0.425124317,42.1685143,-0.287266761
 	attPos = 0,0,0
 	attPos0 = -0.426125675,0.167194366,-0.608570874
-	rot = 0.299561381,0.0831219777,0.950087786,-0.0262082443
+	rot = 0.299561381,0.0831220075,0.950087786,-0.0262082517
 	attRot = 0,-0.0871557668,-0.996194661,0
 	attRot0 = 0.299561381,0.0831219479,0.950087786,-0.0262082368
 	mir = 1,1,1
@@ -1231,7 +1229,7 @@ PART
 {
 	part = lepus.rocket.motor.srf.1_4293826114
 	partName = Part
-	persistentId = 1502537504
+	persistentId = 991553696
 	pos = 0.427127033,42.1685143,-0.287266761
 	attPos = 0,0,0
 	attPos0 = 0.426125675,0.167194366,-0.608570874
@@ -1355,7 +1353,7 @@ PART
 {
 	part = libra.engine.s1.1_4293832974
 	partName = Part
-	persistentId = 2135141091
+	persistentId = 525241819
 	pos = 0.00100135885,42.0013199,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.375,0
@@ -1527,7 +1525,7 @@ PART
 {
 	part = libra.fuel.tank.s1.s0p5.1_4293833082
 	partName = Part
-	persistentId = 1465778352
+	persistentId = 1758368074
 	pos = 0.00100135885,42.3763199,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.862500191,0
@@ -1610,7 +1608,7 @@ PART
 {
 	part = lepus.low.gain.antenna.srf.1_4293829158
 	partName = Part
-	persistentId = 541656597
+	persistentId = 2943930850
 	pos = -0.12069571,42.5257568,0.775483727
 	attPos = 0,0,0
 	attPos0 = -0.121697068,0.149437904,0.454179585
@@ -1696,28 +1694,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = lepus.low.gain.antenna.srf.1_4293828268
 	partName = Part
-	persistentId = 2569781300
+	persistentId = 3509159962
 	pos = 0.122698389,42.5257568,-0.132875472
 	attPos = 0,0,0
 	attPos0 = 0.121697031,0.149437904,-0.454179585
@@ -1803,28 +1785,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = libra.crew.s0p5.1_4293835234
 	partName = Part
-	persistentId = 560576575
+	persistentId = 1478063450
 	pos = 0.00100135885,43.2388229,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0.00236327993,18.4618855,0.183898836
@@ -2123,7 +2089,7 @@ PART
 {
 	part = libra.monopropellant.tank.s0.1_4293834236
 	partName = Part
-	persistentId = 3867821532
+	persistentId = 4050329088
 	pos = 0.00100135885,44.0388184,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,0.800000191,0
@@ -2208,7 +2174,7 @@ PART
 {
 	part = libra.rcs.srf.2_4293834002
 	partName = Part
-	persistentId = 23428499
+	persistentId = 3912857172
 	pos = -0.313490987,44.0330353,0.321304142
 	attPos = 0,0,0
 	attPos0 = -0.314492345,-0.0057849884,1.87452063E-08
@@ -2311,7 +2277,7 @@ PART
 {
 	part = libra.rcs.srf.2_4293833506
 	partName = Part
-	persistentId = 1318772970
+	persistentId = 1607407268
 	pos = 0.00100135885,44.0330353,0.635796428
 	attPos = 0,0,0
 	attPos0 = 6.59055478E-16,-0.0057849884,0.314492315
@@ -2414,7 +2380,7 @@ PART
 {
 	part = libra.rcs.srf.2_4293833382
 	partName = Part
-	persistentId = 3093735396
+	persistentId = 1186049372
 	pos = 0.315493703,44.0330353,0.321304053
 	attPos = 0,0,0
 	attPos0 = 0.314492345,-0.0057849884,-4.6239002E-08
@@ -2517,7 +2483,7 @@ PART
 {
 	part = libra.rcs.srf.2_4293833258
 	partName = Part
-	persistentId = 3586830602
+	persistentId = 3605202063
 	pos = 0.00100132136,44.0330353,0.00681179762
 	attPos = 0,0,0
 	attPos0 = -3.7490409E-08,-0.0057849884,-0.314492315
@@ -2620,7 +2586,7 @@ PART
 {
 	part = petra.docking.port.s0p5.1.female_4293825316
 	partName = Part
-	persistentId = 4165055639
+	persistentId = 838847984
 	pos = 0.00100135885,44.1888199,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,0.149999619,0
@@ -2724,7 +2690,7 @@ PART
 {
 	part = virgo.engine.s1.1_4293119604
 	partName = Part
-	persistentId = 2647918488
+	persistentId = 3660815819
 	pos = 0.00100135885,44.5888214,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,0.400000572,0
@@ -2877,7 +2843,7 @@ PART
 {
 	part = virgo.radiator.fuel.tank.s1.2_4293139584
 	partName = Part
-	persistentId = 1085235245
+	persistentId = 1998883535
 	pos = 0.00100135885,45.4638214,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.6875,0
@@ -2943,7 +2909,7 @@ PART
 {
 	part = octans.star.tracker.srf.1_4293093408
 	partName = Part
-	persistentId = 3388038964
+	persistentId = 39748194
 	pos = -0.556275785,45.1687088,0.643048227
 	attPos = 0,0,0
 	attPos0 = -0.557277143,-0.295114517,0.321744114
@@ -3028,7 +2994,7 @@ PART
 {
 	part = virgo.fuel.tank.s1.1_4293140068
 	partName = Part
-	persistentId = 2574843457
+	persistentId = 2326224351
 	pos = 0.00100135885,46.1513214,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.262499809,0
@@ -3093,7 +3059,7 @@ PART
 {
 	part = tantares.decoupler.s1.1_4293158652
 	partName = Part
-	persistentId = 1315022539
+	persistentId = 1978168942
 	pos = 0.00100135885,46.4138222,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.149999619,0
@@ -3191,7 +3157,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4293109186
 	partName = Part
-	persistentId = 3540543789
+	persistentId = 1715209388
 	pos = 0.00100135885,46.4214325,0.927808404
 	attPos = 0,0,0
 	attPos0 = 0,0.00761222839,0.606504321
@@ -3294,7 +3260,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4293108756
 	partName = Part
-	persistentId = 2936315704
+	persistentId = 4280303601
 	pos = 0.60750562,46.4214325,0.321304142
 	attPos = 0,0,0
 	attPos0 = 0.606504261,0.00761222839,3.61504746E-08
@@ -3397,7 +3363,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4293108702
 	partName = Part
-	persistentId = 731127976
+	persistentId = 3762086014
 	pos = 0.00100130588,46.4214325,-0.285200208
 	attPos = 0,0,0
 	attPos0 = -5.30222906E-08,0.00761222839,-0.606504321
@@ -3500,7 +3466,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4293108648
 	partName = Part
-	persistentId = 165743002
+	persistentId = 1027175946
 	pos = -0.605502903,46.4214325,0.321304142
 	attPos = 0,0,0
 	attPos0 = -0.606504261,0.00761222839,3.61504746E-08
@@ -3603,7 +3569,7 @@ PART
 {
 	part = octans.light.srf.2_4293091766
 	partName = Part
-	persistentId = 4009238608
+	persistentId = 321132478
 	pos = 0.430300921,46.4214554,0.750603616
 	attPos = 0,0,0
 	attPos0 = 0.429299563,0.00763511658,0.429299504
@@ -3740,7 +3706,7 @@ PART
 {
 	part = tantares.heatshield.s1.1_4293159782
 	partName = Part
-	persistentId = 3489427441
+	persistentId = 133170433
 	pos = 0.00100135885,46.5638199,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.574999809,0
@@ -3883,7 +3849,7 @@ PART
 {
 	part = virgo.crew.s1.1_4293189716
 	partName = Part
-	persistentId = 2557608731
+	persistentId = 4088945324
 	pos = 0.00100135885,47.1388206,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0.644240856,21.9483948,0.108815581
@@ -3899,7 +3865,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -4153,7 +4119,7 @@ PART
 {
 	part = tantares.parachute.s0.1_4293177968
 	partName = Part
-	persistentId = 4285550123
+	persistentId = 3604546069
 	pos = 0.00100135885,47.6638184,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,0.524999619,0
@@ -4307,7 +4273,7 @@ PART
 {
 	part = virgo.orbital.module.s1.1_4293177048
 	partName = Part
-	persistentId = 1033745995
+	persistentId = 550870947
 	pos = 0.00100135885,48.2638206,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0.00100135885,48.2638206,0.321304113
@@ -4465,7 +4431,7 @@ PART
 {
 	part = petra.docking.port.s0p5.1.male_4293166778
 	partName = Part
-	persistentId = 1426562730
+	persistentId = 4206942433
 	pos = 0.00100135885,49.1888199,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,0.925001144,0
@@ -4574,7 +4540,7 @@ PART
 {
 	part = octans.moe.srf.3_4293107290
 	partName = Part
-	persistentId = 355111210
+	persistentId = 3136192486
 	pos = 0.417238802,48.9279404,0.321304142
 	attPos = 0,0,0
 	attPos0 = 0.416237444,-0.260881424,2.48096867E-08
@@ -4677,7 +4643,7 @@ PART
 {
 	part = octans.moe.srf.3_4293106856
 	partName = Part
-	persistentId = 40014929
+	persistentId = 1942923054
 	pos = 0.00100140844,48.9279404,-0.0949333012
 	attPos = 0,0,0
 	attPos0 = 4.96193699E-08,-0.260881424,-0.416237414
@@ -4780,7 +4746,7 @@ PART
 {
 	part = octans.moe.srf.3_4293106794
 	partName = Part
-	persistentId = 3705399802
+	persistentId = 3824898370
 	pos = -0.415236086,48.9279404,0.321304113
 	attPos = 0,0,0
 	attPos0 = -0.416237444,-0.260881424,1.15789467E-08
@@ -4883,7 +4849,7 @@ PART
 {
 	part = octans.moe.srf.3_4293106732
 	partName = Part
-	persistentId = 3850848670
+	persistentId = 1825423552
 	pos = 0.00100135885,48.9279404,0.737541556
 	attPos = 0,0,0
 	attPos0 = -2.97584274E-16,-0.260881424,0.416237414
@@ -4986,7 +4952,7 @@ PART
 {
 	part = lepus.low.gain.antenna.srf.1_4293098814
 	partName = Part
-	persistentId = 2447828503
+	persistentId = 1670701353
 	pos = -0.266667753,49.0627098,0.053635031
 	attPos = 0,0,0
 	attPos0 = -0.267669111,-0.126111984,-0.267669082
@@ -5071,28 +5037,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = LLV.O.Decoupler.1_4287730274
 	partName = Part
-	persistentId = 1920999205
+	persistentId = 3534925388
 	pos = 0.00100135885,41.7138214,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.287500381,0
@@ -5199,7 +5149,7 @@ PART
 {
 	part = SUS.LFO.1_4287761196
 	partName = Part
-	persistentId = 3142506694
+	persistentId = 3860424502
 	pos = 0.00100135885,40.4413185,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-1.27250099,0
@@ -5275,7 +5225,7 @@ PART
 {
 	part = SUS.Engine.1_4287760906
 	partName = Part
-	persistentId = 559989321
+	persistentId = 1739910986
 	pos = 0.00100135885,38.8863182,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-1.55500031,0
@@ -5534,7 +5484,7 @@ PART
 {
 	part = LLV.E.Decoupler.1_4287745010
 	partName = Part
-	persistentId = 1580374666
+	persistentId = 125072750
 	pos = 0.00100135885,38.4788208,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.407499313,0
@@ -5641,7 +5591,7 @@ PART
 {
 	part = LLV.G.LFO.1_4287737066
 	partName = Part
-	persistentId = 2246945503
+	persistentId = 3485443486
 	pos = 0.00100135885,36.9025688,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-1.57625008,0
@@ -5717,7 +5667,7 @@ PART
 {
 	part = LLV.G.Engine.1_4287735716
 	partName = Part
-	persistentId = 30194913
+	persistentId = 1789742137
 	pos = 0.00100135885,34.9031944,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-1.99937439,0
@@ -5945,7 +5895,7 @@ PART
 {
 	part = LLV.G.Decoupler.1_4287725930
 	partName = Part
-	persistentId = 1426325303
+	persistentId = 878658252
 	pos = 0.00100135885,34.3550682,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.548126221,0
@@ -6052,7 +6002,7 @@ PART
 {
 	part = LLV.V.Fairing.1_4287745232
 	partName = Part
-	persistentId = 422249274
+	persistentId = 884094937
 	pos = 0.00100135885,34.2300682,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-0.125,0
@@ -6181,7 +6131,7 @@ PART
 {
 	part = LLV.V.Engine.1_4287721762
 	partName = Part
-	persistentId = 815536316
+	persistentId = 1516974816
 	pos = 0.00100135885,31.2925682,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-2.9375,0
@@ -6454,7 +6404,7 @@ PART
 {
 	part = LLV.B.Decoupler.1_4287719782
 	partName = Part
-	persistentId = 2811125928
+	persistentId = 3091242954
 	pos = 0.00100135885,28.2925682,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-3,0
@@ -6561,7 +6511,7 @@ PART
 {
 	part = LLV.B.Engine.1_4287717820
 	partName = Part
-	persistentId = 1427303400
+	persistentId = 3595115964
 	pos = 0.00100135885,23.3275681,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-4.96500015,0
@@ -6834,7 +6784,7 @@ PART
 {
 	part = LLV.A.Decoupler.1_4287715616
 	partName = Part
-	persistentId = 103319637
+	persistentId = 2708764492
 	pos = 0.00100135885,18.3625679,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-4.96500015,0
@@ -6941,7 +6891,7 @@ PART
 {
 	part = LLV.A.LFO.1_4287712038
 	partName = Part
-	persistentId = 2072333677
+	persistentId = 1386698505
 	pos = 0.00100135885,12.7950706,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-5.56749725,0
@@ -7021,7 +6971,7 @@ PART
 {
 	part = LLV.A.Engine.1_4287710810
 	partName = Part
-	persistentId = 1348866970
+	persistentId = 1494785692
 	pos = 0.00100135885,6.18132401,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,-6.61375237,0
@@ -7224,7 +7174,7 @@ PART
 {
 	part = strutOcto_4287495726
 	partName = Part
-	persistentId = 1912855879
+	persistentId = 1330330962
 	pos = 0.00100135885,49.4483604,0.321304113
 	attPos = 0,-0.21919632,0
 	attPos0 = 0,0.47873497,0
@@ -7297,7 +7247,7 @@ PART
 {
 	part = strutOcto_4287494444
 	partName = Part
-	persistentId = 1097988339
+	persistentId = 1832288112
 	pos = 0.00100135885,49.7058296,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,0.257469177,0
@@ -7370,7 +7320,7 @@ PART
 {
 	part = strutOcto_4287493222
 	partName = Part
-	persistentId = 2457052458
+	persistentId = 3373738631
 	pos = 0.00100135885,49.9632988,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,0.257469177,0
@@ -7443,7 +7393,7 @@ PART
 {
 	part = octans.les.s0.1_4287588948
 	partName = Part
-	persistentId = 1514222229
+	persistentId = 3679721455
 	pos = 0.00100135885,52.0920334,0.321304113
 	attPos = 0,0,0
 	attPos0 = 0,2.12873459,0
@@ -7574,7 +7524,7 @@ PART
 {
 	part = N1-Stabilizer-anim_4284531466
 	partName = Part
-	persistentId = 4070753784
+	persistentId = 2568772250
 	pos = -3.06154418,7.57979202,0.321304291
 	attPos = 0,0,0
 	attPos0 = -3.06254554,-5.21527863,1.78813934E-07
@@ -7683,7 +7633,7 @@ PART
 {
 	part = N1-Stabilizer-anim_4284522378
 	partName = Part
-	persistentId = 1185260580
+	persistentId = 2182204463
 	pos = 0.00100135512,7.57979202,3.38384938
 	attPos = 0,0,0
 	attPos0 = -3.7252903E-09,-5.21527863,3.0625453
@@ -7788,7 +7738,7 @@ PART
 {
 	part = N1-Stabilizer-anim_4284522278
 	partName = Part
-	persistentId = 751491955
+	persistentId = 62728864
 	pos = 3.0635469,7.57979202,0.321303666
 	attPos = 0,0,0
 	attPos0 = 3.06254554,-5.21527863,-4.47034836E-07
@@ -7893,7 +7843,7 @@ PART
 {
 	part = N1-Stabilizer-anim_4284522178
 	partName = Part
-	persistentId = 3444800530
+	persistentId = 341654379
 	pos = 0.00100099749,7.57979202,-2.74124122
 	attPos = 0,0,0
 	attPos0 = -3.61353159E-07,-5.21527863,-3.0625453

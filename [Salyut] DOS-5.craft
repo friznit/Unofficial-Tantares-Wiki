@@ -280,22 +280,6 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -744,7 +728,7 @@ PART
 	part = Eridani.Engine.1_4294273302
 	partName = Part
 	persistentId = 3908706396
-	pos = -0.219182819,27.5746002,0.00500258803
+	pos = -0.219182938,27.5746002,0.00500246882
 	attPos = 0,0,0
 	attPos0 = -0.392980099,-0.0625,0.68066138
 	rot = 0,0,0,1.00000012
@@ -870,7 +854,7 @@ PART
 	part = Eridani.Engine.1_4294273130
 	partName = Part
 	persistentId = 367344018
-	pos = 1.14214182,27.5746002,0.790964484
+	pos = 1.14214194,27.5746002,0.790964603
 	attPos = 0,0,0
 	attPos0 = 0.392980039,-0.0625,-0.68066144
 	rot = 0,1.00000012,0,-1.1920929E-07
@@ -1243,7 +1227,7 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1266,6 +1250,22 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1332,7 +1332,7 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1355,6 +1355,22 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1420,7 +1436,7 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1448,13 +1464,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = Hamal.Battery.2_4294228232
 	partName = Part
 	persistentId = 1688383883
-	pos = 0.988515258,33.7664299,0.702268004
+	pos = 0.988515496,33.7664299,0.702268243
 	attPos = 0,0,0
 	attPos0 = -0.304283559,-0.308170319,0.52703464
 	rot = 0,0.866025388,0,-0.50000006
@@ -1848,22 +1880,6 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -1898,7 +1914,7 @@ PART
 	part = atria.antenna.srf.2.2_4294239202
 	partName = Part
 	persistentId = 4218113256
-	pos = -0.146472484,34.5154266,0.3979837
+	pos = -0.146472842,34.5154266,0.3979837
 	attPos = 0,0,0
 	attPos0 = -5.96046341E-08,0.440826416,-0.607951224
 	rot = -6.51197929E-10,0.707107067,6.51198373E-10,0.70710659
@@ -1950,7 +1966,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -2015,29 +2031,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = atria.antenna.srf.1.2_4294239624
 	partName = Part
 	persistentId = 197737953
-	pos = 1.06811941,34.5348053,0.397983521
+	pos = 1.06811988,34.5348053,0.397983521
 	attPos = 0,0,0
 	attPos0 = 7.10542439E-15,0.460205078,0.606639087
 	rot = -6.51198317E-10,0.70710665,-6.51197873E-10,-0.707107008
@@ -2089,7 +2089,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -2154,29 +2154,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = octans.basic.high.gain.antenna.srf.2_4289821782
 	partName = Part
 	persistentId = 2285561316
-	pos = 0.461479455,35.1188965,0.861232698
+	pos = 0.461479455,35.1188965,0.861232996
 	attPos = 0,0,0
 	attPos0 = 1.77635718E-14,0.256797791,0.463248283
 	rot = 0,-0.998957396,-0.0456546172,0
@@ -2228,7 +2212,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -2279,9 +2263,8 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
+		name = ModuleBdbRelayInfo
 		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2539,7 +2522,7 @@ PART
 	part = atria.antenna.srf.2.1_4294222470
 	partName = Part
 	persistentId = 1269753243
-	pos = 0.00679031014,27.5287838,0.397983253
+	pos = 0.0067897141,27.5287838,0.397983015
 	attPos = 0,0,0
 	attPos0 = 0.454688311,-0.0604343414,2.98023295E-08
 	rot = 0.707106888,0,0.707106888,0
@@ -2656,29 +2639,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = atria.antenna.srf.1.1_4294222602
 	partName = Part
 	persistentId = 2656002085
-	pos = 0.461479813,27.5254669,0.853074372
+	pos = 0.461480051,27.5254669,0.853074968
 	attPos = 0,0,0
 	attPos0 = -1.19209304E-07,-0.0571174622,0.455089957
 	rot = -1.00000012,0,0,0
@@ -2784,22 +2751,6 @@ PART
 		name = ModulePartVariants
 		isEnabled = True
 		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{

@@ -2,7 +2,7 @@ ship = [Soyuz] T
 version = 1.9.1
 description = 
 type = VAB
-size = 1.8734138,4.4375,1.7198112
+size = 5.42501068,4.4375,1.7198112
 steamPublishedFileId = 0
 persistentId = 2512076477
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = tantares.crew.s1.1_4294376246
 	partName = Part
-	persistentId = 808227387
+	persistentId = 1817288353
 	pos = 0,15,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -321,7 +321,7 @@ PART
 {
 	part = tantares.heatshield.s1.1_4294368656
 	partName = Part
-	persistentId = 4250410517
+	persistentId = 915143378
 	pos = 0,14.4250002,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.574999809,0
@@ -464,7 +464,7 @@ PART
 {
 	part = tantares.decoupler.s1.1_4294358338
 	partName = Part
-	persistentId = 3801612635
+	persistentId = 350786848
 	pos = 0,14.2750006,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.149999619,0
@@ -563,7 +563,7 @@ PART
 {
 	part = tantares.fuel.tank.s1.1_4294339514
 	partName = Part
-	persistentId = 3867139104
+	persistentId = 1866508982
 	pos = 0,13.9500008,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.324999809,0
@@ -648,7 +648,7 @@ PART
 {
 	part = tantares.engine.s1.1_4294319112
 	partName = Part
-	persistentId = 231446452
+	persistentId = 4048952976
 	pos = 0,13.3250008,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.625,0
@@ -860,7 +860,7 @@ PART
 {
 	part = tantares.parachute.s0.1_4294306832
 	partName = Part
-	persistentId = 1787201140
+	persistentId = 887530635
 	pos = 0,15.5249996,0
 	attPos = 0,0,0
 	attPos0 = 0,0.524999619,0
@@ -1014,7 +1014,7 @@ PART
 {
 	part = tantares.orbital.module.s1.3_4294306164
 	partName = Part
-	persistentId = 462595189
+	persistentId = 1896843553
 	pos = 0,16.125,0
 	attPos = 0,0,0
 	attPos0 = 0,0.600000381,0
@@ -1190,7 +1190,7 @@ PART
 {
 	part = octans.docking.port.s0p5.1.male_4294292360
 	partName = Part
-	persistentId = 803582345
+	persistentId = 935698059
 	pos = 0,16.8250008,0
 	attPos = 0,0,0
 	attPos0 = 0,0.700000763,0
@@ -1350,7 +1350,7 @@ PART
 {
 	part = octans.moe.srf.3.extended_4294242586
 	partName = Part
-	persistentId = 3006815477
+	persistentId = 2996880061
 	pos = -0.606577456,14.2709208,3.61548373E-08
 	attPos = 0,0,0
 	attPos0 = -0.606577456,-0.00407981873,3.61548373E-08
@@ -1451,7 +1451,7 @@ PART
 {
 	part = octans.moe.srf.3.extended_4294242236
 	partName = Part
-	persistentId = 2072412196
+	persistentId = 1210510944
 	pos = 0.606577456,14.2709208,-8.91835228E-08
 	attPos = 0,0,0
 	attPos0 = 0.606577456,-0.00407981873,-8.91835228E-08
@@ -1552,7 +1552,7 @@ PART
 {
 	part = octans.rcs.linear.srf.1_4294238172
 	partName = Part
-	persistentId = 3855721947
+	persistentId = 3054511116
 	pos = 0.20742473,14.2767172,-0.569895029
 	attPos = 0,0,0
 	attPos0 = 0.20742473,0.00171661377,-0.569895029
@@ -1653,7 +1653,7 @@ PART
 {
 	part = octans.rcs.linear.srf.1_4294237856
 	partName = Part
-	persistentId = 1751015988
+	persistentId = 1533029800
 	pos = -0.20742473,14.2767172,-0.569895029
 	attPos = 0,0,0
 	attPos0 = -0.20742473,0.00171661377,-0.569895029
@@ -1754,7 +1754,7 @@ PART
 {
 	part = octans.rcs.linear.srf.1_4294236938
 	partName = Part
-	persistentId = 4099383993
+	persistentId = 341710194
 	pos = -0.20752275,14.2689333,0.570164025
 	attPos = 0,0,0
 	attPos0 = -0.20752275,-0.006067276,0.570164025
@@ -1855,7 +1855,7 @@ PART
 {
 	part = octans.rcs.linear.srf.1_4294236588
 	partName = Part
-	persistentId = 212520159
+	persistentId = 3519703885
 	pos = 0.20752275,14.2689333,0.570164025
 	attPos = 0,0,0
 	attPos0 = 0.20752275,-0.006067276,0.570164025
@@ -1956,7 +1956,7 @@ PART
 {
 	part = octans.star.tracker.srf.1_4294231898
 	partName = Part
-	persistentId = 2751365191
+	persistentId = 4008736984
 	pos = 0,13.8261776,0.606750667
 	attPos = 0,0,0
 	attPos0 = 0,-0.123823166,0.606750667
@@ -2041,7 +2041,7 @@ PART
 {
 	part = octans.star.tracker.srf.1_4294221318
 	partName = Part
-	persistentId = 2426482680
+	persistentId = 427557683
 	pos = 0,13.4563732,0.592711389
 	attPos = 0,0,-0.014077425
 	attPos0 = 0,0.131372452,0.606788814
@@ -2126,7 +2126,7 @@ PART
 {
 	part = octans.light.srf.2_4294211678
 	partName = Part
-	persistentId = 3367732206
+	persistentId = 4270241517
 	pos = -0.1840159,16.8752918,0.318724871
 	attPos = 0,0,0
 	attPos0 = -0.1840159,0.0502910614,0.318724871
@@ -2263,7 +2263,7 @@ PART
 {
 	part = octans.periscope.srf.1_4294210460
 	partName = Part
-	persistentId = 1722758119
+	persistentId = 416658785
 	pos = 0,14.964674,0.541197002
 	attPos = 0,0,0
 	attPos0 = 0,-0.035326004,0.541197002
@@ -2393,7 +2393,7 @@ PART
 {
 	part = octans.solar.srf.1.2_4294195608
 	partName = Part
-	persistentId = 890534513
+	persistentId = 3640317004
 	pos = -0.606254935,13.7139273,3.61356136E-08
 	attPos = 0,0,0
 	attPos0 = -0.606254935,-0.236073494,3.61356136E-08
@@ -2449,8 +2449,8 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
-		deployState = RETRACTED
+		storedAnimationSpeed = 10
+		deployState = EXTENDED
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2498,7 +2498,7 @@ PART
 {
 	part = octans.solar.srf.1.2_4294193814
 	partName = Part
-	persistentId = 2190560626
+	persistentId = 496342286
 	pos = 0.606254935,13.7139273,3.61356136E-08
 	attPos = 0,0,0
 	attPos0 = 0.606254935,-0.236073494,3.61356136E-08
@@ -2554,8 +2554,8 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
-		deployState = RETRACTED
+		storedAnimationSpeed = 10
+		deployState = EXTENDED
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2603,7 +2603,7 @@ PART
 {
 	part = octans.basic.high.gain.antenna.srf.2_4294061746
 	partName = Part
-	persistentId = 3810643273
+	persistentId = 3553714892
 	pos = 0,15.7875891,-0.50827527
 	attPos = 0,0,0
 	attPos0 = 0,-0.337410927,0.50827527
@@ -2656,7 +2656,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -2707,9 +2707,8 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
+		name = ModuleBdbRelayInfo
 		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2726,7 +2725,7 @@ PART
 {
 	part = atria.antenna.srf.2.2_4294052298
 	partName = Part
-	persistentId = 2853411188
+	persistentId = 767562393
 	pos = -0.604277074,16.1563721,-3.60177239E-08
 	attPos = 0,0,0
 	attPos0 = 0.604277074,0.0313720703,3.60177239E-08
@@ -2833,22 +2832,6 @@ PART
 		name = ModulePartVariants
 		isEnabled = True
 		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{

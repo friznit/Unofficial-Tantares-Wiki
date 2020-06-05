@@ -2,7 +2,7 @@ ship = [Salyut] DOS-6
 version = 1.9.1
 description = 
 type = VAB
-size = 2.71169114,8.18974495,2.78974628
+size = 2.711694,8.18974495,2.78974962
 steamPublishedFileId = 0
 persistentId = 350475381
 rot = 0,0,0,0
@@ -272,22 +272,6 @@ PART
 				actionGroup = Light
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -791,7 +775,7 @@ PART
 	part = cursa.solar.srf.1.2_4294200726
 	partName = Part
 	persistentId = 1752752303
-	pos = 2.20790672,15.1305084,3.76148081
+	pos = 2.20790863,15.1305084,3.76148081
 	attPos = 0,0,0
 	attPos0 = 0.937847495,0.0170488358,5.59000704E-08
 	rot = -0.50000006,0.50000006,0.50000006,-0.50000006
@@ -874,13 +858,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = cursa.solar.srf.1.2_4294199614
 	partName = Part
 	persistentId = 2377559507
-	pos = 0.332207322,15.1305084,3.76148081
+	pos = 0.332205296,15.1305084,3.76148081
 	attPos = 0,0,0
 	attPos0 = -0.937847495,0.0170488358,5.59000704E-08
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -963,13 +963,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = cursa.solar.srf.1.2_4294199428
 	partName = Part
 	persistentId = 595045953
-	pos = 1.27005696,15.136879,4.69901228
+	pos = 1.27005696,15.136879,4.69901419
 	attPos = 0,0,0
 	attPos0 = 0,0.0234203339,0.937529325
 	rot = -0.707106888,0.707106888,0,0
@@ -1046,6 +1062,22 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1425,7 +1457,7 @@ PART
 	part = vega.engine.srf.1.1_4294194380
 	partName = Part
 	persistentId = 3780427681
-	pos = 0.421443105,10.3522892,3.76148033
+	pos = 0.421442449,10.3522892,3.76148033
 	attPos = 0,-0.173706055,0
 	attPos0 = 0.848612428,0.0598773956,5.05812459E-08
 	rot = 0.0152050536,-0.999884605,0,-8.94069672E-08
@@ -1547,10 +1579,10 @@ PART
 	part = vega.engine.srf.1.1_4294194022
 	partName = Part
 	persistentId = 1700634718
-	pos = 2.11867094,10.3522892,3.76148033
+	pos = 2.11867166,10.3522892,3.76148033
 	attPos = 0,-0.173706055,0
 	attPos0 = -0.848612428,0.0598773956,2.3606809E-08
-	rot = 0,1.78813934E-07,0.0152050517,-0.999884665
+	rot = 0,1.78813934E-07,0.0152050499,-0.999884665
 	attRot = 0.122787841,-0.696364284,0.122787818,-0.696364343
 	attRot0 = 0.70702517,-0.0107516069,0.707024992,0.0107515752
 	mir = 1,1,1
@@ -1661,7 +1693,7 @@ PART
 	part = octans.rcs.srf.2_4294191626
 	partName = Part
 	persistentId = 777083761
-	pos = 1.27005684,10.9554901,2.54884386
+	pos = 1.27005684,10.9554901,2.54884243
 	attPos = 0,0,0
 	attPos0 = -1.06011925E-07,-0.970470428,-1.21263504
 	rot = 0,0,0,-1.00000012
@@ -1762,7 +1794,7 @@ PART
 	part = octans.rcs.srf.2_4294190138
 	partName = Part
 	persistentId = 783500716
-	pos = 1.2700572,10.9554901,4.97411919
+	pos = 1.2700572,10.9554901,4.97412109
 	attPos = 0,0,0
 	attPos0 = 2.12023849E-07,-0.970470428,1.21263504
 	rot = 0,-1.00000012,0,1.1920929E-07
@@ -1863,7 +1895,7 @@ PART
 	part = octans.moe.linear.srf.1_4294187706
 	partName = Part
 	persistentId = 926492110
-	pos = 1.27005684,10.5112019,2.60735273
+	pos = 1.27005684,10.5112019,2.6073513
 	attPos = 0,0,0.0583766699
 	attPos0 = -1.06000364E-07,-1.41475868,-1.21250284
 	rot = 0,0,0,-1.00000012
@@ -1966,7 +1998,7 @@ PART
 	part = octans.moe.linear.srf.1_4294189884
 	partName = Part
 	persistentId = 1340608851
-	pos = 0.115928531,10.5112019,3.76148129
+	pos = 0.1159271,10.5112019,3.76148129
 	attPos = 0.0583766699,0,3.47952067E-09
 	attPos0 = -1.21250272,-1.41475868,3.3729556E-08
 	rot = 0,-0.707106888,0,-0.707106888
@@ -2069,7 +2101,7 @@ PART
 	part = octans.moe.linear.srf.1_4294189830
 	partName = Part
 	persistentId = 3043329269
-	pos = 1.27005708,10.5112019,4.91561127
+	pos = 1.27005708,10.5112019,4.91561317
 	attPos = -5.10344478E-09,0,-0.0583766699
 	attPos0 = 2.12000728E-07,-1.41475868,1.21250284
 	rot = 0,-1.00000012,0,1.1920929E-07
@@ -2172,7 +2204,7 @@ PART
 	part = octans.moe.linear.srf.1_4294189776
 	partName = Part
 	persistentId = 1576934574
-	pos = 2.42418528,10.5112019,3.76148129
+	pos = 2.42418671,10.5112019,3.76148129
 	attPos = -0.0583766699,0,3.47952778E-09
 	attPos0 = 1.21250272,-1.41475868,-1.78271165E-07
 	rot = 0,-0.707106888,0,0.707106888
@@ -2275,7 +2307,7 @@ PART
 	part = octans.moe.linear.srf.1_4294189704
 	partName = Part
 	persistentId = 797533831
-	pos = 1.27005684,10.616869,2.610291
+	pos = 1.27005684,10.616869,2.61028957
 	attPos = 0,0.0441551208,0.0613582134
 	attPos0 = -1.06004208E-07,-1.35324478,-1.21254683
 	rot = 0,0,0,-1.00000012
@@ -2378,7 +2410,7 @@ PART
 	part = octans.moe.linear.srf.1_4294189650
 	partName = Part
 	persistentId = 3068332511
-	pos = 0.118865967,10.6168709,3.76148129
+	pos = 0.118864536,10.6168709,3.76148129
 	attPos = 0.0613582134,0.0441551208,3.65723452E-09
 	attPos0 = -1.21254671,-1.35324478,3.37307782E-08
 	rot = 0,-0.707106888,0,-0.707106888
@@ -2481,7 +2513,7 @@ PART
 	part = octans.moe.linear.srf.1_4294189596
 	partName = Part
 	persistentId = 3570248346
-	pos = 1.27005708,10.6168709,4.912673
+	pos = 1.27005708,10.6168709,4.9126749
 	attPos = -5.36410028E-09,0.0441551208,-0.0613582134
 	attPos0 = 2.12008416E-07,-1.35324478,1.21254683
 	rot = 0,-1.00000012,0,1.1920929E-07
@@ -2584,7 +2616,7 @@ PART
 	part = octans.moe.linear.srf.1_4294189542
 	partName = Part
 	persistentId = 285984436
-	pos = 2.42124796,10.6168709,3.76148129
+	pos = 2.42124939,10.6168709,3.76148129
 	attPos = -0.0613582134,0.0441551208,3.65723452E-09
 	attPos0 = 1.21254671,-1.35324478,-1.78277631E-07
 	rot = 0,-0.707106888,0,0.707106888
@@ -2687,7 +2719,7 @@ PART
 	part = octans.basic.high.gain.antenna.srf.2_4287768322
 	partName = Part
 	persistentId = 669112476
-	pos = 1.27005696,16.4692192,4.37169933
+	pos = 1.27005696,16.4692192,4.37170029
 	attPos = 0,-0.129904971,0
 	attPos0 = 0.610217273,-0.201836005,-5.96046803E-08
 	rot = 2.98023259E-08,1.00000012,2.98023259E-08,0
@@ -2790,9 +2822,8 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
+		name = ModuleBdbRelayInfo
 		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2810,7 +2841,7 @@ PART
 	part = atria.antenna.srf.2.1_4287756932
 	partName = Part
 	persistentId = 1480916347
-	pos = 0.670055151,17.2502403,3.76148105
+	pos = 0.670054197,17.2502403,3.76148105
 	attPos = 0,-0.0260789692,-0.0102190375
 	attPos0 = 2.98023224E-07,0.475357592,0.610219181
 	rot = 5.96046519E-08,-0.707106829,5.96046519E-08,-0.707106829
@@ -2928,29 +2959,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = atria.antenna.srf.2.2_4287686252
 	partName = Part
 	persistentId = 2317005379
-	pos = 1.27005696,10.3496914,4.97609043
+	pos = 1.27005696,10.3496914,4.97609234
 	attPos = 0,0,0
 	attPos0 = 0,-0.111229897,1.21460724
 	rot = 1.00000012,0,0,0
@@ -3068,29 +3083,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = atria.antenna.srf.1.2_4287446048
 	partName = Part
 	persistentId = 3490452584
-	pos = 0.0562446117,10.3718262,3.76147985
+	pos = 0.0562431812,10.3718262,3.76147985
 	attPos = 0,0,0
 	attPos0 = 1.21380985,-0.133366108,-4.76836931E-07
 	rot = 0.707106888,0,0.707106888,0
@@ -3198,22 +3197,6 @@ PART
 		useVariantMass = True
 		stagingEnabled = True
 		selectedVariant = tantares_white
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
 		EVENTS
 		{
 		}

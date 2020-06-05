@@ -2,7 +2,7 @@ ship = [R7] Vostok
 version = 1.9.1
 description = 
 type = VAB
-size = 6.70404577,21.8473053,6.70405197
+size = 6.70404577,21.8473053,6.7040534
 steamPublishedFileId = 0
 persistentId = 3233011642
 rot = 0,0,0,0
@@ -715,7 +715,7 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4294254308
 	partName = Part
 	persistentId = 924389140
-	pos = 0.0970303044,8.32808876,-0.32739222
+	pos = 0.0970303044,8.32808876,-0.327392459
 	attPos = 0,0,0
 	attPos0 = -0.866133511,-0.0105705261,-2.38418252E-07
 	rot = -0.0292301103,2.38418579E-07,-8.38190317E-09,-0.999572754
@@ -794,7 +794,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4294247070
 	partName = Part
 	persistentId = 927214928
-	pos = 0.0970304236,3.46142006,-0.612264514
+	pos = 0.0970304236,3.46142006,-0.612264752
 	attPos = 0,0,0
 	attPos0 = -2.98025178E-08,-4.87499905,-2.9802348E-07
 	rot = 0.0292301103,0,1.86264515E-08,0.999572754
@@ -1024,7 +1024,7 @@ PART
 	part = canopus.basic.fin.srf.2_4294236266
 	partName = Part
 	persistentId = 2551909289
-	pos = 0.0970304236,3.63027382,-1.51339138
+	pos = 0.0970304236,3.63027382,-1.51339185
 	attPos = 0,0,0
 	attPos0 = -7.77290268E-08,0.115907662,-0.90945214
 	rot = 0.0206688046,0.706804693,0.0206688307,0.706804693
@@ -1107,7 +1107,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 1
-	sidx = 1
+	sidx = 0
 	sqor = 0
 	sepI = 0
 	attm = 1
@@ -1621,7 +1621,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 1
-	sidx = 1
+	sidx = 0
 	sqor = 0
 	sepI = 0
 	attm = 1
@@ -1751,7 +1751,7 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4294253574
 	partName = Part
 	persistentId = 596574610
-	pos = 0.0970301628,8.32808876,2.61752272
+	pos = 0.0970301628,8.32808876,2.61752319
 	attPos = 0,0,0
 	attPos0 = -0.866133869,-0.0105705261,-2.38418252E-07
 	rot = -5.58793545E-09,-0.999572754,0.0292301103,-1.78813934E-07
@@ -1830,7 +1830,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4294245790
 	partName = Part
 	persistentId = 900557778
-	pos = 0.0970301032,3.46142006,2.90239525
+	pos = 0.0970301032,3.46142006,2.90239573
 	attPos = 0,0,0
 	attPos0 = -2.98024965E-08,-4.87499905,-4.17232627E-07
 	rot = 1.58324838E-08,0.999572754,-0.0292301103,-8.94069672E-08
@@ -2052,7 +2052,7 @@ PART
 	part = canopus.basic.fin.srf.2_4294234736
 	partName = Part
 	persistentId = 3498307803
-	pos = 0.09703058,3.63027382,3.80352211
+	pos = 0.09703058,3.63027382,3.80352259
 	attPos = 0,0,0
 	attPos0 = -7.77284583E-08,0.115907662,-0.909452438
 	rot = 0.0206688307,0.706804633,-0.0206688065,-0.706804752
@@ -2135,7 +2135,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 1
-	sidx = 1
+	sidx = 0
 	sqor = 0
 	sepI = 0
 	attm = 1
@@ -4313,22 +4313,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
@@ -4413,22 +4397,6 @@ PART
 		defaultScale = 1.25
 		defaultTransformScale = (0, 0, 0)
 		DryCost = 300
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4535,22 +4503,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
@@ -4646,22 +4598,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
@@ -4681,7 +4617,7 @@ PART
 	istg = 1
 	resPri = 0
 	dstg = 4
-	sidx = 3
+	sidx = 2
 	sqor = 1
 	sepI = 2
 	attm = 0
@@ -4860,7 +4796,7 @@ PART
 	istg = 1
 	resPri = 0
 	dstg = 5
-	sidx = 2
+	sidx = 3
 	sqor = 1
 	sepI = 1
 	attm = 0
@@ -6558,22 +6494,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
@@ -6680,22 +6600,6 @@ PART
 		defaultScale = 1.25
 		defaultTransformScale = (0, 0, 0)
 		DryCost = 300
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6824,22 +6728,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
@@ -6946,22 +6834,6 @@ PART
 		defaultScale = 1.25
 		defaultTransformScale = (0, 0, 0)
 		DryCost = 300
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{

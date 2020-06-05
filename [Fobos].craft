@@ -215,22 +215,6 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -545,9 +529,8 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
+		name = ModuleBdbRelayInfo
 		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1208,6 +1191,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -1292,6 +1291,22 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1822,7 +1837,7 @@ PART
 	pos = 0.926806271,14.09377,-0.926806271
 	attPos = 0,0,0
 	attPos0 = -2.98023224E-08,0.00556182861,-0.461729854
-	rot = -0.0119525502,0.382651389,-0.00495090894,-0.923802257
+	rot = -0.011952552,0.382651389,-0.00495090941,-0.923802316
 	attRot = 0,0,0,1
 	attRot0 = 0.0129373474,0,0,0.999916375
 	mir = 1,1,1
@@ -1924,7 +1939,7 @@ PART
 	pos = -0.926806211,14.09377,-0.926806331
 	attPos = 0,0,0
 	attPos0 = -1.49011612E-08,0.00556182861,-0.461729884
-	rot = -0.011952552,-0.382651329,0.00495090941,-0.923802257
+	rot = -0.0119525539,-0.382651299,0.00495090988,-0.923802316
 	attRot = 0,0,0,1
 	attRot0 = 0.0129373465,-2.98023224E-08,-4.65661287E-10,0.999916375
 	mir = 1,1,1
@@ -2023,10 +2038,10 @@ PART
 	part = octans.basic.rcs.srf.3_4293928914
 	partName = Part
 	persistentId = 3256898053
-	pos = -0.926806569,14.09377,0.926806808
+	pos = -0.926806808,14.09377,0.926807046
 	attPos = 0,0,0
 	attPos0 = -2.980231E-08,0.00556182861,-0.461729944
-	rot = -0.00495090941,-0.923802257,0.011952552,-0.382651329
+	rot = -0.00495090988,-0.923802316,0.0119525539,-0.382651299
 	attRot = 0,0,0,1
 	attRot0 = 0.0129373465,2.98023224E-08,4.65661287E-10,0.999916375
 	mir = 1,1,1
@@ -2125,10 +2140,10 @@ PART
 	part = octans.basic.rcs.srf.3_4293928864
 	partName = Part
 	persistentId = 1595376321
-	pos = 0.926806688,14.09377,0.926806688
+	pos = 0.926806867,14.09377,0.926806808
 	attPos = 0,0,0
 	attPos0 = -2.980231E-08,0.00556182861,-0.461730003
-	rot = 0.00495090941,-0.923802257,0.011952552,0.382651329
+	rot = 0.00495090988,-0.923802316,0.0119525539,0.382651299
 	attRot = 0,0,0,1
 	attRot0 = 0.0129373465,-2.98023224E-08,-4.65661287E-10,0.999916375
 	mir = 1,1,1

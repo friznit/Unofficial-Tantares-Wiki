@@ -2,7 +2,7 @@ ship = [Progress 7K-TG]
 version = 1.9.1
 description = 
 type = VAB
-size = 1.67314577,1.77411652,4.26251125
+size = 1.67314672,1.77411652,4.26251888
 steamPublishedFileId = 0
 persistentId = 1193254324
 rot = 0,0,0,0
@@ -17,7 +17,7 @@ PART
 	part = Hamal.Control.1_4294072104
 	partName = Part
 	persistentId = 3211012143
-	pos = 0.822822213,20.7861862,0.483660698
+	pos = 0.822822213,20.7861862,0.483658552
 	attPos = 0,0,0
 	attPos0 = 0.632272005,20.59972,0.350397438
 	rot = 0.707106829,0,0,0.707106829
@@ -229,22 +229,6 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -290,7 +274,7 @@ PART
 	part = Hamal.Habitation.1_4294071078
 	partName = Part
 	persistentId = 3803038228
-	pos = 0.822822213,20.7861862,1.59616387
+	pos = 0.822822213,20.7861862,1.59616351
 	attPos = 0,0,0
 	attPos0 = 0,1.11250114,0
 	rot = 0,-0.707106829,-0.707106829,0
@@ -551,7 +535,7 @@ PART
 	part = Hamal.Avionics.1_4294069924
 	partName = Part
 	persistentId = 295343948
-	pos = 0.822822213,20.7861862,-0.222590923
+	pos = 0.822822213,20.7861862,-0.222594738
 	attPos = 0,0,0
 	attPos0 = 0,-0.706250191,0
 	rot = 0,0.707106829,-0.707106829,0
@@ -681,7 +665,7 @@ PART
 	part = tantares.basic.fuel.tank.s1.1_4294069176
 	partName = Part
 	persistentId = 1787036380
-	pos = 0.822822213,20.7861862,-0.641341686
+	pos = 0.822822213,20.7861862,-0.641345501
 	attPos = 0,0,0
 	attPos0 = 0,0.418749809,0
 	rot = 0.707106829,0,0,0.707106829
@@ -765,7 +749,7 @@ PART
 	part = tantares.basic.engine.s1.1_4294068002
 	partName = Part
 	persistentId = 2924871992
-	pos = 0.822822213,20.7861862,-1.26634574
+	pos = 0.822822213,20.7861862,-1.26635337
 	attPos = 0,0,0
 	attPos0 = 0,-0.625,0
 	rot = 0.707106829,0,0,0.707106829
@@ -977,7 +961,7 @@ PART
 	part = octans.moe.srf.4_4294065770
 	partName = Part
 	persistentId = 2657289320
-	pos = 0.216534495,20.7861862,-0.141999483
+	pos = 0.216534495,20.7861862,-0.142002821
 	attPos = 0,0,0
 	attPos0 = 0.606287718,-0.0805921555,3.61375676E-08
 	rot = 0.50000006,-0.50000006,0.50000006,-0.50000006
@@ -1079,7 +1063,7 @@ PART
 	part = octans.moe.srf.4_4294065698
 	partName = Part
 	persistentId = 3531131068
-	pos = 0.822822154,21.3924751,-0.141999483
+	pos = 0.822822154,21.3924751,-0.142002821
 	attPos = 0,0,0
 	attPos0 = 7.22751281E-08,-0.0805921555,-0.606287658
 	rot = 0,-0.707106829,0.707106829,0
@@ -1181,7 +1165,7 @@ PART
 	part = octans.moe.srf.4_4294065628
 	partName = Part
 	persistentId = 3133534685
-	pos = 1.42910993,20.7861862,-0.141999483
+	pos = 1.42910993,20.7861862,-0.142002821
 	attPos = 0,0,0
 	attPos0 = -0.606287718,-0.0805921555,1.68657888E-08
 	rot = -0.500000119,-0.5,0.5,0.500000119
@@ -1283,7 +1267,7 @@ PART
 	part = octans.moe.srf.4_4294065558
 	partName = Part
 	persistentId = 734594773
-	pos = 0.822822213,20.1798992,-0.141999722
+	pos = 0.822822213,20.1798992,-0.142003059
 	attPos = 0,0,0
 	attPos0 = -1.3987468E-15,-0.0805921555,0.606287658
 	rot = -0.707106829,0,0,0.707106829
@@ -1385,7 +1369,7 @@ PART
 	part = octans.basic.high.gain.antenna.srf.2_4294064016
 	partName = Part
 	persistentId = 2621912334
-	pos = 0.822822213,21.2977772,1.14749789
+	pos = 0.822822213,21.2977772,1.14749718
 	attPos = 0,0,0
 	attPos0 = 0,-0.448665619,0.511590898
 	rot = -0.701420546,1.62434988E-09,1.65058156E-09,-0.712747812
@@ -1437,7 +1421,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1488,9 +1472,8 @@ PART
 	}
 	MODULE
 	{
-		name = ESLDHailer
+		name = ModuleBdbRelayInfo
 		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1508,7 +1491,7 @@ PART
 	part = atria.antenna.srf.2.2_4294063038
 	partName = Part
 	persistentId = 845512889
-	pos = 1.44183922,20.7861862,1.56767559
+	pos = 1.44183969,20.7861862,1.56767511
 	attPos = 0,0,0
 	attPos0 = -0.619016409,-0.0284881592,3.68962567E-08
 	rot = -0.492821634,0.492821634,0.507076859,-0.507076859
@@ -1560,7 +1543,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1625,29 +1608,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = Eridani.Antenna.2_4294062236
 	partName = Part
 	persistentId = 3351258560
-	pos = 1.42936349,20.7861862,-0.750463963
+	pos = 1.42936349,20.7861862,-0.750468731
 	attPos = 0,0,0
 	attPos0 = 0.606541276,-0.109121323,3.61526808E-08
 	rot = -0.50000006,0.50000006,0.50000006,-0.50000006
@@ -1700,7 +1667,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1749,29 +1716,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = Eridani.Antenna.2_4294061400
 	partName = Part
 	persistentId = 4272973910
-	pos = 0.216280937,20.7861862,-0.750463963
+	pos = 0.216280937,20.7861862,-0.750468731
 	attPos = 0,0,0
 	attPos0 = -0.606541276,-0.109121323,1.68728409E-08
 	rot = -0.5,-0.500000119,-0.500000119,-0.5
@@ -1824,7 +1775,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1873,29 +1824,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = atria.antenna.srf.1.2_4289468442
 	partName = Part
 	persistentId = 3276210987
-	pos = 0.222821653,20.7861862,1.57122517
+	pos = 0.222821116,20.7861862,1.57122469
 	attPos = -0.0242987871,-0.0239696503,-2.98023224E-08
 	attPos0 = 0.624298811,-0.000968933105,2.98023224E-08
 	rot = 0.492821634,0.492821634,0.507076859,0.507076859
@@ -1947,7 +1882,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -2012,29 +1947,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = atria.antenna.srf.2.2_4289462746
 	partName = Part
 	persistentId = 883568826
-	pos = 0.822822213,20.0650139,-1.56634569
+	pos = 0.822822213,20.0650139,-1.56635427
 	attPos = 0,0.047290802,0.00457453728
 	attPos0 = 0,-0.347290039,0.716598153
 	rot = 0.704876661,0,0,-0.709330082
@@ -2086,7 +2005,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -2140,22 +2059,6 @@ PART
 		name = ModulePartVariants
 		isEnabled = True
 		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{

@@ -2,7 +2,7 @@ ship = [R7] Sputnik
 version = 1.9.1
 description = 
 type = VAB
-size = 6.58579397,18.9520588,6.5857954
+size = 6.58579493,18.9520588,6.58579636
 steamPublishedFileId = 0
 persistentId = 146077105
 rot = 0,0,0,0
@@ -142,22 +142,6 @@ PART
 		defaultScale = 0.625
 		defaultTransformScale = (0, 0, 0)
 		DryCost = 300
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -470,22 +454,6 @@ PART
 		defaultScale = 100
 		defaultTransformScale = (0, 0, 0)
 		DryCost = 1480
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ESLDHailer
-		isEnabled = True
-		hailerActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1430,7 +1398,7 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4293648136
 	partName = Part
 	persistentId = 286971158
-	pos = 0.11007005,8.73733997,-1.41236258
+	pos = 0.11007005,8.73733997,-1.41236281
 	attPos = 0.0669300556,0,0
 	attPos0 = -0.865979552,0.0297250748,-2.3841848E-07
 	rot = -0.0292301103,2.38418579E-07,-8.38190317E-09,-0.999572754
@@ -1509,7 +1477,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4293641874
 	partName = Part
 	persistentId = 855491526
-	pos = 0.110070169,3.87067223,-1.69723475
+	pos = 0.110070169,3.87067223,-1.69723499
 	attPos = 0,0,0
 	attPos0 = -2.98023828E-08,-4.875,-3.2782566E-07
 	rot = 0.0292301103,0,1.86264515E-08,0.999572754
@@ -1739,7 +1707,7 @@ PART
 	part = canopus.basic.fin.srf.2_4293621358
 	partName = Part
 	persistentId = 1321691564
-	pos = 0.110070288,3.945364,-2.60592055
+	pos = 0.110070288,3.945364,-2.60592103
 	attPos = 0,0,0
 	attPos0 = -7.71593776E-08,0.0214662459,-0.911496818
 	rot = 0.0206688046,0.706804693,0.0206688307,0.706804693
@@ -2031,7 +1999,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4293640018
 	partName = Part
 	persistentId = 3252153641
-	pos = -1.58057117,3.87067223,-0.00659313565
+	pos = -1.58057117,3.87067223,-0.00659317337
 	attPos = 0,0,0
 	attPos0 = 3.68182782E-08,-4.875,-2.68220788E-07
 	rot = 0.0206688214,0.706804633,-0.0206687972,0.706804693
@@ -2261,7 +2229,7 @@ PART
 	part = canopus.basic.fin.srf.2_4293620018
 	partName = Part
 	persistentId = 2623373588
-	pos = -2.48925829,3.945364,-0.006592602
+	pos = -2.48925853,3.945364,-0.0065925424
 	attPos = 0,0,0
 	attPos0 = -1.51040467E-07,0.0214657709,-0.911497235
 	rot = 0.0292301159,0.999572754,1.49011612E-08,0
@@ -2474,7 +2442,7 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4293648026
 	partName = Part
 	persistentId = 264857541
-	pos = 0.110069908,8.73733997,1.39917779
+	pos = 0.110069908,8.73733997,1.39917803
 	attPos = 0.0669299364,0,0
 	attPos0 = -0.86597991,0.0297250748,-2.3841848E-07
 	rot = -5.58793545E-09,-0.999572754,0.0292301103,-1.78813934E-07
@@ -2553,7 +2521,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4293639860
 	partName = Part
 	persistentId = 1887503868
-	pos = 0.110069849,3.87067223,1.68404996
+	pos = 0.110069849,3.87067223,1.6840502
 	attPos = 0,0,0
 	attPos0 = -2.9802365E-08,-4.875,-3.27825461E-07
 	rot = 1.58324838E-08,0.999572754,-0.0292301103,-8.94069672E-08
@@ -2783,10 +2751,10 @@ PART
 	part = canopus.basic.fin.srf.2_4293619976
 	partName = Part
 	persistentId = 2001499512
-	pos = 0.110070325,3.945364,2.59273696
+	pos = 0.110070325,3.945364,2.59273744
 	attPos = 0,0,0
 	attPos0 = -7.71587949E-08,0.021465769,-0.911497176
-	rot = 0.0206688289,0.706804633,-0.0206688065,-0.706804752
+	rot = 0.0206688307,0.706804633,-0.0206688065,-0.706804752
 	attRot = 0,0,0,1
 	attRot0 = 3.02417846E-09,0.707106829,4.04487022E-09,0.707106829
 	mir = 1,1,1
@@ -3075,7 +3043,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4293639702
 	partName = Part
 	persistentId = 3715021036
-	pos = 1.80071068,3.87067223,-0.00659217266
+	pos = 1.80071068,3.87067223,-0.00659213495
 	attPos = 0,0,0
 	attPos0 = 3.68182782E-08,-4.875,-2.68220788E-07
 	rot = -0.0206687972,0.706804693,-0.0206688214,-0.706804633
@@ -3305,7 +3273,7 @@ PART
 	part = canopus.basic.fin.srf.2_4293619934
 	partName = Part
 	persistentId = 2038834586
-	pos = 2.70939779,3.945364,-0.00659270631
+	pos = 2.70939803,3.945364,-0.00659276592
 	attPos = 0,0,0
 	attPos0 = -1.51040467E-07,0.0214657709,-0.911497235
 	rot = 1.49011612E-08,0,-0.0292301159,-0.999572754
