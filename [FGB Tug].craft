@@ -16,7 +16,7 @@ PART
 {
 	part = sargas.control.s1p5.2_4293925994
 	partName = Part
-	persistentId = 1379355125
+	persistentId = 1501722599
 	pos = -0.305108994,15.495966,0.1179929
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -277,7 +277,7 @@ PART
 {
 	part = sargas.docking.mechanism.s1p5.2_4293924962
 	partName = Part
-	persistentId = 4073149824
+	persistentId = 3462670754
 	pos = -0.305108994,14.558466,0.1179929
 	attPos = 0,0,0
 	attPos0 = -0.305108994,14.558466,0.1179929
@@ -398,7 +398,7 @@ PART
 {
 	part = aquila.crew.s1p5.2.2_4293923748
 	partName = Part
-	persistentId = 1615617954
+	persistentId = 4110959737
 	pos = -0.305108994,13.308466,0.1179929
 	attPos = 0,0,0
 	attPos0 = 0,-1.25,0
@@ -427,10 +427,10 @@ PART
 	link = aquila.radiator.fuel.tank.double.srf.2_4293909288
 	link = vega.engine.srf.1.2_4293906114
 	link = vega.engine.srf.1.2_4293905932
-	link = Eridani.Antenna.1_4293905242
-	link = Eridani.Antenna.1_4293904810
 	link = cursa.solar.srf.1.2_4293895720
 	link = cursa.solar.srf.1.2_4293895078
+	link = octans.whip.antenna.srf.1_4291003970
+	link = octans.whip.antenna.srf.1_4291003914
 	attN = bottom,aquila.adapter.s2.s1p5.1_4293922354_0|-0.9375|0_0|-1|0_0|-0.9375|0_0|-1|0
 	attN = top,sargas.docking.mechanism.s1p5.2_4293924962_0|0.9375|0_0|1|0_0|0.9375|0_0|1|0
 	attN = surface1,aquila.radiator.fuel.tank.double.srf.2_4293909600_-0.565831006|0|-0.737406015_-0.608761251|0|-0.793353677_-0.565831006|0|-0.737406015_-0.608761251|0|-0.793353677
@@ -542,7 +542,7 @@ PART
 {
 	part = aquila.adapter.s2.s1p5.1_4293922354
 	partName = Part
-	persistentId = 1270450377
+	persistentId = 2151769250
 	pos = -0.305108994,11.995966,0.1179929
 	attPos = 0,0,0
 	attPos0 = 0,-1.3125,0
@@ -688,7 +688,7 @@ PART
 {
 	part = aquila.control.s2.1_4293919256
 	partName = Part
-	persistentId = 422458944
+	persistentId = 3437468603
 	pos = -0.305108994,11.5459661,0.1179929
 	attPos = 0,0,0
 	attPos0 = 0,-0.449999809,0
@@ -934,7 +934,7 @@ PART
 {
 	part = aquila.adapter.s2.s0p5.1_4293918594
 	partName = Part
-	persistentId = 1680054238
+	persistentId = 2397956175
 	pos = -0.305108994,11.0959663,0.1179929
 	attPos = 0,0,0
 	attPos0 = 0,-0.449999809,0
@@ -1078,7 +1078,7 @@ PART
 {
 	part = octans.docking.port.s0p5.2.male_4293916452
 	partName = Part
-	persistentId = 1968570990
+	persistentId = 1223995051
 	pos = -0.305108994,10.6459665,0.1179929
 	attPos = 0,0,0
 	attPos0 = 0,0.449999809,0
@@ -1239,7 +1239,7 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293909600
 	partName = Part
-	persistentId = 1702099578
+	persistentId = 1077820802
 	pos = -0.87093997,13.308466,-0.619413137
 	attPos = 0,0,0
 	attPos0 = -0.565831006,0,-0.737406015
@@ -1334,7 +1334,7 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293909448
 	partName = Part
-	persistentId = 1413509477
+	persistentId = 1673020318
 	pos = 0.260722011,13.308466,0.855398893
 	attPos = 0,0,0
 	attPos0 = 0.565831006,0,0.737406015
@@ -1429,7 +1429,7 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293909798
 	partName = Part
-	persistentId = 1308035797
+	persistentId = 3696991994
 	pos = 0.260722011,13.308466,-0.619413137
 	attPos = 0,0,0
 	attPos0 = 0.565831006,0,-0.737406015
@@ -1524,7 +1524,7 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293909288
 	partName = Part
-	persistentId = 2822381432
+	persistentId = 3730740222
 	pos = -0.87093997,13.308466,0.855398893
 	attPos = 0,0,0
 	attPos0 = -0.565831006,0,0.737406015
@@ -1619,7 +1619,7 @@ PART
 {
 	part = vega.engine.srf.1.2_4293906114
 	partName = Part
-	persistentId = 3009855731
+	persistentId = 2631109240
 	pos = -0.305109084,13.9710007,-0.792544127
 	attPos = 0,0,0
 	attPos0 = -7.96016764E-08,0.662534714,-0.910537004
@@ -1740,7 +1740,7 @@ PART
 {
 	part = vega.engine.srf.1.2_4293905932
 	partName = Part
-	persistentId = 4243897358
+	persistentId = 2078566258
 	pos = -0.305108845,13.9710007,1.02852988
 	attPos = 0,0,0
 	attPos0 = 1.59203353E-07,0.662534714,0.910537004
@@ -1851,225 +1851,9 @@ PART
 }
 PART
 {
-	part = Eridani.Antenna.1_4293905242
-	partName = Part
-	persistentId = 1859561835
-	pos = -0.132506952,13.7658424,-0.791382134
-	attPos = 0,0,0
-	attPos0 = 0.172602043,0.45737648,-0.909375012
-	rot = 0,0,0,-1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,-1
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Eridani.Antenna.1_4293904810
-	srfN = srfAttach,aquila.crew.s1p5.2.2_4293923748,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableAntenna
-		isEnabled = True
-		currentRotation = (0, 0, 0, 1)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 1
-		deployState = RETRACTED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDataTransmitter
-		isEnabled = True
-		xmitIncomplete = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartTransmissionAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = Eridani.Antenna.1_4293904810
-	partName = Part
-	persistentId = 1678657737
-	pos = -0.477711022,13.7658424,-0.791382134
-	attPos = 0,0,0
-	attPos0 = -0.172602043,0.45737648,-0.909375012
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Eridani.Antenna.1_4293905242
-	srfN = srfAttach,aquila.crew.s1p5.2.2_4293923748,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableAntenna
-		isEnabled = True
-		currentRotation = (0, 0, 0, 1)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 1
-		deployState = RETRACTED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDataTransmitter
-		isEnabled = True
-		xmitIncomplete = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartTransmissionAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = octans.moe.srf.3.extended_4293904400
 	partName = Part
-	persistentId = 3270477783
+	persistentId = 3537438078
 	pos = -0.759820938,10.6798744,0.11799293
 	attPos = 0,0,0
 	attPos0 = 0.454711974,-0.0339078903,2.71029474E-08
@@ -2170,7 +1954,7 @@ PART
 {
 	part = octans.moe.srf.3.extended_4293901078
 	partName = Part
-	persistentId = 3833346586
+	persistentId = 889355827
 	pos = 0.149602979,10.6798744,0.117992915
 	attPos = 0,0,0
 	attPos0 = -0.454711974,-0.0339078903,1.26492354E-08
@@ -2271,7 +2055,7 @@ PART
 {
 	part = octans.moe.srf.3.extended_4293902116
 	partName = Part
-	persistentId = 3940248347
+	persistentId = 1531810848
 	pos = 0.604595661,14.9386549,0.117992952
 	attPos = 0,0,0
 	attPos0 = 0.909704685,-0.557311058,5.42226282E-08
@@ -2372,7 +2156,7 @@ PART
 {
 	part = octans.moe.srf.3.extended_4293900830
 	partName = Part
-	persistentId = 2807962407
+	persistentId = 3765486755
 	pos = -1.21481371,14.9386549,0.117992923
 	attPos = 0,0,0
 	attPos0 = -0.909704685,-0.557311058,2.53062815E-08
@@ -2473,7 +2257,7 @@ PART
 {
 	part = atria.antenna.srf.1.2_4293898572
 	partName = Part
-	persistentId = 389568508
+	persistentId = 2753000633
 	pos = -0.305109084,12.0186644,-0.933778286
 	attPos = 0,0,0
 	attPos0 = -9.19487562E-08,0.0226984024,-1.05177116
@@ -2596,7 +2380,7 @@ PART
 {
 	part = atria.antenna.srf.2.2_4293898448
 	partName = Part
-	persistentId = 1854063894
+	persistentId = 3033660755
 	pos = -1.34909332,12.0379572,0.11799296
 	attPos = 0,0,0
 	attPos0 = -1.04398429,0.0419912338,6.22263201E-08
@@ -2719,7 +2503,7 @@ PART
 {
 	part = cursa.solar.srf.1.2_4293895720
 	partName = Part
-	persistentId = 1118664092
+	persistentId = 2806620766
 	pos = 0.604534626,13.3067427,0.117992952
 	attPos = 0,0,0
 	attPos0 = 0.90964365,-0.00172328949,5.42189902E-08
@@ -2824,7 +2608,7 @@ PART
 {
 	part = cursa.solar.srf.1.2_4293895078
 	partName = Part
-	persistentId = 3349700352
+	persistentId = 3640914192
 	pos = -1.21475267,13.3067427,0.117992952
 	attPos = 0,0,0
 	attPos0 = -0.90964365,-0.00172328949,5.42189902E-08
@@ -2919,6 +2703,222 @@ PART
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = octans.whip.antenna.srf.1_4291003970
+	partName = Part
+	persistentId = 3748263245
+	pos = -0.442490935,13.6562109,-0.791382074
+	attPos = 0,0,0
+	attPos0 = -0.137381941,0.347744942,-0.909374952
+	rot = 0,0,0,-1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,-1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = octans.whip.antenna.srf.1_4291003914
+	srfN = srfAttach,aquila.crew.s1p5.2.2_4293923748,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableAntenna
+		isEnabled = True
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = octans.whip.antenna.srf.1_4291003914
+	partName = Part
+	persistentId = 1988027498
+	pos = -0.167727053,13.6562109,-0.791382074
+	attPos = 0,0,0
+	attPos0 = 0.137381941,0.347744942,-0.909374952
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = octans.whip.antenna.srf.1_4291003970
+	srfN = srfAttach,aquila.crew.s1p5.2.2_4293923748,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableAntenna
+		isEnabled = True
+		currentRotation = (0, 0, 0, 1)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{

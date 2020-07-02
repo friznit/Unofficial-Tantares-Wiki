@@ -2,7 +2,7 @@ ship = [Soyuz] T
 version = 1.9.1
 description = 
 type = VAB
-size = 5.42501068,4.4375,1.7198112
+size = 1.8734138,4.4375,1.7198112
 steamPublishedFileId = 0
 persistentId = 2512076477
 rot = 0,0,0,0
@@ -2449,8 +2449,8 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = 10
-		deployState = EXTENDED
+		storedAnimationSpeed = -10
+		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2554,8 +2554,8 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = 10
-		deployState = EXTENDED
+		storedAnimationSpeed = -10
+		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2700,21 +2700,6 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleBdbRelayInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 		UPGRADESAPPLIED
 		{
