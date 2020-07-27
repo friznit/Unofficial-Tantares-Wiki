@@ -1,7 +1,7 @@
 ship = [Mir] Kvant-2
-version = 1.8.1
+version = 1.10.0
 description = 
-type = SPH
+type = VAB
 size = 2.5,7.45375061,2.5
 steamPublishedFileId = 0
 persistentId = 2424059974
@@ -284,6 +284,8 @@ PART
 	link = cervantes.gyro.srf.2_4293010298
 	link = cervantes.gyro.srf.2_4293008524
 	link = Andromeda.MonoSphere.2_4292991628
+	link = eridani.solar.srf.1.2_4293845596
+	link = eridani.solar.srf.1.2_4293844740
 	attN = bottom,aquila.adapter.s1p5.s1.1_4293122140_0|-0.625|0_0|-1|0_0|-0.625|0_0|-1|0
 	attN = top,aquila.crew.s1.1.1_4293108328_0|0.625|0_0|1|0_0|0.625|0_0|1|0
 	EVENTS
@@ -421,8 +423,6 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = aquila.crew.s1.3.2_4293103988
-	link = Eridani.Solar.1.2_4293058078
-	link = Eridani.Solar.1.2_4293040904
 	link = Andromeda.MonoSphere.1_4292996378
 	link = Andromeda.MonoSphere.1_4292995108
 	link = Andromeda.MonoSphere.1_4292995056
@@ -762,183 +762,16 @@ PART
 		{
 		}
 	}
-}
-PART
-{
-	part = Eridani.Solar.1.2_4293058078
-	partName = Part
-	persistentId = 4250840279
-	pos = -0.606536984,17.3870945,-5.96046448E-08
-	attPos = -4.69195456E-08,-0.570672989,0.1110906
-	attPos0 = -1.27001503E-08,-0.612905502,0.606536448
-	rot = 0,0.707106769,0,0.707106888
-	attRot = 0,0,0,1
-	attRot0 = 0,1,0,8.94069672E-08
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Eridani.Solar.1.2_4293040904
-	srfN = srfAttach,aquila.crew.s1.1.1_4293108328,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
+	RESOURCE
 	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		efficiencyMult = 1
-		launchUT = -1
-		currentRotation = (0.707106829, 0, 0, -0.707106829)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 1
-		deployState = RETRACTED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = Eridani.Solar.1.2_4293040904
-	partName = Part
-	persistentId = 1168672054
-	pos = 0.606536984,17.3870945,-5.96046448E-08
-	attPos = -4.69195456E-08,-0.570672989,0.1110906
-	attPos0 = -1.31909388E-07,-0.612905502,-0.606536448
-	rot = 0,-0.707106709,0,0.707106948
-	attRot = 0,0,0,1
-	attRot0 = 0,1.78813934E-07,0,1
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Eridani.Solar.1.2_4293058078
-	srfN = srfAttach,aquila.crew.s1.1.1_4293108328,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDeployableSolarPanel
-		isEnabled = True
-		efficiencyMult = 1
-		launchUT = -1
-		currentRotation = (0.707106829, 0, 0, -0.707106829)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 1
-		deployState = RETRACTED
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
+		name = ElectricCharge
+		amount = 10
+		maxAmount = 10
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
 	}
 }
 PART
@@ -956,7 +789,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = -1
 	resPri = 0
 	dstg = 0
 	sidx = 2
@@ -965,7 +798,7 @@ PART
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
-	modMass = 0
+	modMass = 1.40129846E-45
 	modSize = 0,0,0
 	link = aquila.control.s2.1_4293016258
 	link = radialEngineMini.v2_4292901272
@@ -1054,8 +887,8 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
-		fsm = st_idle
 		EVENTS
 		{
 		}
@@ -1103,7 +936,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = -1
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -1348,7 +1181,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = -1
 	resPri = 0
 	dstg = 0
 	sidx = 3
@@ -1357,7 +1190,7 @@ PART
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
-	modMass = 0
+	modMass = 1.40129846E-45
 	modSize = 0,0,0
 	link = Eridani.DockingMechanism.1_4292877928
 	attN = bottom,aquila.control.s2.1_4293016258_0|-0.375|0_0|-1|0_0|-0.375|0_0|-1|0
@@ -1442,8 +1275,8 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
-		fsm = st_idle
 		EVENTS
 		{
 		}
@@ -1665,7 +1498,7 @@ PART
 	part = Andromeda.MonoSphere.1_4292996378
 	partName = Part
 	persistentId = 4246131172
-	pos = -0.107114814,17.8293781,0.607477903
+	pos = -0.107114874,17.8293781,0.607478082
 	attPos = 0,0,0
 	attPos0 = 0.607477367,-0.170621872,0.107114628
 	rot = 0,0.99619472,0,0.0871557891
@@ -1712,6 +1545,25 @@ PART
 	PARTDATA
 	{
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 88
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -1729,7 +1581,7 @@ PART
 	part = Andromeda.MonoSphere.1_4292995108
 	partName = Part
 	persistentId = 3629139579
-	pos = 0.107114814,17.8293781,0.607477903
+	pos = 0.107114874,17.8293781,0.607478082
 	attPos = 0,0,0
 	attPos0 = 0.607477367,-0.170621872,-0.107114747
 	rot = 0,0.99619472,0,-0.0871557891
@@ -1776,6 +1628,25 @@ PART
 	PARTDATA
 	{
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 88
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -1793,7 +1664,7 @@ PART
 	part = Andromeda.MonoSphere.1_4292995056
 	partName = Part
 	persistentId = 464167367
-	pos = -0.107156716,17.5958786,0.607715666
+	pos = -0.107156776,17.5958786,0.607715845
 	attPos = 0,0,0
 	attPos0 = 0.60771513,-0.404121399,0.10715653
 	rot = 0,0.99619472,0,0.0871557891
@@ -1840,6 +1711,25 @@ PART
 	PARTDATA
 	{
 	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 88
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -1857,7 +1747,7 @@ PART
 	part = Andromeda.MonoSphere.1_4292995020
 	partName = Part
 	persistentId = 3510647066
-	pos = 0.107156716,17.5958786,0.607715666
+	pos = 0.107156776,17.5958786,0.607715845
 	attPos = 0,0,0
 	attPos0 = 0.60771513,-0.404121399,-0.107156649
 	rot = 0,0.99619472,0,-0.0871557891
@@ -1903,6 +1793,25 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 88
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	RESOURCE
 	{
@@ -1966,6 +1875,25 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 176
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	RESOURCE
 	{
@@ -3824,7 +3752,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = -1
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -4063,7 +3991,7 @@ PART
 	part = lepus.ladder.srf.1_4292821508
 	partName = Part
 	persistentId = 219685034
-	pos = 5.96046448E-08,18.574913,-0.606256485
+	pos = 5.96046448E-08,18.574913,-0.606256664
 	attPos = 0,0,0
 	attPos0 = -0.606255949,0.574913025,0
 	rot = 0,-1.1920929E-07,0,1.00000012
@@ -4146,7 +4074,7 @@ PART
 	part = lepus.ladder.srf.1_4292821086
 	partName = Part
 	persistentId = 2151455240
-	pos = 5.96046448E-08,18.6659126,-0.601001561
+	pos = 5.96046448E-08,18.6659126,-0.601001859
 	attPos = 0,0,0
 	attPos0 = 5.9604659E-08,-0.396587372,-0.601000965
 	rot = 0,-0.0856512338,0.996325374,0
@@ -5034,6 +4962,184 @@ PART
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = eridani.solar.srf.1.2_4293845596
+	partName = Part
+	persistentId = 2761533856
+	pos = -0.606542885,17.3533077,3.61527768E-08
+	attPos = 0,0,0
+	attPos0 = -0.606542885,0.603307724,3.61527768E-08
+	rot = 0,0.707106829,0,0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106829,0,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = eridani.solar.srf.1.2_4293844740
+	srfN = srfAttach,aquila.crew.s1.1.2_4293111724,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0.707106829, 0, 0, -0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = -10
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = eridani.solar.srf.1.2_4293844740
+	partName = Part
+	persistentId = 639889168
+	pos = 0.606542885,17.3533077,-8.91784424E-08
+	attPos = 0,0,0
+	attPos0 = 0.606542885,0.603307724,-8.91784424E-08
+	rot = 0,0.707106769,0,-0.707106888
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106769,0,-0.707106888
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = eridani.solar.srf.1.2_4293845596
+	srfN = srfAttach,aquila.crew.s1.1.2_4293111724,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0.707106829, 0, 0, -0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = -10
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
