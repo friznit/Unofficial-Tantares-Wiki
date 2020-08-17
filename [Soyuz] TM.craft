@@ -1,5 +1,5 @@
 ship = [Soyuz] TM
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 1.5,4.4375,1.69537377
@@ -16,7 +16,7 @@ PART
 {
 	part = tantares.crew.s1.1_4294376246
 	partName = Part
-	persistentId = 3930949955
+	persistentId = 1721048003
 	pos = 0,15,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -226,6 +226,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = True
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -321,7 +322,7 @@ PART
 {
 	part = tantares.heatshield.s1.1_4294368656
 	partName = Part
-	persistentId = 2277843335
+	persistentId = 85584399
 	pos = 0,14.4250002,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.574999809,0
@@ -464,7 +465,7 @@ PART
 {
 	part = tantares.decoupler.s1.1_4294358338
 	partName = Part
-	persistentId = 3921873544
+	persistentId = 499825580
 	pos = 0,14.2750006,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.149999619,0
@@ -563,7 +564,7 @@ PART
 {
 	part = tantares.fuel.tank.s1.1_4294339514
 	partName = Part
-	persistentId = 84998119
+	persistentId = 3835860619
 	pos = 0,13.9500008,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.324999809,0
@@ -648,7 +649,7 @@ PART
 {
 	part = tantares.engine.s1.1_4294319112
 	partName = Part
-	persistentId = 3413977596
+	persistentId = 1777066615
 	pos = 0,13.3250008,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.625,0
@@ -860,7 +861,7 @@ PART
 {
 	part = tantares.parachute.s0.1_4294306832
 	partName = Part
-	persistentId = 3586767311
+	persistentId = 476794222
 	pos = 0,15.5249996,0
 	attPos = 0,0,0
 	attPos0 = 0,0.524999619,0
@@ -1014,7 +1015,7 @@ PART
 {
 	part = tantares.orbital.module.s1.3_4294306164
 	partName = Part
-	persistentId = 1134129936
+	persistentId = 2405102164
 	pos = 0,16.125,0
 	attPos = 0,0,0
 	attPos0 = 0,0.600000381,0
@@ -1123,6 +1124,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = True
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1188,7 +1190,7 @@ PART
 {
 	part = octans.docking.port.s0p5.1.male_4294292360
 	partName = Part
-	persistentId = 3838969085
+	persistentId = 2991592236
 	pos = 0,16.8250008,0
 	attPos = 0,0,0
 	attPos0 = 0,0.700000763,0
@@ -1350,7 +1352,7 @@ PART
 {
 	part = octans.moe.srf.3.extended_4294242586
 	partName = Part
-	persistentId = 995433976
+	persistentId = 4165484243
 	pos = -0.606577456,14.2709208,3.61548373E-08
 	attPos = 0,0,0
 	attPos0 = -0.606577456,-0.00407981873,3.61548373E-08
@@ -1451,7 +1453,7 @@ PART
 {
 	part = octans.moe.srf.3.extended_4294242236
 	partName = Part
-	persistentId = 1649321924
+	persistentId = 4054897581
 	pos = 0.606577456,14.2709208,-8.91835228E-08
 	attPos = 0,0,0
 	attPos0 = 0.606577456,-0.00407981873,-8.91835228E-08
@@ -1552,7 +1554,7 @@ PART
 {
 	part = octans.rcs.linear.srf.1_4294238172
 	partName = Part
-	persistentId = 551522561
+	persistentId = 3916416939
 	pos = 0.20742473,14.2767172,-0.569895029
 	attPos = 0,0,0
 	attPos0 = 0.20742473,0.00171661377,-0.569895029
@@ -1653,7 +1655,7 @@ PART
 {
 	part = octans.rcs.linear.srf.1_4294237856
 	partName = Part
-	persistentId = 3789376115
+	persistentId = 3789248799
 	pos = -0.20742473,14.2767172,-0.569895029
 	attPos = 0,0,0
 	attPos0 = -0.20742473,0.00171661377,-0.569895029
@@ -1754,7 +1756,7 @@ PART
 {
 	part = octans.rcs.linear.srf.1_4294236938
 	partName = Part
-	persistentId = 3740818778
+	persistentId = 1163705952
 	pos = -0.20752275,14.2689333,0.570164025
 	attPos = 0,0,0
 	attPos0 = -0.20752275,-0.006067276,0.570164025
@@ -1855,7 +1857,7 @@ PART
 {
 	part = octans.rcs.linear.srf.1_4294236588
 	partName = Part
-	persistentId = 1936164810
+	persistentId = 126352150
 	pos = 0.20752275,14.2689333,0.570164025
 	attPos = 0,0,0
 	attPos0 = 0.20752275,-0.006067276,0.570164025
@@ -1956,7 +1958,7 @@ PART
 {
 	part = octans.star.tracker.srf.1_4294231898
 	partName = Part
-	persistentId = 696332727
+	persistentId = 1480073895
 	pos = 0,13.8261776,0.606750667
 	attPos = 0,0,0
 	attPos0 = 0,-0.123823166,0.606750667
@@ -2041,7 +2043,7 @@ PART
 {
 	part = octans.star.tracker.srf.1_4294221318
 	partName = Part
-	persistentId = 2196670862
+	persistentId = 1565606356
 	pos = 0,13.4563732,0.592711389
 	attPos = 0,0,-0.014077425
 	attPos0 = 0,0.131372452,0.606788814
@@ -2126,7 +2128,7 @@ PART
 {
 	part = octans.light.srf.2_4294211678
 	partName = Part
-	persistentId = 1721326241
+	persistentId = 1789176813
 	pos = -0.1840159,16.8752918,0.318724871
 	attPos = 0,0,0
 	attPos0 = -0.1840159,0.0502910614,0.318724871
@@ -2263,7 +2265,7 @@ PART
 {
 	part = octans.periscope.srf.1_4294210460
 	partName = Part
-	persistentId = 628239571
+	persistentId = 1268808845
 	pos = 0,14.964674,0.541197002
 	attPos = 0,0,0
 	attPos0 = 0,-0.035326004,0.541197002
@@ -2393,7 +2395,7 @@ PART
 {
 	part = octans.solar.srf.1.2_4294195608
 	partName = Part
-	persistentId = 916762186
+	persistentId = 2797099467
 	pos = -0.606254935,13.7139273,3.61356136E-08
 	attPos = 0,0,0
 	attPos0 = -0.606254935,-0.236073494,3.61356136E-08
@@ -2498,7 +2500,7 @@ PART
 {
 	part = octans.solar.srf.1.2_4294193814
 	partName = Part
-	persistentId = 3987953607
+	persistentId = 3747702894
 	pos = 0.606254935,13.7139273,3.61356136E-08
 	attPos = 0,0,0
 	attPos0 = 0.606254935,-0.236073494,3.61356136E-08
@@ -2603,7 +2605,7 @@ PART
 {
 	part = octans.high.gain.antenna.srf.2_4294186698
 	partName = Part
-	persistentId = 1314990635
+	persistentId = 881195687
 	pos = -3.20346878E-08,16.7741451,-0.366434127
 	attPos = 0,0,0
 	attPos0 = -3.20346878E-08,-0.0508556366,-0.366434127
@@ -2705,27 +2707,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleBdbRelayInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = octans.high.gain.antenna.srf.2_4294186204
 	partName = Part
-	persistentId = 81145849
+	persistentId = 1929914690
 	pos = -0.366198301,16.7696285,2.18271214E-08
 	attPos = 0,0,0
 	attPos0 = -0.366198301,-0.0553722382,2.18271214E-08
@@ -2822,21 +2809,6 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleBdbRelayInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 		UPGRADESAPPLIED
 		{

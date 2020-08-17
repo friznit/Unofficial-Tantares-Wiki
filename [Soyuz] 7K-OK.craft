@@ -1,5 +1,5 @@
 ship = [Soyuz] 7K-OK
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 1.65162039,4.89999962,1.73287392
@@ -16,7 +16,7 @@ PART
 {
 	part = tantares.crew.s1.1_4294376246
 	partName = Part
-	persistentId = 645146060
+	persistentId = 2279991576
 	pos = 0,15,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -226,6 +226,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = False
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -321,7 +322,7 @@ PART
 {
 	part = tantares.heatshield.s1.1_4294368656
 	partName = Part
-	persistentId = 3600860840
+	persistentId = 587369868
 	pos = 0,14.4250002,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.574999809,0
@@ -464,7 +465,7 @@ PART
 {
 	part = tantares.decoupler.s1.1_4294358338
 	partName = Part
-	persistentId = 1522983536
+	persistentId = 949952027
 	pos = 0,14.2750006,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.149999619,0
@@ -565,7 +566,7 @@ PART
 {
 	part = tantares.parachute.s0.1_4294306832
 	partName = Part
-	persistentId = 256370042
+	persistentId = 1707783123
 	pos = 0,15.5249996,0
 	attPos = 0,0,0
 	attPos0 = 0,0.524999619,0
@@ -719,7 +720,7 @@ PART
 {
 	part = octans.periscope.srf.1_4294210460
 	partName = Part
-	persistentId = 2684712211
+	persistentId = 1119520935
 	pos = 0,14.964674,0.541197002
 	attPos = 0,0,0
 	attPos0 = 0,-0.035326004,0.541197002
@@ -849,7 +850,7 @@ PART
 {
 	part = tantares.basic.fuel.tank.s1.1_4293908506
 	partName = Part
-	persistentId = 2502556235
+	persistentId = 2343619629
 	pos = 0,13.9500008,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.324999809,0
@@ -933,7 +934,7 @@ PART
 {
 	part = tantares.basic.engine.s1.1_4293887422
 	partName = Part
-	persistentId = 877301513
+	persistentId = 735205290
 	pos = 0,13.3250008,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.625,0
@@ -1145,7 +1146,7 @@ PART
 {
 	part = octans.basic.rcs.srf.1_4293869398
 	partName = Part
-	persistentId = 3632226319
+	persistentId = 2754147332
 	pos = 0.42873317,14.2682371,-0.42873311
 	attPos = 0,0,0
 	attPos0 = 0.42873317,-0.00676345825,-0.42873311
@@ -1247,7 +1248,7 @@ PART
 {
 	part = octans.basic.rcs.srf.1_4293868300
 	partName = Part
-	persistentId = 2217689029
+	persistentId = 3627414338
 	pos = -0.428733051,14.2682371,-0.42873317
 	attPos = 0,0,0
 	attPos0 = -0.428733051,-0.00676345825,-0.42873317
@@ -1349,7 +1350,7 @@ PART
 {
 	part = octans.basic.rcs.srf.1_4293868254
 	partName = Part
-	persistentId = 2546478340
+	persistentId = 3039952637
 	pos = -0.42873314,14.2682371,0.42873314
 	attPos = 0,0,0
 	attPos0 = -0.42873314,-0.00676345825,0.42873314
@@ -1451,7 +1452,7 @@ PART
 {
 	part = octans.basic.rcs.srf.1_4293868208
 	partName = Part
-	persistentId = 2223766078
+	persistentId = 4248626086
 	pos = 0.42873311,14.2682371,0.42873311
 	attPos = 0,0,0
 	attPos0 = 0.42873311,-0.00676345825,0.42873311
@@ -1553,7 +1554,7 @@ PART
 {
 	part = octans.basic.rcs.srf.2_4293867910
 	partName = Part
-	persistentId = 1626999507
+	persistentId = 1265185436
 	pos = -5.30025233E-08,14.2783251,-0.606278181
 	attPos = 0,0,0
 	attPos0 = -5.30025233E-08,0.00332450867,-0.606278181
@@ -1653,7 +1654,7 @@ PART
 {
 	part = octans.basic.rcs.srf.2_4293867460
 	partName = Part
-	persistentId = 1134343191
+	persistentId = 2343776077
 	pos = 1.06005047E-07,14.2783251,0.606278181
 	attPos = 0,0,0
 	attPos0 = 1.06005047E-07,0.00332450867,0.606278181
@@ -1753,7 +1754,7 @@ PART
 {
 	part = octans.basic.rcs.srf.1_4293864570
 	partName = Part
-	persistentId = 3737412205
+	persistentId = 2798628585
 	pos = -0.60642761,14.3027296,3.61459058E-08
 	attPos = 0,0,0
 	attPos0 = -0.60642761,0.0277290344,3.61459058E-08
@@ -1853,7 +1854,7 @@ PART
 {
 	part = octans.basic.rcs.srf.1_4293864430
 	partName = Part
-	persistentId = 637638794
+	persistentId = 1062344921
 	pos = 0.60642761,14.3027296,-8.91614889E-08
 	attPos = 0,0,0
 	attPos0 = 0.60642761,0.0277290344,-8.91614889E-08
@@ -1953,7 +1954,7 @@ PART
 {
 	part = octans.star.tracker.srf.1_4293828428
 	partName = Part
-	persistentId = 413273497
+	persistentId = 3413636860
 	pos = 0,13.4758902,0.606267035
 	attPos = 0,0,0
 	attPos0 = 0,0.150889397,0.606267035
@@ -2038,7 +2039,7 @@ PART
 {
 	part = tantares.orbital.module.s1.2_4293725310
 	partName = Part
-	persistentId = 1133574077
+	persistentId = 3695969479
 	pos = 0,16.125,0
 	attPos = 0,0,0
 	attPos0 = 0,0.600000381,0
@@ -2149,6 +2150,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = False
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2214,7 +2216,7 @@ PART
 {
 	part = octans.basic.docking.port.s0p5.1.male_4293568388
 	partName = Part
-	persistentId = 1884149879
+	persistentId = 669860334
 	pos = 0,16.9875011,0
 	attPos = 0,0,0
 	attPos0 = 0,0.862501144,0
@@ -2373,7 +2375,7 @@ PART
 {
 	part = octans.basic.high.gain.antenna.srf.2_4293557466
 	partName = Part
-	persistentId = 3768191837
+	persistentId = 1769485158
 	pos = 0,15.7859459,-0.506837308
 	attPos = 0,0,0
 	attPos0 = 0,-0.339054108,0.506837308
@@ -2475,27 +2477,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleBdbRelayInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = atria.antenna.srf.2.2_4293557134
 	partName = Part
-	persistentId = 1480871241
+	persistentId = 2528649723
 	pos = -0.60453546,16.1528587,-3.60331249E-08
 	attPos = 0,0,0
 	attPos0 = 0.60453546,0.0278587341,3.60331249E-08
@@ -2618,7 +2605,7 @@ PART
 {
 	part = octans.basic.solar.srf.1.2_4293539114
 	partName = Part
-	persistentId = 290045897
+	persistentId = 4234919763
 	pos = 0.608997822,13.7818098,3.62991024E-08
 	attPos = 0,0,0
 	attPos0 = 0.608997822,-0.168190956,3.62991024E-08
@@ -2723,7 +2710,7 @@ PART
 {
 	part = octans.basic.solar.srf.1.2_4293541158
 	partName = Part
-	persistentId = 1798446580
+	persistentId = 2621902800
 	pos = -0.607158899,13.7792959,3.61894941E-08
 	attPos = 0,0,0
 	attPos0 = -0.607158899,-0.170704842,3.61894941E-08

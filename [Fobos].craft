@@ -1,5 +1,5 @@
 ship = [Fobos]
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 2.18704271,2.76860428,2.18704295
@@ -16,7 +16,7 @@ PART
 {
 	part = Ara.Control.1_4293951688
 	partName = Part
-	persistentId = 1622933276
+	persistentId = 3907552691
 	pos = 0,15,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -248,7 +248,7 @@ PART
 {
 	part = Ara.MaterialsBay.1_4293945568
 	partName = Part
-	persistentId = 4288127896
+	persistentId = 3598846436
 	pos = 0,14.625,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.375,0
@@ -371,7 +371,7 @@ PART
 {
 	part = Ara.Mount.1_4293945272
 	partName = Part
-	persistentId = 3011081413
+	persistentId = 2562802108
 	pos = 0,15.21875,0
 	attPos = 0,0,0
 	attPos0 = 0,0.21875,0
@@ -425,7 +425,7 @@ PART
 {
 	part = Ara.Antenna.1_4293945044
 	partName = Part
-	persistentId = 931610615
+	persistentId = 2604493603
 	pos = 0,15.3125,0
 	attPos = 0,0,0
 	attPos0 = 0,0.09375,0
@@ -527,27 +527,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleBdbRelayInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = Ara.Avionics.1_4293944714
 	partName = Part
-	persistentId = 2022216500
+	persistentId = 52690873
 	pos = 0,14.09375,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.53125,0
@@ -685,7 +670,7 @@ PART
 {
 	part = Ara.GooExperiment.1_4293944602
 	partName = Part
-	persistentId = 637900049
+	persistentId = 3814635835
 	pos = 0.15320316,14.7894716,-0.265355617
 	attPos = 0,0,0
 	attPos0 = 0.15320316,0.164471626,-0.265355617
@@ -804,7 +789,7 @@ PART
 {
 	part = Ara.SensorBarometer.1_4293944120
 	partName = Part
-	persistentId = 3852360858
+	persistentId = 544166317
 	pos = -0.304180264,15.0096273,1.81305584E-08
 	attPos = 0,0,0
 	attPos0 = -0.304180264,0.00962734222,1.81305584E-08
@@ -905,7 +890,7 @@ PART
 {
 	part = Ara.SensorGravimeter.1_4293944032
 	partName = Part
-	persistentId = 3415569747
+	persistentId = 2218842775
 	pos = -0.303301364,14.7840528,1.80781718E-08
 	attPos = 0,0,0
 	attPos0 = -0.303301364,0.159052849,1.80781718E-08
@@ -1006,7 +991,7 @@ PART
 {
 	part = Ara.SensorThermometer.1_4293943826
 	partName = Part
-	persistentId = 712966349
+	persistentId = 3349989782
 	pos = 0.303125501,15.0089502,1.80676896E-08
 	attPos = 0,0,0
 	attPos0 = 0.303125501,0.00895023346,1.80676896E-08
@@ -1107,7 +1092,7 @@ PART
 {
 	part = Ara.Solar.1_4293943674
 	partName = Part
-	persistentId = 3076073902
+	persistentId = 984728434
 	pos = 0.570297241,14.34375,3.3992368E-08
 	attPos = 0,0,0
 	attPos0 = 0.570297241,0.25,3.3992368E-08
@@ -1212,7 +1197,7 @@ PART
 {
 	part = Ara.Solar.1_4293943002
 	partName = Part
-	persistentId = 2116678353
+	persistentId = 1152331440
 	pos = -0.570297241,14.34375,1.58646003E-08
 	attPos = 0,0,0
 	attPos0 = -0.570297241,0.25,1.58646003E-08
@@ -1317,7 +1302,7 @@ PART
 {
 	part = Ara.Engine.1_4293942314
 	partName = Part
-	persistentId = 201081980
+	persistentId = 3915569903
 	pos = 0.600313962,14.0882082,-0.600313962
 	attPos = 0,0,0
 	attPos0 = 0.600313962,-0.00554180145,-0.600313962
@@ -1452,7 +1437,7 @@ PART
 {
 	part = Ara.Engine.1_4293941358
 	partName = Part
-	persistentId = 1668843619
+	persistentId = 2424319336
 	pos = -0.600313902,14.0882082,-0.600313962
 	attPos = 0,0,0
 	attPos0 = -0.600313902,-0.00554180145,-0.600313962
@@ -1579,7 +1564,7 @@ PART
 {
 	part = Ara.Engine.1_4293941292
 	partName = Part
-	persistentId = 2704519035
+	persistentId = 308373867
 	pos = -0.600313902,14.0882082,0.600314021
 	attPos = 0,0,0
 	attPos0 = -0.600313902,-0.00554180145,0.600314021
@@ -1706,7 +1691,7 @@ PART
 {
 	part = Ara.Engine.1_4293941226
 	partName = Part
-	persistentId = 1692860961
+	persistentId = 518573875
 	pos = 0.600313962,14.0882082,0.600313902
 	attPos = 0,0,0
 	attPos0 = 0.600313962,-0.00554180145,0.600313902
@@ -1833,11 +1818,11 @@ PART
 {
 	part = octans.basic.rcs.srf.3_4293929616
 	partName = Part
-	persistentId = 1392188208
+	persistentId = 2344302350
 	pos = 0.926806271,14.09377,-0.926806271
 	attPos = 0,0,0
 	attPos0 = -2.98023224E-08,0.00556182861,-0.461729854
-	rot = -0.011952552,0.382651389,-0.00495090941,-0.923802316
+	rot = -0.0119525539,0.382651299,-0.00495090988,-0.923802316
 	attRot = 0,0,0,1
 	attRot0 = 0.0129373474,0,0,0.999916375
 	mir = 1,1,1
@@ -1935,11 +1920,11 @@ PART
 {
 	part = octans.basic.rcs.srf.3_4293928964
 	partName = Part
-	persistentId = 2842472618
+	persistentId = 449970496
 	pos = -0.926806211,14.09377,-0.926806331
 	attPos = 0,0,0
 	attPos0 = -1.49011612E-08,0.00556182861,-0.461729884
-	rot = -0.0119525539,-0.382651299,0.00495090988,-0.923802316
+	rot = -0.0119525539,-0.38265124,0.00495091081,-0.923802316
 	attRot = 0,0,0,1
 	attRot0 = 0.0129373465,-2.98023224E-08,-4.65661287E-10,0.999916375
 	mir = 1,1,1
@@ -2037,11 +2022,11 @@ PART
 {
 	part = octans.basic.rcs.srf.3_4293928914
 	partName = Part
-	persistentId = 3256898053
-	pos = -0.926806808,14.09377,0.926807046
+	persistentId = 299181539
+	pos = -0.926807284,14.09377,0.926807404
 	attPos = 0,0,0
 	attPos0 = -2.980231E-08,0.00556182861,-0.461729944
-	rot = -0.00495090988,-0.923802316,0.0119525539,-0.382651299
+	rot = -0.00495091081,-0.923802316,0.0119525539,-0.38265124
 	attRot = 0,0,0,1
 	attRot0 = 0.0129373465,2.98023224E-08,4.65661287E-10,0.999916375
 	mir = 1,1,1
@@ -2139,11 +2124,11 @@ PART
 {
 	part = octans.basic.rcs.srf.3_4293928864
 	partName = Part
-	persistentId = 1595376321
-	pos = 0.926806867,14.09377,0.926806808
+	persistentId = 3205409893
+	pos = 0.926807225,14.09377,0.926807284
 	attPos = 0,0,0
 	attPos0 = -2.980231E-08,0.00556182861,-0.461730003
-	rot = 0.00495090988,-0.923802316,0.0119525539,0.382651299
+	rot = 0.00495091081,-0.923802316,0.0119525539,0.38265124
 	attRot = 0,0,0,1
 	attRot0 = 0.0129373465,-2.98023224E-08,-4.65661287E-10,0.999916375
 	mir = 1,1,1
@@ -2241,7 +2226,7 @@ PART
 {
 	part = octans.basic.rcs.srf.3_4293928794
 	partName = Part
-	persistentId = 3184713208
+	persistentId = 1102687621
 	pos = -7.42052606E-08,14.0915394,-0.848809242
 	attPos = 0,0,0
 	attPos0 = -7.42052606E-08,-0.00221061707,-0.848809242
@@ -2341,7 +2326,7 @@ PART
 {
 	part = octans.basic.rcs.srf.3_4293927594
 	partName = Part
-	persistentId = 891746150
+	persistentId = 388080002
 	pos = 1.48410521E-07,14.0915394,0.848809242
 	attPos = 0,0,0
 	attPos0 = 1.48410521E-07,-0.00221061707,0.848809242

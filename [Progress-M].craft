@@ -1,5 +1,5 @@
 ship = [Progress-M]
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 1.5,4.48427963,1.5
@@ -16,7 +16,7 @@ PART
 {
 	part = octans.docking.port.s0p5.1.male_4294070308
 	partName = Part
-	persistentId = 2092950927
+	persistentId = 3767676124
 	pos = 1.30970514,18.9336491,0.468551069
 	attPos = 0,0,0
 	attPos0 = 1.30970514,18.9336491,0.468551069
@@ -177,7 +177,7 @@ PART
 {
 	part = Hamal.Habitation.1_4294071078
 	partName = Part
-	persistentId = 537513304
+	persistentId = 2985620011
 	pos = 1.30970514,18.2336483,0.468551069
 	attPos = 0,0,0
 	attPos0 = 0,-0.699999869,5.96046448E-08
@@ -231,6 +231,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = False
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -274,7 +275,7 @@ PART
 {
 	part = Hamal.Control.2_4287363268
 	partName = Part
-	persistentId = 3598695428
+	persistentId = 4029690871
 	pos = 1.30970514,17.1211472,0.468551069
 	attPos = 0,0,0
 	attPos0 = 0,-1.11250019,-1.78813892E-07
@@ -534,7 +535,7 @@ PART
 {
 	part = Hamal.Avionics.1_4294069924
 	partName = Part
-	persistentId = 6085017
+	persistentId = 2679298150
 	pos = 1.30970514,16.4148922,0.468551069
 	attPos = 0,0,0
 	attPos0 = 0,-0.706250489,0
@@ -658,12 +659,23 @@ PART
 		{
 		}
 	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = octans.moe.srf.4_4294065770
 	partName = Part
-	persistentId = 1485737135
+	persistentId = 2736952278
 	pos = 0.703416944,16.4954834,0.468551069
 	attPos = 0,0,0
 	attPos0 = 0.606287718,-0.0805921555,3.61375676E-08
@@ -765,7 +777,7 @@ PART
 {
 	part = octans.moe.srf.4_4294065698
 	partName = Part
-	persistentId = 322607030
+	persistentId = 1310325821
 	pos = 1.30970514,16.4954834,-0.13773784
 	attPos = 0,0,0
 	attPos0 = 7.22751281E-08,-0.0805921555,-0.606287658
@@ -867,7 +879,7 @@ PART
 {
 	part = octans.moe.srf.4_4294065628
 	partName = Part
-	persistentId = 2035024711
+	persistentId = 2161141478
 	pos = 1.91599309,16.4954834,0.468551069
 	attPos = 0,0,0
 	attPos0 = -0.606287718,-0.0805921555,1.68657888E-08
@@ -969,7 +981,7 @@ PART
 {
 	part = octans.moe.srf.4_4294065558
 	partName = Part
-	persistentId = 949005592
+	persistentId = 2472072689
 	pos = 1.30970514,16.4954834,1.074839
 	attPos = 0,0,0
 	attPos0 = -1.3987468E-15,-0.0805921555,0.606287658
@@ -1071,7 +1083,7 @@ PART
 {
 	part = Hamal.Battery.2_4287356542
 	partName = Part
-	persistentId = 1335234722
+	persistentId = 3544699915
 	pos = 0.936946511,17.4780006,0.0957922041
 	attPos = 0,0,0
 	attPos0 = -0.372758627,0.356853753,-0.372758806
@@ -1153,7 +1165,7 @@ PART
 {
 	part = Hamal.Battery.2_4287356302
 	partName = Part
-	persistentId = 4209888876
+	persistentId = 1650323194
 	pos = 0.936946034,17.4780006,0.841309905
 	attPos = 0,0,0
 	attPos0 = -0.372758895,0.356853634,0.372758567
@@ -1235,7 +1247,7 @@ PART
 {
 	part = Hamal.Battery.2_4287356266
 	partName = Part
-	persistentId = 859007208
+	persistentId = 2856114761
 	pos = 1.682464,17.4780006,0.841309905
 	attPos = 0,0,0
 	attPos0 = 0.372758627,0.356853634,0.372758567
@@ -1317,7 +1329,7 @@ PART
 {
 	part = Hamal.Battery.2_4287356230
 	partName = Part
-	persistentId = 2114096050
+	persistentId = 877485136
 	pos = 1.682464,17.4780006,0.0957922041
 	attPos = 0,0,0
 	attPos0 = 0.372758865,0.356853753,-0.372758806
@@ -1399,7 +1411,7 @@ PART
 {
 	part = octans.high.gain.antenna.srf.2_4287356004
 	partName = Part
-	persistentId = 4185881796
+	persistentId = 956790658
 	pos = 1.05116427,18.8678627,0.210009962
 	attPos = 0,0,0
 	attPos0 = -0.258540869,-0.0657868683,-0.258541137
@@ -1502,27 +1514,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleBdbRelayInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = octans.high.gain.antenna.srf.2_4287354042
 	partName = Part
-	persistentId = 3059791368
+	persistentId = 1343887732
 	pos = 1.56824601,18.8678627,0.210009962
 	attPos = 0,0,0
 	attPos0 = 0.258540869,-0.0657868683,-0.258541137
@@ -1625,27 +1622,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleBdbRelayInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = tantares.basic.fuel.tank.s1.1_4294069176
 	partName = Part
-	persistentId = 1765299359
+	persistentId = 3202056984
 	pos = 1.30970514,15.9961405,0.468551069
 	attPos = 0,0,0
 	attPos0 = 0,0.418750465,0
@@ -1728,7 +1710,7 @@ PART
 {
 	part = tantares.engine.s1.1_4287346220
 	partName = Part
-	persistentId = 3419476154
+	persistentId = 2494742423
 	pos = 1.30970514,15.3711357,0.468551069
 	attPos = 0,0,0
 	attPos0 = 0,-0.624999523,2.38417783E-07
@@ -1938,7 +1920,7 @@ PART
 {
 	part = octans.solar.srf.1.2_4287318766
 	partName = Part
-	persistentId = 4168159233
+	persistentId = 3412541130
 	pos = 0.70342958,15.7866383,0.468551069
 	attPos = 0,0,0
 	attPos0 = -0.606275558,-0.209502459,2.3841848E-07
@@ -2043,7 +2025,7 @@ PART
 {
 	part = octans.solar.srf.1.2_4287316984
 	partName = Part
-	persistentId = 4074179754
+	persistentId = 1009246572
 	pos = 1.9159807,15.7866383,0.468551069
 	attPos = 0,0,0
 	attPos0 = 0.606275558,-0.209502459,2.3841848E-07

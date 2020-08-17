@@ -1,5 +1,5 @@
 ship = [LK]
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 2.20554304,3.0039978,1.72116709
@@ -16,7 +16,7 @@ PART
 {
 	part = libra.crew.s0p5.1_4293835234
 	partName = Part
-	persistentId = 2243340256
+	persistentId = 3178893471
 	pos = 0,15,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -291,9 +291,9 @@ PART
 	}
 	RESOURCE
 	{
-		name = ElectricCharge
-		amount = 35
-		maxAmount = 35
+		name = MonoPropellant
+		amount = 5
+		maxAmount = 5
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -302,9 +302,9 @@ PART
 	}
 	RESOURCE
 	{
-		name = MonoPropellant
-		amount = 5
-		maxAmount = 5
+		name = ElectricCharge
+		amount = 35
+		maxAmount = 35
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -316,7 +316,7 @@ PART
 {
 	part = libra.monopropellant.tank.s0.1_4293834236
 	partName = Part
-	persistentId = 218959894
+	persistentId = 2107168666
 	pos = 0,15.8000002,0
 	attPos = 0,0,0
 	attPos0 = 0,0.800000191,0
@@ -401,7 +401,7 @@ PART
 {
 	part = libra.rcs.srf.2_4293834002
 	partName = Part
-	persistentId = 3297461689
+	persistentId = 3484833481
 	pos = -0.314492345,15.7942152,1.87452063E-08
 	attPos = 0,0,0
 	attPos0 = -0.314492345,-0.0057849884,1.87452063E-08
@@ -504,7 +504,7 @@ PART
 {
 	part = libra.rcs.srf.2_4293833506
 	partName = Part
-	persistentId = 1611433265
+	persistentId = 1854666894
 	pos = 6.59055478E-16,15.7942152,0.314492315
 	attPos = 0,0,0
 	attPos0 = 6.59055478E-16,-0.0057849884,0.314492315
@@ -607,7 +607,7 @@ PART
 {
 	part = libra.rcs.srf.2_4293833382
 	partName = Part
-	persistentId = 951358203
+	persistentId = 2032825826
 	pos = 0.314492345,15.7942152,-4.6239002E-08
 	attPos = 0,0,0
 	attPos0 = 0.314492345,-0.0057849884,-4.6239002E-08
@@ -710,7 +710,7 @@ PART
 {
 	part = libra.rcs.srf.2_4293833258
 	partName = Part
-	persistentId = 895265506
+	persistentId = 2129119611
 	pos = -3.7490409E-08,15.7942152,-0.314492315
 	attPos = 0,0,0
 	attPos0 = -3.7490409E-08,-0.0057849884,-0.314492315
@@ -813,7 +813,7 @@ PART
 {
 	part = libra.fuel.tank.s1.s0p5.1_4293833082
 	partName = Part
-	persistentId = 2406546096
+	persistentId = 2093053102
 	pos = 0,14.1374998,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.862500191,0
@@ -896,7 +896,7 @@ PART
 {
 	part = libra.engine.s1.1_4293832974
 	partName = Part
-	persistentId = 2445750960
+	persistentId = 987066282
 	pos = 0,13.7624998,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.375,0
@@ -1068,7 +1068,7 @@ PART
 {
 	part = libra.structure.s1.1_4293832658
 	partName = Part
-	persistentId = 1530500230
+	persistentId = 752623467
 	pos = 0,13.7624998,0
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -1200,7 +1200,7 @@ PART
 {
 	part = lepus.landing.leg.srf.1_4293831974
 	partName = Part
-	persistentId = 4173987204
+	persistentId = 3487269189
 	pos = -0.515800178,13.7626286,0.515800118
 	attPos = 0,0,0
 	attPos0 = -0.515800178,0.000128746033,0.515800118
@@ -1325,7 +1325,7 @@ PART
 {
 	part = lepus.landing.leg.srf.1_4293830894
 	partName = Part
-	persistentId = 3191996633
+	persistentId = 1721178758
 	pos = 0.515800059,13.7626286,0.515800178
 	attPos = 0,0,0
 	attPos0 = 0.515800059,0.000128746033,0.515800178
@@ -1446,7 +1446,7 @@ PART
 {
 	part = lepus.landing.leg.srf.1_4293830804
 	partName = Part
-	persistentId = 4156728857
+	persistentId = 3769854331
 	pos = 0.515800118,13.7626286,-0.515800178
 	attPos = 0,0,0
 	attPos0 = 0.515800118,0.000128746033,-0.515800178
@@ -1567,7 +1567,7 @@ PART
 {
 	part = lepus.landing.leg.srf.1_4293830714
 	partName = Part
-	persistentId = 3286162299
+	persistentId = 2193219295
 	pos = -0.515800118,13.7626286,-0.515800118
 	attPos = 0,0,0
 	attPos0 = -0.515800118,0.000128746033,-0.515800118
@@ -1688,7 +1688,7 @@ PART
 {
 	part = lepus.high.gain.antenna.srf.1_4293830398
 	partName = Part
-	persistentId = 930278422
+	persistentId = 2000963474
 	pos = -0.657915592,13.9251032,-0.379847825
 	attPos = 0,0,0
 	attPos0 = -0.657915592,0.162603378,-0.379847825
@@ -1774,27 +1774,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleBdbRelayInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = lepus.high.gain.antenna.srf.1_4293829848
 	partName = Part
-	persistentId = 2537521322
+	persistentId = 744975527
 	pos = 0.657915652,13.9251032,0.379847765
 	attPos = 0,0,0
 	attPos0 = 0.657915652,0.162603378,0.379847765
@@ -1880,27 +1865,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleBdbRelayInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = lepus.low.gain.antenna.srf.1_4293829158
 	partName = Part
-	persistentId = 246431511
+	persistentId = 3927064148
 	pos = -0.121697068,14.2869377,0.454179585
 	attPos = 0,0,0
 	attPos0 = -0.121697068,0.149437904,0.454179585
@@ -1991,7 +1961,7 @@ PART
 {
 	part = lepus.low.gain.antenna.srf.1_4293828268
 	partName = Part
-	persistentId = 3543086407
+	persistentId = 3424118660
 	pos = 0.121697031,14.2869377,-0.454179585
 	attPos = 0,0,0
 	attPos0 = 0.121697031,0.149437904,-0.454179585
@@ -2082,7 +2052,7 @@ PART
 {
 	part = lepus.rocket.motor.srf.1_4293827796
 	partName = Part
-	persistentId = 479837602
+	persistentId = 2440593822
 	pos = -0.425098002,13.9318924,0.607102811
 	attPos = 0,0,0
 	attPos0 = -0.425098002,0.169392586,0.607102811
@@ -2214,7 +2184,7 @@ PART
 {
 	part = lepus.rocket.motor.srf.1_4293827508
 	partName = Part
-	persistentId = 3359870065
+	persistentId = 160315967
 	pos = 0.425098002,13.9318924,0.607102811
 	attPos = 0,0,0
 	attPos0 = 0.425098002,0.169392586,0.607102811
@@ -2338,11 +2308,11 @@ PART
 {
 	part = lepus.rocket.motor.srf.1_4293827084
 	partName = Part
-	persistentId = 1171063376
+	persistentId = 4291452756
 	pos = -0.426125675,13.9296942,-0.608570874
 	attPos = 0,0,0
 	attPos0 = -0.426125675,0.167194366,-0.608570874
-	rot = 0.299561381,0.0831219777,0.950087786,-0.0262082443
+	rot = 0.299561381,0.0831220075,0.950087786,-0.0262082517
 	attRot = 0,-0.0871557668,-0.996194661,0
 	attRot0 = 0.299561381,0.0831219479,0.950087786,-0.0262082368
 	mir = 1,1,1
@@ -2462,7 +2432,7 @@ PART
 {
 	part = lepus.rocket.motor.srf.1_4293826114
 	partName = Part
-	persistentId = 4233027848
+	persistentId = 1129768953
 	pos = 0.426125675,13.9296942,-0.608570874
 	attPos = 0,0,0
 	attPos0 = 0.426125675,0.167194366,-0.608570874
@@ -2586,7 +2556,7 @@ PART
 {
 	part = petra.docking.port.s0p5.1.female_4293825316
 	partName = Part
-	persistentId = 1002792977
+	persistentId = 4145976457
 	pos = 0,15.9499998,0
 	attPos = 0,0,0
 	attPos0 = 0,0.149999619,0
