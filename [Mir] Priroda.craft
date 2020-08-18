@@ -1,8 +1,8 @@
 ship = [Mir] Priroda
 version = 1.10.1
 description = 
-type = VAB
-size = 2.5,6.39999962,2.5
+type = SPH
+size = 6.39999914,2.5,2.5
 steamPublishedFileId = 0
 persistentId = 2714923030
 rot = 0,0,0,0
@@ -16,30 +16,29 @@ PART
 {
 	part = aquila.crew.s1p5.2.1_4294263726
 	partName = Part
-	persistentId = 202734924
-	pos = 0.237460032,15.5095186,-0.164184406
+	persistentId = 4173199045
+	pos = -2.16236186,13.0316267,-0.206767604
 	attPos = 0,0,0
 	attPos0 = 0.237460032,15.5095186,-0.164184406
-	rot = 0,0,0,1
+	rot = -0.5,0.5,0.5,0.5
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
 	link = aquila.crew.s1p5.1.2_4294256280
-	link = aquila.adapter.s2.s1p5.1_4294021102
 	link = aquila.radiator.fuel.tank.double.srf.2_4293977214
 	link = aquila.radiator.fuel.tank.double.srf.2_4293964656
 	link = aquila.radiator.fuel.tank.double.srf.2_4293977548
@@ -161,6 +160,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -187,23 +187,23 @@ PART
 {
 	part = aquila.crew.s1p5.1.2_4294256280
 	partName = Part
-	persistentId = 1297618303
-	pos = 0.237460032,17.0720177,-0.164184406
+	persistentId = 383261974
+	pos = -3.72486091,13.0316267,-0.206767604
 	attPos = 0,0,0
 	attPos0 = 0,1.56249905,0
-	rot = 0,0,0,1
+	rot = -0.5,0.5,0.5,0.5
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -211,10 +211,8 @@ PART
 	modSize = 0,0,0
 	link = sargas.docking.mechanism.s1p5.2_4293850780
 	link = commDish_4293849940
-	link = octans.moe.srf.4.extended_4292500296
-	link = octans.moe.srf.4.extended_4292499282
 	link = octans.moe.srf.4.extended_4292499204
-	link = octans.moe.srf.4.extended_4292499126
+	link = octans.moe.srf.4.extended_4292910472
 	attN = bottom,aquila.crew.s1p5.2.1_4294263726_0|-0.625|0_0|-1|0_0|-0.625|0_0|-1|0
 	attN = top,sargas.docking.mechanism.s1p5.2_4293850780_0|0.625|0_0|1|0_0|0.625|0_0|1|0
 	EVENTS
@@ -295,6 +293,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -321,23 +320,23 @@ PART
 {
 	part = sargas.docking.mechanism.s1p5.2_4293850780
 	partName = Part
-	persistentId = 809548262
-	pos = 0.237460032,18.0095177,-0.164184406
+	persistentId = 496027590
+	pos = -4.66236115,13.0316267,-0.206767604
 	attPos = 0,0,0
 	attPos0 = 0,0.9375,0
-	rot = 0,0,0,1
+	rot = -0.5,0.5,0.5,0.5
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -426,7 +425,6 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
-		selectedVariant = tantares_black
 		EVENTS
 		{
 		}
@@ -442,23 +440,23 @@ PART
 {
 	part = rotanev.cap.s1p5.1_4293850648
 	partName = Part
-	persistentId = 3390711154
-	pos = 0.237460032,18.3845177,-0.164184406
+	persistentId = 3672400346
+	pos = -5.03736115,13.0316267,-0.206767604
 	attPos = 0,0,0
 	attPos0 = 0,0.375,0
-	rot = 0,0,0,1
+	rot = -0.5,0.5,0.5,0.5
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -515,23 +513,23 @@ PART
 {
 	part = Ara.GooExperiment.1_4293850618
 	partName = Part
-	persistentId = 1272775563
-	pos = -0.357216418,18.4470177,-0.164184377
+	persistentId = 1508895581
+	pos = -5.09986115,13.0316267,0.387908757
 	attPos = 0,0,0
 	attPos0 = -0.594676435,0.0625,2.98023224E-08
-	rot = -0.707106829,0,0,-0.707106829
+	rot = 0,-0.707106829,0,-0.707106829
 	attRot = 0,0,-0.99999994,0
 	attRot0 = -0.707106829,0,0,-0.707106829
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -634,23 +632,23 @@ PART
 {
 	part = Ara.SensorBarometer.1_4293850578
 	partName = Part
-	persistentId = 4068593000
-	pos = -0.122780606,18.4470177,-0.372169495
+	persistentId = 3892369629
+	pos = -5.09986115,12.8236418,0.153473035
 	attPos = 0,0,0
 	attPos0 = -0.360240638,0.0625,-0.207985088
-	rot = 0,0.707106829,-0.707106829,0
+	rot = -0.707106829,0,-0.707106829,0
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,-0.707106829,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -735,23 +733,23 @@ PART
 {
 	part = Ara.SensorAccelerometer.1_4293850548
 	partName = Part
-	persistentId = 2651637921
-	pos = -0.121636137,18.4470177,-0.132767513
+	persistentId = 2240480282
+	pos = -5.09986115,13.0630436,0.152328566
 	attPos = 0,0,0
 	attPos0 = -0.359096169,0.0625,0.031416893
-	rot = 0,0.707106829,-0.707106829,0
+	rot = -0.707106829,0,-0.707106829,0
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,-0.707106829,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -836,23 +834,23 @@ PART
 {
 	part = SurfaceScanner_4293850518
 	partName = Part
-	persistentId = 1283194465
-	pos = 0.776509225,18.5470181,-0.164184377
+	persistentId = 530712884
+	pos = -5.19986153,13.0316267,-0.745816886
 	attPos = 0,0,0
 	attPos0 = 0.539049208,0.162500381,2.98023224E-08
-	rot = 0,-0.707106829,0.707106829,0
+	rot = 0.707106829,0,0.707106829,0
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 0,-0.707106829,0.707106829,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -1225,11 +1223,11 @@ PART
 {
 	part = aquila.adapter.s2.s1p5.1_4294021102
 	partName = Part
-	persistentId = 2735852366
-	pos = 0.237460032,14.1970186,-0.164184406
+	persistentId = 402237763
+	pos = -0.84986186,13.0316267,-0.206767604
 	attPos = 0,0,0
 	attPos0 = 0,-1.3125,0
-	rot = 0,0,0,1
+	rot = -0.5,0.5,0.5,0.5
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -1241,13 +1239,13 @@ PART
 	dstg = 0
 	sidx = 1
 	sqor = 0
-	sepI = -1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 1.40129846E-45
 	modSize = 0,0,0
-	link = aquila.control.s2.1_4293850448
+	link = aquila.crew.s1p5.2.1_4294263726
 	attN = bottom,aquila.control.s2.1_4293850448_0|-0.375|0_0|-1|0_0|-0.375|0_0|-1|0
 	attN = top,aquila.crew.s1p5.2.1_4294263726_0|0.375|0_0|1|0_0|0.375|0_0|1|0
 	EVENTS
@@ -1354,6 +1352,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -1369,11 +1368,11 @@ PART
 {
 	part = aquila.control.s2.1_4293850448
 	partName = Part
-	persistentId = 2956667227
-	pos = 0.237460032,13.7470188,-0.164184406
+	persistentId = 3602915876
+	pos = -0.399862051,13.0316267,-0.206767604
 	attPos = 0,0,0
 	attPos0 = 0,-0.449999809,0
-	rot = 0,0,0,1
+	rot = -0.5,0.5,0.5,0.5
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -1385,13 +1384,13 @@ PART
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = aquila.adapter.s2.s0p5.1_4293850314
+	link = aquila.adapter.s2.s1p5.1_4294021102
 	attN = bottom,aquila.adapter.s2.s0p5.1_4293850314_0|-0.075000003|0_0|-1|0_0|-0.075000003|0_0|-1|0
 	attN = top,aquila.adapter.s2.s1p5.1_4294021102_0|0.075000003|0_0|1|0_0|0.075000003|0_0|1|0
 	EVENTS
@@ -1569,6 +1568,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -1614,11 +1614,11 @@ PART
 {
 	part = aquila.adapter.s2.s0p5.1_4293850314
 	partName = Part
-	persistentId = 836604380
-	pos = 0.237460032,13.297019,-0.164184406
+	persistentId = 3857156457
+	pos = 0.0501377583,13.0316267,-0.206767604
 	attPos = 0,0,0
 	attPos0 = 0,-0.449999809,0
-	rot = 0,0,-1,0
+	rot = -0.5,-0.5,-0.5,0.5
 	attRot = 0,0,-0.99999994,0
 	attRot0 = 0,0,-1,0
 	mir = 1,1,1
@@ -1630,13 +1630,13 @@ PART
 	dstg = 0
 	sidx = 2
 	sqor = 0
-	sepI = -1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 1.40129846E-45
 	modSize = 0,0,0
-	link = octans.docking.port.s0p5.2.male_4294331036
+	link = aquila.control.s2.1_4293850448
 	attN = bottom,aquila.control.s2.1_4293850448_0|-0.375|0_0|-1|0_0|-0.375|0_0|-1|0
 	attN = top,octans.docking.port.s0p5.2.male_4294331036_0|0.375|0_0|1|0_0|0.375|0_0|1|0
 	EVENTS
@@ -1743,6 +1743,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -1758,23 +1759,23 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293977214
 	partName = Part
-	persistentId = 3955845327
-	pos = -0.328370988,15.5095186,-0.901590407
+	persistentId = 1399818192
+	pos = -2.16236186,12.2942209,0.359063327
 	attPos = 0,0,0
 	attPos0 = -0.565831006,0,-0.737406015
-	rot = -0.321439356,0,-0.94693017,0
+	rot = -0.634184778,-0.634184778,-0.312745392,0.312745392
 	attRot = 0,0,-0.999999881,0
 	attRot0 = -0.321439356,0,-0.94693017,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -1875,23 +1876,23 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293964656
 	partName = Part
-	persistentId = 2865755869
-	pos = 0.803291023,15.5095186,0.573221624
+	persistentId = 3720428099
+	pos = -2.16236186,13.7690325,-0.772598565
 	attPos = 0,0,0
 	attPos0 = 0.565831006,0,0.737406015
-	rot = -0.94693017,0,0.321439385,0
+	rot = -0.312745392,-0.312745392,0.634184778,-0.634184778
 	attRot = 0,0,-0.999999881,0
 	attRot0 = -0.94693017,0,0.321439385,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -1992,23 +1993,23 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293977548
 	partName = Part
-	persistentId = 3782871787
-	pos = 0.803291023,15.5095186,-0.901590407
+	persistentId = 16272589
+	pos = -2.16236186,12.2942209,-0.772598624
 	attPos = 0,0,0
 	attPos0 = 0.565831006,0,-0.737406015
-	rot = 0.321439505,0,-0.94693011,0
+	rot = -0.312745303,-0.312745303,-0.634184837,0.634184837
 	attRot = 0,0,-0.99999994,0
 	attRot0 = 0.321439505,0,-0.94693011,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -2109,23 +2110,23 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293962712
 	partName = Part
-	persistentId = 354898947
-	pos = -0.328370988,15.5095186,0.573221624
+	persistentId = 349158506
+	pos = -2.16236186,13.7690325,0.359063387
 	attPos = 0,0,0
 	attPos0 = -0.565831006,0,0.737406015
-	rot = -0.94693011,0,-0.321439475,0
+	rot = -0.634184778,-0.634184778,0.312745333,-0.312745333
 	attRot = 0,0,-0.99999994,0
 	attRot0 = -0.94693011,0,-0.321439475,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -2226,23 +2227,23 @@ PART
 {
 	part = aquila.active.radiator.srf.2_4293966774
 	partName = Part
-	persistentId = 465745351
-	pos = -0.675515592,15.465519,-0.164184347
+	persistentId = 562110526
+	pos = -2.11836219,13.0316267,0.706207991
 	attPos = 0,0,0
 	attPos0 = -0.912975609,-0.0439996719,5.96046448E-08
-	rot = 0,0.707106829,0,0.707106829
+	rot = -0.707106829,0.707106829,0,0
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -2311,23 +2312,23 @@ PART
 {
 	part = aquila.active.radiator.srf.2_4293962466
 	partName = Part
-	persistentId = 3682160012
-	pos = 1.15043569,15.465519,-0.164184541
+	persistentId = 2253723039
+	pos = -2.11836219,13.0316267,-1.11974323
 	attPos = 0,0,0
 	attPos0 = 0.912975669,-0.0439996719,-1.34110451E-07
-	rot = 0,0.707106769,0,-0.707106888
+	rot = 5.96046448E-08,-5.96046448E-08,-0.707106829,-0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106769,0,-0.707106888
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -2396,23 +2397,23 @@ PART
 {
 	part = Andromeda.MonoSphere.2_4293948432
 	partName = Part
-	persistentId = 3135023073
-	pos = 0.237460107,15.9482603,-1.07368302
+	persistentId = 1346739287
+	pos = -2.60110354,12.1221275,-0.206767663
 	attPos = 0,0,0
 	attPos0 = 7.4505806E-08,0.438741684,-0.909498632
-	rot = -0.707106829,0,0,-0.707106829
+	rot = 0,-0.707106829,0,-0.707106829
 	attRot = 0.707106769,0,0,0.707106769
 	attRot0 = -0.707106829,0,0,-0.707106829
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -2479,23 +2480,23 @@ PART
 {
 	part = Andromeda.MonoSphere.2_4293940650
 	partName = Part
-	persistentId = 2363166731
-	pos = 0.237460032,15.9482603,0.74531424
+	persistentId = 36915969
+	pos = -2.60110354,13.9411259,-0.206767604
 	attPos = 0,0,0
 	attPos0 = 0,0.438741684,0.909498632
-	rot = 3.09086197E-08,-0.707106829,0.707106829,3.09086197E-08
+	rot = 0.707106829,4.5256634E-08,0.707106829,2.98023224E-08
 	attRot = 0.707106769,0,0,0.707106769
 	attRot0 = 3.09086197E-08,-0.707106829,0.707106829,3.09086197E-08
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -2562,23 +2563,23 @@ PART
 {
 	part = commDish_4293849940
 	partName = Part
-	persistentId = 1648529740
-	pos = 0.237460032,16.7468777,0.68461132
+	persistentId = 4013609079
+	pos = -3.39972091,13.8804226,-0.206767604
 	attPos = 0,0,-0.191644967
 	attPos0 = 0,-0.325139999,1.04044068
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0.707106829,0,0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0.707106829,0,0,0.707106829
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -2689,11 +2690,11 @@ PART
 {
 	part = vega.engine.srf.1.2_4293855306
 	partName = Part
-	persistentId = 3129978753
-	pos = 0.237460181,14.9061174,0.638425469
+	persistentId = 2523091665
+	pos = -1.55896068,13.8342361,-0.206767783
 	attPos = 1.49011612E-07,0.24960804,-0.106778562
 	attPos0 = 0,-0.853009224,0.909388423
-	rot = 1.51808077E-08,-0.984807789,0.173648193,8.60946301E-08
+	rot = 0.579227924,-0.405579776,0.579228044,0.405579865
 	attRot = 0.173648193,0,0,0.984807789
 	attRot0 = 0,0.984807789,-0.173648193,0
 	mir = 1,1,1
@@ -2705,7 +2706,7 @@ PART
 	dstg = 0
 	sidx = 0
 	sqor = 0
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -2810,11 +2811,11 @@ PART
 {
 	part = vega.engine.srf.1.2_4293852552
 	partName = Part
-	persistentId = 2372986220
-	pos = 0.237459958,14.9061174,-0.966794252
+	persistentId = 3958891892
+	pos = -1.55896068,12.2290173,-0.206767544
 	attPos = 0,0.24960804,0.106778622
 	attPos0 = -7.4505806E-08,-0.853009224,-0.909388483
-	rot = -0.173648193,-4.3047315E-08,7.59040386E-09,-0.984807789
+	rot = 0.405579835,-0.579228044,-0.405579776,-0.579227984
 	attRot = 0.173648193,0,0,0.984807789
 	attRot0 = -0.173648193,-4.3047315E-08,7.59040386E-09,-0.984807789
 	mir = 1,1,1
@@ -2826,7 +2827,7 @@ PART
 	dstg = 0
 	sidx = 0
 	sqor = 0
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -2923,23 +2924,23 @@ PART
 {
 	part = Hamal.Battery.2_4293788356
 	partName = Part
-	persistentId = 1738941696
-	pos = 0.397148758,15.1117153,0.741455317
+	persistentId = 1008099653
+	pos = -1.76455855,13.9372663,-0.366456389
 	attPos = 0,0,0
 	attPos0 = 0.159688726,-0.397803307,0.905639708
-	rot = 0,0.99619472,0,-0.0871557593
+	rot = -0.45451948,0.45451948,-0.54167521,-0.54167521
 	attRot = 0,0,0,1
 	attRot0 = 0,0.99619472,0,-0.0871557593
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -3003,23 +3004,23 @@ PART
 {
 	part = Hamal.Battery.2_4293788012
 	partName = Part
-	persistentId = 565960611
-	pos = 0.0777712315,15.1117153,-1.0698241
+	persistentId = 709406144
+	pos = -1.76455855,12.1259871,-0.047078833
 	attPos = 0,0,0
 	attPos0 = -0.159688801,-0.397803307,-0.905639708
-	rot = 0,-0.087155804,0,-0.99619472
+	rot = 0.54167527,-0.54167527,-0.454519451,-0.454519451
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.087155804,0,-0.99619472
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -3083,23 +3084,23 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292501488
 	partName = Part
-	persistentId = 648582601
-	pos = 1.14723432,14.609417,-0.164184347
+	persistentId = 841380805
+	pos = -1.2622602,13.0316267,-1.11654186
 	attPos = 0,0,0
 	attPos0 = 0.909774303,-0.900101662,5.96046448E-08
-	rot = 0,0.707106829,0,-0.707106829
+	rot = 0,0,-0.707106829,-0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,-0.707106829
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -3185,23 +3186,23 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292500550
 	partName = Part
-	persistentId = 2752000292
-	pos = 0.237460151,14.609417,-1.07395864
+	persistentId = 2930242796
+	pos = -1.2622602,12.1218529,-0.206767723
 	attPos = 0,0,0
 	attPos0 = 1.1920929E-07,-0.900101662,-0.909774244
-	rot = 0,0,0,-1
+	rot = 0.5,-0.5,-0.5,-0.5
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,-1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -3287,23 +3288,23 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292500472
 	partName = Part
-	persistentId = 3696809902
-	pos = -0.672314286,14.609417,-0.164184391
+	persistentId = 1245985048
+	pos = -1.2622602,13.0316267,0.703006685
 	attPos = 0,0,0
 	attPos0 = -0.909774303,-0.900101662,1.49011612E-08
-	rot = 0,-0.707106888,0,-0.707106769
+	rot = 0.707106829,-0.707106829,5.96046448E-08,5.96046448E-08
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.707106888,0,-0.707106769
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -3389,23 +3390,23 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292500394
 	partName = Part
-	persistentId = 598910228
-	pos = 0.237460032,14.609417,0.745589852
+	persistentId = 2864185749
+	pos = -1.2622602,13.9414005,-0.206767604
 	attPos = 0,0,0
 	attPos0 = 0,-0.900101662,0.909774244
-	rot = 0,-1,0,0
+	rot = 0.5,-0.5,0.5,0.5
 	attRot = 0,0,0,1
 	attRot0 = 0,-1,0,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = -1
+	sepI = 0
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -3489,428 +3490,20 @@ PART
 }
 PART
 {
-	part = octans.moe.srf.4.extended_4292500296
-	partName = Part
-	persistentId = 3887444103
-	pos = 1.14683878,17.6454773,-0.164184347
-	attPos = 0,0,0
-	attPos0 = 0.909378767,0.573459625,5.96046448E-08
-	rot = 0,0.707106829,0,-0.707106829
-	attRot = 0,0,0,1
-	attRot0 = 0,0.707106829,0,-0.707106829
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = octans.moe.srf.4.extended_4292499282
-	sym = octans.moe.srf.4.extended_4292499204
-	sym = octans.moe.srf.4.extended_4292499126
-	srfN = srfAttach,aquila.crew.s1p5.1.2_4294256280,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = True
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = octans.moe.srf.4.extended_4292499282
-	partName = Part
-	persistentId = 3478067621
-	pos = 0.237460151,17.6454773,-1.0735631
-	attPos = 0,0,0
-	attPos0 = 1.1920929E-07,0.573459625,-0.909378707
-	rot = 0,0,0,-1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,-1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = octans.moe.srf.4.extended_4292499204
-	sym = octans.moe.srf.4.extended_4292499126
-	sym = octans.moe.srf.4.extended_4292500296
-	srfN = srfAttach,aquila.crew.s1p5.1.2_4294256280,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = True
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = octans.moe.srf.4.extended_4292499204
-	partName = Part
-	persistentId = 783782802
-	pos = -0.67191875,17.6454773,-0.164184391
-	attPos = 0,0,0
-	attPos0 = -0.909378767,0.573459625,1.49011612E-08
-	rot = 0,-0.707106888,0,-0.707106769
-	attRot = 0,0,0,1
-	attRot0 = 0,-0.707106888,0,-0.707106769
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = octans.moe.srf.4.extended_4292499126
-	sym = octans.moe.srf.4.extended_4292500296
-	sym = octans.moe.srf.4.extended_4292499282
-	srfN = srfAttach,aquila.crew.s1p5.1.2_4294256280,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = True
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = octans.moe.srf.4.extended_4292499126
-	partName = Part
-	persistentId = 3750278670
-	pos = 0.237460032,17.6454773,0.745194316
-	attPos = 0,0,0
-	attPos0 = 0,0.573459625,0.909378707
-	rot = 0,-1,0,0
-	attRot = 0,0,0,1
-	attRot0 = 0,-1,0,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = octans.moe.srf.4.extended_4292500296
-	sym = octans.moe.srf.4.extended_4292499282
-	sym = octans.moe.srf.4.extended_4292499204
-	srfN = srfAttach,aquila.crew.s1p5.1.2_4294256280,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = True
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = octans.docking.port.s0p5.2.male_4294331036
 	partName = Part
-	persistentId = 2293475270
-	pos = 0.237460032,12.8470192,-0.164184406
+	persistentId = 2290483160
+	pos = 0.500137568,13.0316267,-0.206767604
 	attPos = 0,0,0
-	attPos0 = 0,0.449999809,0
-	rot = -1,0,0,0
-	attRot = -0.99999994,0,0,0
-	attRot0 = 0,-1,0,0
+	attPos0 = 0.500137568,13.0316267,-0.206767604
+	rot = -0.5,-0.5,0.5,-0.5
+	attRot = 0,0,0.707106709,-0.707106709
+	attRot0 = 0.707106769,0,0,0.707106769
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = -1
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -3921,6 +3514,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
+	link = aquila.adapter.s2.s0p5.1_4293850314
 	attN = bottom,aquila.adapter.s2.s0p5.1_4293850314_0|-0.075000003|0_0|-1|0_0|-0.075000003|0_0|-1|0
 	attN = top,Null_0_0|0.075000003|0_0|1|0_0|0.075000003|0_0|1|0
 	EVENTS
@@ -4030,6 +3624,207 @@ PART
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		selectedVariant = tantares_cream
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = octans.moe.srf.4.extended_4292499204
+	partName = Part
+	persistentId = 3155512703
+	pos = -4.27961349,13.0316267,0.703038931
+	attPos = 0,0,0
+	attPos0 = -0.90980655,0.55475235,0
+	rot = -0.707106829,0.707106829,0,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106829,0,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = octans.moe.srf.4.extended_4292910472
+	srfN = srfAttach,aquila.crew.s1p5.1.2_4294256280,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCSFX
+		isEnabled = True
+		rcsEnabled = True
+		thrustPercentage = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		enableX = True
+		enableY = True
+		enableZ = True
+		useThrottle = False
+		fullThrust = True
+		stagingEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = octans.moe.srf.4.extended_4292910472
+	partName = Part
+	persistentId = 973391809
+	pos = -4.27961349,13.0316267,-1.11657417
+	attPos = 0,0,0
+	attPos0 = 0.90980655,0.55475235,0
+	rot = 3.69763278E-08,-2.2628317E-08,-0.707106829,-0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 1.43480108E-08,0.707106769,0,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = octans.moe.srf.4.extended_4292499204
+	srfN = srfAttach,aquila.crew.s1p5.1.2_4294256280,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCSFX
+		isEnabled = True
+		rcsEnabled = True
+		thrustPercentage = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		enableX = True
+		enableY = True
+		enableZ = True
+		useThrottle = False
+		fullThrust = True
+		stagingEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
 			}
 		}
 		UPGRADESAPPLIED
