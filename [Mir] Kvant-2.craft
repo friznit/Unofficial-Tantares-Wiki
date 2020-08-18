@@ -1,8 +1,8 @@
 ship = [Mir] Kvant-2
-version = 1.10.0
+version = 1.10.1
 description = 
 type = VAB
-size = 2.5,7.45375061,2.5
+size = 2.5,7.63749886,2.5
 steamPublishedFileId = 0
 persistentId = 2424059974
 rot = 0,0,0,0
@@ -789,7 +789,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = 2
@@ -889,6 +889,7 @@ PART
 		useClamshell = True
 		isCapped = True
 		stagingEnabled = True
+		fsm = st_idle
 		EVENTS
 		{
 		}
@@ -936,7 +937,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -1181,7 +1182,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = 3
@@ -1192,9 +1193,9 @@ PART
 	modCost = 0
 	modMass = 1.40129846E-45
 	modSize = 0,0,0
-	link = Eridani.DockingMechanism.1_4292877928
+	link = octans.docking.port.s0p5.2.male_4294320998
 	attN = bottom,aquila.control.s2.1_4293016258_0|-0.375|0_0|-1|0_0|-0.375|0_0|-1|0
-	attN = top,Eridani.DockingMechanism.1_4292877928_0|0.375|0_0|1|0_0|0.375|0_0|1|0
+	attN = top,octans.docking.port.s0p5.2.male_4294320998_0|0.375|0_0|1|0_0|0.375|0_0|1|0
 	EVENTS
 	{
 	}
@@ -1277,6 +1278,7 @@ PART
 		useClamshell = True
 		isCapped = True
 		stagingEnabled = True
+		fsm = st_idle
 		EVENTS
 		{
 		}
@@ -1498,7 +1500,7 @@ PART
 	part = Andromeda.MonoSphere.1_4292996378
 	partName = Part
 	persistentId = 4246131172
-	pos = -0.107114874,17.8293781,0.607478082
+	pos = -0.107114933,17.8293781,0.607478261
 	attPos = 0,0,0
 	attPos0 = 0.607477367,-0.170621872,0.107114628
 	rot = 0,0.99619472,0,0.0871557891
@@ -1581,7 +1583,7 @@ PART
 	part = Andromeda.MonoSphere.1_4292995108
 	partName = Part
 	persistentId = 3629139579
-	pos = 0.107114874,17.8293781,0.607478082
+	pos = 0.107114933,17.8293781,0.607478261
 	attPos = 0,0,0
 	attPos0 = 0.607477367,-0.170621872,-0.107114747
 	rot = 0,0.99619472,0,-0.0871557891
@@ -1664,7 +1666,7 @@ PART
 	part = Andromeda.MonoSphere.1_4292995056
 	partName = Part
 	persistentId = 464167367
-	pos = -0.107156776,17.5958786,0.607715845
+	pos = -0.107156835,17.5958786,0.607716024
 	attPos = 0,0,0
 	attPos0 = 0.60771513,-0.404121399,0.10715653
 	rot = 0,0.99619472,0,0.0871557891
@@ -1747,7 +1749,7 @@ PART
 	part = Andromeda.MonoSphere.1_4292995020
 	partName = Part
 	persistentId = 3510647066
-	pos = 0.107156776,17.5958786,0.607715845
+	pos = 0.107156835,17.5958786,0.607716024
 	attPos = 0,0,0
 	attPos0 = 0.60771513,-0.404121399,-0.107156649
 	rot = 0,0.99619472,0,-0.0871557891
@@ -3739,148 +3741,6 @@ PART
 }
 PART
 {
-	part = Eridani.DockingMechanism.1_4292877928
-	partName = Part
-	persistentId = 1945614392
-	pos = 0,12.3500004,0
-	attPos = 0,0,0
-	attPos0 = 0,0.4375,0
-	rot = 0,0,-1,0
-	attRot = 0,0,-0.99999994,0
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = bottom,aquila.adapter.s2.s0p5.1_4293012982_0|-0.0625|0_0|-1|0_0|-0.0625|0_0|-1|0
-	attN = top,Null_0_0|0.0625|0_0|1|0_0|0.0625|0_0|1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDockingNode
-		isEnabled = True
-		acquireForceTweak = 100
-		crossfeed = True
-		stagingEnabled = False
-		state = Ready
-		dockUId = 0
-		dockNodeIdx = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			UndockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			DecoupleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			MakeReferenceToggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			EnableXFeedAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			DisableXFeedAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleXFeedAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		aniState = LOCKED
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		deployPercent = 100
-		animationIsDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			deployPercent
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisInverted = None
-				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = lepus.low.gain.antenna.srf.2_4292829334
 	partName = Part
 	persistentId = 2979618520
@@ -3991,7 +3851,7 @@ PART
 	part = lepus.ladder.srf.1_4292821508
 	partName = Part
 	persistentId = 219685034
-	pos = 5.96046448E-08,18.574913,-0.606256664
+	pos = 5.96046448E-08,18.574913,-0.606256843
 	attPos = 0,0,0
 	attPos0 = -0.606255949,0.574913025,0
 	rot = 0,-1.1920929E-07,0,1.00000012
@@ -4074,7 +3934,7 @@ PART
 	part = lepus.ladder.srf.1_4292821086
 	partName = Part
 	persistentId = 2151455240
-	pos = 5.96046448E-08,18.6659126,-0.601001859
+	pos = 5.96046448E-08,18.6659126,-0.601002157
 	attPos = 0,0,0
 	attPos0 = 5.9604659E-08,-0.396587372,-0.601000965
 	rot = 0,-0.0856512338,0.996325374,0
@@ -5028,7 +4888,7 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -5117,7 +4977,7 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -5140,6 +5000,164 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = octans.docking.port.s0p5.2.male_4294320998
+	partName = Part
+	persistentId = 2784152244
+	pos = 0,12.3375006,0
+	attPos = 0,0,0
+	attPos0 = 0,0.449999809,0
+	rot = -1,0,0,0
+	attRot = -0.99999994,0,0,0
+	attRot0 = 0,-1,0,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,aquila.adapter.s2.s0p5.1_4293012982_0|-0.075000003|0_0|-1|0_0|-0.075000003|0_0|-1|0
+	attN = top,Null_0_0|0.075000003|0_0|1|0_0|0.075000003|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		acquireForceTweak = 100
+		crossfeed = True
+		stagingEnabled = False
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleXFeedAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{

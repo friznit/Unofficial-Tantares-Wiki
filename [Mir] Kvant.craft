@@ -1,8 +1,8 @@
 ship = [Mir] Kvant
-version = 1.10.0
+version = 1.10.1
 description = Mir Science Module
 type = VAB
-size = 3.82500267,3.96250153,2.51572657
+size = 3.82500029,3.96250153,2.51572657
 steamPublishedFileId = 0
 persistentId = 3883854028
 rot = 0,0,0,0
@@ -715,7 +715,7 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1048,11 +1048,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
-	sidx = -1
-	sqor = -1
+	sidx = 0
+	sqor = 0
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
@@ -1096,6 +1096,7 @@ PART
 		useClamshell = True
 		isCapped = True
 		stagingEnabled = True
+		fsm = st_idle
 		EVENTS
 		{
 		}
@@ -1138,7 +1139,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -1298,7 +1299,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -1421,7 +1422,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
