@@ -1,8 +1,8 @@
 ship = [R7] Vostok
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
-size = 6.70404577,21.8473053,6.7040534
+size = 6.70404577,21.7222214,6.70405388
 steamPublishedFileId = 0
 persistentId = 3233011642
 rot = 0,0,0,0
@@ -65,38 +65,6 @@ PART
 	}
 	PARTDATA
 	{
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = size
-		currentSubtype = 1.25m
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 	RESOURCE
 	{
@@ -173,38 +141,6 @@ PART
 	}
 	PARTDATA
 	{
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = size
-		currentSubtype = 1.25m
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 	RESOURCE
 	{
@@ -285,38 +221,6 @@ PART
 	}
 	PARTDATA
 	{
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = size
-		currentSubtype = 1.25m
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 	RESOURCE
 	{
@@ -456,6 +360,21 @@ PART
 				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -715,7 +634,7 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4294254308
 	partName = Part
 	persistentId = 924389140
-	pos = 0.0970303044,8.32808876,-0.327392459
+	pos = 0.0970303044,8.32808876,-0.327392697
 	attPos = 0,0,0
 	attPos0 = -0.866133511,-0.0105705261,-2.38418252E-07
 	rot = -0.0292301103,2.38418579E-07,-8.38190317E-09,-0.999572754
@@ -794,7 +713,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4294247070
 	partName = Part
 	persistentId = 927214928
-	pos = 0.0970304236,3.46142006,-0.612264752
+	pos = 0.0970304236,3.46142006,-0.612264991
 	attPos = 0,0,0
 	attPos0 = -2.98025178E-08,-4.87499905,-2.9802348E-07
 	rot = 0.0292301103,0,1.86264515E-08,0.999572754
@@ -915,6 +834,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleGimbal
 		isEnabled = True
 		gimbalLock = False
@@ -1024,7 +958,7 @@ PART
 	part = canopus.basic.fin.srf.2_4294236266
 	partName = Part
 	persistentId = 2551909289
-	pos = 0.0970304236,3.63027382,-1.51339185
+	pos = 0.0970304236,3.63027382,-1.51339233
 	attPos = 0,0,0
 	attPos0 = -7.77290268E-08,0.115907662,-0.90945214
 	rot = 0.0206688046,0.706804693,0.0206688307,0.706804693
@@ -1429,6 +1363,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleGimbal
 		isEnabled = True
 		gimbalLock = False
@@ -1751,7 +1700,7 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4294253574
 	partName = Part
 	persistentId = 596574610
-	pos = 0.0970301628,8.32808876,2.61752319
+	pos = 0.0970301628,8.32808876,2.61752367
 	attPos = 0,0,0
 	attPos0 = -0.866133869,-0.0105705261,-2.38418252E-07
 	rot = -5.58793545E-09,-0.999572754,0.0292301103,-1.78813934E-07
@@ -1830,7 +1779,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4294245790
 	partName = Part
 	persistentId = 900557778
-	pos = 0.0970301032,3.46142006,2.90239573
+	pos = 0.0970301032,3.46142006,2.9023962
 	attPos = 0,0,0
 	attPos0 = -2.98024965E-08,-4.87499905,-4.17232627E-07
 	rot = 1.58324838E-08,0.999572754,-0.0292301103,-8.94069672E-08
@@ -1936,6 +1885,21 @@ PART
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				axisInverted = None
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2052,7 +2016,7 @@ PART
 	part = canopus.basic.fin.srf.2_4294234736
 	partName = Part
 	persistentId = 3498307803
-	pos = 0.09703058,3.63027382,3.80352259
+	pos = 0.09703058,3.63027382,3.80352306
 	attPos = 0,0,0
 	attPos0 = -7.77284583E-08,0.115907662,-0.909452438
 	rot = 0.0206688307,0.706804633,-0.0206688065,-0.706804752
@@ -2450,6 +2414,21 @@ PART
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				axisInverted = None
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2865,6 +2844,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = FXModuleAnimateThrottle
 		isEnabled = True
 		animState = 0
@@ -3054,6 +3048,21 @@ PART
 				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -3263,6 +3272,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = FXModuleAnimateThrottle
 		isEnabled = True
 		animState = 0
@@ -3465,6 +3489,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = FXModuleAnimateThrottle
 		isEnabled = True
 		animState = 0
@@ -3660,6 +3699,21 @@ PART
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				axisInverted = None
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -4622,8 +4676,8 @@ PART
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
-	modCost = 113.797318
-	modMass = 0.113797314
+	modCost = 112.692856
+	modMass = 0.112692855
 	modSize = 0,0,0
 	link = Andromeda.Decoupler.1_4293865506
 	attN = bottom,Andromeda.Engine.1_4293863426_0|-0.174999997|0_0|-1|0_0|-0.174999997|0_0|-1|0
@@ -4715,6 +4769,7 @@ PART
 		nArcs = 2
 		ejectionForce = 100
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS
@@ -4732,11 +4787,31 @@ PART
 		{
 			h = 0
 			r = 0.675000012
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 0
+			}
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 1
+			}
 		}
 		XSECTION
 		{
 			h = 1.59037781
 			r = 0.675000012
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 2
+			}
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 3
+			}
 		}
 		XSECTION
 		{

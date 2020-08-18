@@ -1,5 +1,5 @@
 ship = [FGB Tug]
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 2.54647398,5.94999886,2.50001526
@@ -649,6 +649,7 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS
@@ -1039,6 +1040,7 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS

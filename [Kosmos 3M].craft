@@ -1,5 +1,5 @@
 ship = [Kosmos 3M]
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 1.53864825,13,1.53864813
@@ -128,6 +128,21 @@ PART
 				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -587,6 +602,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleGimbal
 		isEnabled = True
 		gimbalLock = False
@@ -775,7 +805,7 @@ PART
 	pos = 0.472818404,7.9528389,-0.156301141
 	attPos = 0,0,0
 	attPos0 = 0.487112194,-0.231748581,-0.487112164
-	rot = 0.0142473429,0.382418096,0.0343961343,0.923238993
+	rot = 0.0142473448,0.382418096,0.0343961418,0.923238993
 	attRot = 0,0,0,1
 	attRot0 = 0.0142473411,0.382418096,0.0343961269,0.923238993
 	mir = 1,1,1
@@ -845,7 +875,7 @@ PART
 	pos = -0.501405835,7.9528389,-0.156301171
 	attPos = 0,0,0
 	attPos0 = -0.487112075,-0.231748581,-0.487112194
-	rot = 0.034396138,0.923238993,0.0142473448,0.382418126
+	rot = 0.0343961455,0.923238993,0.0142473467,0.382418126
 	attRot = 0,0,0,1
 	attRot0 = 0.0343961306,0.923238993,0.0142473429,0.382418126
 	mir = 1,1,1
@@ -915,7 +945,7 @@ PART
 	pos = -0.501405895,7.9528389,0.817923188
 	attPos = 0,0,0
 	attPos0 = -0.487112135,-0.231748581,0.487112194
-	rot = 0.034396138,0.923238993,-0.0142473457,-0.382418126
+	rot = 0.0343961455,0.923238993,-0.0142473476,-0.382418126
 	attRot = 0,0,0,1
 	attRot0 = 0.0343961306,0.923238993,-0.0142473439,-0.382418126
 	mir = 1,1,1
@@ -985,7 +1015,7 @@ PART
 	pos = 0.472818375,7.9528389,0.817923188
 	attPos = 0,0,0
 	attPos0 = 0.487112164,-0.231748581,0.487112135
-	rot = 0.0142473448,0.382418126,-0.034396138,-0.923238993
+	rot = 0.0142473467,0.382418126,-0.0343961455,-0.923238993
 	attRot = 0,0,0,1
 	attRot0 = 0.0142473429,0.382418126,-0.0343961306,-0.923238993
 	mir = 1,1,1
@@ -1108,6 +1138,7 @@ PART
 		nArcs = 2
 		ejectionForce = 100
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS

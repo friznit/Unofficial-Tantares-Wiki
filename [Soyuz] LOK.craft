@@ -1,5 +1,5 @@
 ship = [Soyuz] LOK
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 1.67500937,5.36249924,1.67499995
@@ -550,6 +550,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = True
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{

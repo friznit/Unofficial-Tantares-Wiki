@@ -1,5 +1,5 @@
 ship = [Mir] Spektr
-version = 1.10.0
+version = 1.10.1
 description = 
 type = VAB
 size = 2.5,7.60412788,2.5
@@ -329,7 +329,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = 2
@@ -429,6 +429,7 @@ PART
 		useClamshell = True
 		isCapped = True
 		stagingEnabled = True
+		fsm = st_idle
 		EVENTS
 		{
 		}
@@ -476,7 +477,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -721,7 +722,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = 3
@@ -817,6 +818,7 @@ PART
 		useClamshell = True
 		isCapped = True
 		stagingEnabled = True
+		fsm = st_idle
 		EVENTS
 		{
 		}
@@ -3268,7 +3270,7 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = -1
+	istg = 0
 	resPri = 0
 	dstg = 0
 	sidx = -1
@@ -4183,7 +4185,7 @@ PART
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS

@@ -16,7 +16,7 @@ PART
 {
 	part = aquila.crew.s1p5.2.1_4294263726
 	partName = Part
-	persistentId = 1386341021
+	persistentId = 202734924
 	pos = 0.237460032,15.5095186,-0.164184406
 	attPos = 0,0,0
 	attPos0 = 0.237460032,15.5095186,-0.164184406
@@ -187,7 +187,7 @@ PART
 {
 	part = aquila.crew.s1p5.1.2_4294256280
 	partName = Part
-	persistentId = 193582373
+	persistentId = 1297618303
 	pos = 0.237460032,17.0720177,-0.164184406
 	attPos = 0,0,0
 	attPos0 = 0,1.56249905,0
@@ -321,7 +321,7 @@ PART
 {
 	part = sargas.docking.mechanism.s1p5.2_4293850780
 	partName = Part
-	persistentId = 3400686049
+	persistentId = 809548262
 	pos = 0.237460032,18.0095177,-0.164184406
 	attPos = 0,0,0
 	attPos0 = 0,0.9375,0
@@ -442,7 +442,7 @@ PART
 {
 	part = rotanev.cap.s1p5.1_4293850648
 	partName = Part
-	persistentId = 3499584204
+	persistentId = 3390711154
 	pos = 0.237460032,18.3845177,-0.164184406
 	attPos = 0,0,0
 	attPos0 = 0,0.375,0
@@ -515,7 +515,7 @@ PART
 {
 	part = Ara.GooExperiment.1_4293850618
 	partName = Part
-	persistentId = 1920648125
+	persistentId = 1272775563
 	pos = -0.357216418,18.4470177,-0.164184377
 	attPos = 0,0,0
 	attPos0 = -0.594676435,0.0625,2.98023224E-08
@@ -634,7 +634,7 @@ PART
 {
 	part = Ara.SensorBarometer.1_4293850578
 	partName = Part
-	persistentId = 1199881858
+	persistentId = 4068593000
 	pos = -0.122780606,18.4470177,-0.372169495
 	attPos = 0,0,0
 	attPos0 = -0.360240638,0.0625,-0.207985088
@@ -735,7 +735,7 @@ PART
 {
 	part = Ara.SensorAccelerometer.1_4293850548
 	partName = Part
-	persistentId = 645993918
+	persistentId = 2651637921
 	pos = -0.121636137,18.4470177,-0.132767513
 	attPos = 0,0,0
 	attPos0 = -0.359096169,0.0625,0.031416893
@@ -836,7 +836,7 @@ PART
 {
 	part = SurfaceScanner_4293850518
 	partName = Part
-	persistentId = 2890305497
+	persistentId = 1283194465
 	pos = 0.776509225,18.5470181,-0.164184377
 	attPos = 0,0,0
 	attPos0 = 0.539049208,0.162500381,2.98023224E-08
@@ -1225,7 +1225,7 @@ PART
 {
 	part = aquila.adapter.s2.s1p5.1_4294021102
 	partName = Part
-	persistentId = 1065189930
+	persistentId = 2735852366
 	pos = 0.237460032,14.1970186,-0.164184406
 	attPos = 0,0,0
 	attPos0 = 0,-1.3125,0
@@ -1369,7 +1369,7 @@ PART
 {
 	part = aquila.control.s2.1_4293850448
 	partName = Part
-	persistentId = 1014349870
+	persistentId = 2956667227
 	pos = 0.237460032,13.7470188,-0.164184406
 	attPos = 0,0,0
 	attPos0 = 0,-0.449999809,0
@@ -1614,7 +1614,7 @@ PART
 {
 	part = aquila.adapter.s2.s0p5.1_4293850314
 	partName = Part
-	persistentId = 1901919184
+	persistentId = 836604380
 	pos = 0.237460032,13.297019,-0.164184406
 	attPos = 0,0,0
 	attPos0 = 0,-0.449999809,0
@@ -1758,7 +1758,7 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293977214
 	partName = Part
-	persistentId = 2243338113
+	persistentId = 3955845327
 	pos = -0.328370988,15.5095186,-0.901590407
 	attPos = 0,0,0
 	attPos0 = -0.565831006,0,-0.737406015
@@ -1875,7 +1875,7 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293964656
 	partName = Part
-	persistentId = 87650141
+	persistentId = 2865755869
 	pos = 0.803291023,15.5095186,0.573221624
 	attPos = 0,0,0
 	attPos0 = 0.565831006,0,0.737406015
@@ -1992,7 +1992,7 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293977548
 	partName = Part
-	persistentId = 4160196861
+	persistentId = 3782871787
 	pos = 0.803291023,15.5095186,-0.901590407
 	attPos = 0,0,0
 	attPos0 = 0.565831006,0,-0.737406015
@@ -2109,7 +2109,7 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293962712
 	partName = Part
-	persistentId = 1211772891
+	persistentId = 354898947
 	pos = -0.328370988,15.5095186,0.573221624
 	attPos = 0,0,0
 	attPos0 = -0.565831006,0,0.737406015
@@ -2226,7 +2226,7 @@ PART
 {
 	part = aquila.active.radiator.srf.2_4293966774
 	partName = Part
-	persistentId = 1587539924
+	persistentId = 465745351
 	pos = -0.675515592,15.465519,-0.164184347
 	attPos = 0,0,0
 	attPos0 = -0.912975609,-0.0439996719,5.96046448E-08
@@ -2311,7 +2311,7 @@ PART
 {
 	part = aquila.active.radiator.srf.2_4293962466
 	partName = Part
-	persistentId = 2973490265
+	persistentId = 3682160012
 	pos = 1.15043569,15.465519,-0.164184541
 	attPos = 0,0,0
 	attPos0 = 0.912975669,-0.0439996719,-1.34110451E-07
@@ -2396,7 +2396,7 @@ PART
 {
 	part = Andromeda.MonoSphere.2_4293948432
 	partName = Part
-	persistentId = 3328663585
+	persistentId = 3135023073
 	pos = 0.237460107,15.9482603,-1.07368302
 	attPos = 0,0,0
 	attPos0 = 7.4505806E-08,0.438741684,-0.909498632
@@ -2479,7 +2479,7 @@ PART
 {
 	part = Andromeda.MonoSphere.2_4293940650
 	partName = Part
-	persistentId = 420399628
+	persistentId = 2363166731
 	pos = 0.237460032,15.9482603,0.74531424
 	attPos = 0,0,0
 	attPos0 = 0,0.438741684,0.909498632
@@ -2562,7 +2562,7 @@ PART
 {
 	part = commDish_4293849940
 	partName = Part
-	persistentId = 4163720062
+	persistentId = 1648529740
 	pos = 0.237460032,16.7468777,0.68461132
 	attPos = 0,0,-0.191644967
 	attPos0 = 0,-0.325139999,1.04044068
@@ -2689,7 +2689,7 @@ PART
 {
 	part = vega.engine.srf.1.2_4293855306
 	partName = Part
-	persistentId = 1220566009
+	persistentId = 3129978753
 	pos = 0.237460181,14.9061174,0.638425469
 	attPos = 1.49011612E-07,0.24960804,-0.106778562
 	attPos0 = 0,-0.853009224,0.909388423
@@ -2810,7 +2810,7 @@ PART
 {
 	part = vega.engine.srf.1.2_4293852552
 	partName = Part
-	persistentId = 1971208262
+	persistentId = 2372986220
 	pos = 0.237459958,14.9061174,-0.966794252
 	attPos = 0,0.24960804,0.106778622
 	attPos0 = -7.4505806E-08,-0.853009224,-0.909388483
@@ -2923,7 +2923,7 @@ PART
 {
 	part = Hamal.Battery.2_4293788356
 	partName = Part
-	persistentId = 1033074155
+	persistentId = 1738941696
 	pos = 0.397148758,15.1117153,0.741455317
 	attPos = 0,0,0
 	attPos0 = 0.159688726,-0.397803307,0.905639708
@@ -3003,7 +3003,7 @@ PART
 {
 	part = Hamal.Battery.2_4293788012
 	partName = Part
-	persistentId = 2575548397
+	persistentId = 565960611
 	pos = 0.0777712315,15.1117153,-1.0698241
 	attPos = 0,0,0
 	attPos0 = -0.159688801,-0.397803307,-0.905639708
@@ -3083,7 +3083,7 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292501488
 	partName = Part
-	persistentId = 2021899024
+	persistentId = 648582601
 	pos = 1.14723432,14.609417,-0.164184347
 	attPos = 0,0,0
 	attPos0 = 0.909774303,-0.900101662,5.96046448E-08
@@ -3185,7 +3185,7 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292500550
 	partName = Part
-	persistentId = 2925919378
+	persistentId = 2752000292
 	pos = 0.237460151,14.609417,-1.07395864
 	attPos = 0,0,0
 	attPos0 = 1.1920929E-07,-0.900101662,-0.909774244
@@ -3287,7 +3287,7 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292500472
 	partName = Part
-	persistentId = 1263336995
+	persistentId = 3696809902
 	pos = -0.672314286,14.609417,-0.164184391
 	attPos = 0,0,0
 	attPos0 = -0.909774303,-0.900101662,1.49011612E-08
@@ -3389,7 +3389,7 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292500394
 	partName = Part
-	persistentId = 645371768
+	persistentId = 598910228
 	pos = 0.237460032,14.609417,0.745589852
 	attPos = 0,0,0
 	attPos0 = 0,-0.900101662,0.909774244
@@ -3491,7 +3491,7 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292500296
 	partName = Part
-	persistentId = 1389892126
+	persistentId = 3887444103
 	pos = 1.14683878,17.6454773,-0.164184347
 	attPos = 0,0,0
 	attPos0 = 0.909378767,0.573459625,5.96046448E-08
@@ -3593,7 +3593,7 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292499282
 	partName = Part
-	persistentId = 1271709664
+	persistentId = 3478067621
 	pos = 0.237460151,17.6454773,-1.0735631
 	attPos = 0,0,0
 	attPos0 = 1.1920929E-07,0.573459625,-0.909378707
@@ -3695,7 +3695,7 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292499204
 	partName = Part
-	persistentId = 4000380097
+	persistentId = 783782802
 	pos = -0.67191875,17.6454773,-0.164184391
 	attPos = 0,0,0
 	attPos0 = -0.909378767,0.573459625,1.49011612E-08
@@ -3797,7 +3797,7 @@ PART
 {
 	part = octans.moe.srf.4.extended_4292499126
 	partName = Part
-	persistentId = 2602783554
+	persistentId = 3750278670
 	pos = 0.237460032,17.6454773,0.745194316
 	attPos = 0,0,0
 	attPos0 = 0,0.573459625,0.909378707
@@ -3899,7 +3899,7 @@ PART
 {
 	part = octans.docking.port.s0p5.2.male_4294331036
 	partName = Part
-	persistentId = 2318159647
+	persistentId = 2293475270
 	pos = 0.237460032,12.8470192,-0.164184406
 	attPos = 0,0,0
 	attPos0 = 0,0.449999809,0

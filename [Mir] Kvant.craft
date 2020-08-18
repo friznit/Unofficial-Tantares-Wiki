@@ -16,7 +16,7 @@ PART
 {
 	part = octans.docking.port.s0p5.2.female_4293870288
 	partName = Part
-	persistentId = 18028093
+	persistentId = 2268760278
 	pos = -1.30462217,13.35009,0.233089119
 	attPos = 0,0,0
 	attPos0 = 0,0.137499809,0
@@ -135,7 +135,7 @@ PART
 {
 	part = acamar.science.processor.s2.1_4293866124
 	partName = Part
-	persistentId = 3465639705
+	persistentId = 1617079855
 	pos = -1.30462217,12.6500902,0.233089119
 	attPos = 0,0,0
 	attPos0 = -1.30462217,12.6500902,0.233089119
@@ -379,7 +379,7 @@ PART
 {
 	part = acamar.adapter.s2.s0p5.2_4293856652
 	partName = Part
-	persistentId = 2015108890
+	persistentId = 4150566659
 	pos = -1.30462217,11.8375902,0.233089119
 	attPos = 0,0,0
 	attPos0 = 0,-0.8125,0
@@ -444,7 +444,7 @@ PART
 {
 	part = acamar.crew.s2.2_4293865810
 	partName = Part
-	persistentId = 4168318875
+	persistentId = 14455769
 	pos = -1.30462217,11.2125902,0.233089119
 	attPos = 0,0,0
 	attPos0 = 0,-0.625,0
@@ -659,7 +659,7 @@ PART
 {
 	part = acamar.solar.srf.2_4293864520
 	partName = Part
-	persistentId = 3165787242
+	persistentId = 3794445744
 	pos = -2.54212213,11.5314035,0.233089194
 	attPos = 0,0,0
 	attPos0 = -1.23749995,0.318813324,7.37607522E-08
@@ -748,7 +748,7 @@ PART
 {
 	part = acamar.solar.srf.2_4293862098
 	partName = Part
-	persistentId = 1297063361
+	persistentId = 1348643577
 	pos = -0.067122221,11.5314035,0.23308894
 	attPos = 0,0,0
 	attPos0 = 1.23749995,0.318813324,-1.81946433E-07
@@ -837,7 +837,7 @@ PART
 {
 	part = octans.moe.srf.2.extended_4293861620
 	partName = Part
-	persistentId = 1673967797
+	persistentId = 1771798628
 	pos = -2.54218674,10.8694763,0.233089194
 	attPos = 0,0,0
 	attPos0 = -1.23756456,-0.343113899,7.37646033E-08
@@ -937,7 +937,7 @@ PART
 {
 	part = octans.moe.srf.2.extended_4293861558
 	partName = Part
-	persistentId = 3269014271
+	persistentId = 2313849747
 	pos = -0.0670576096,10.8694763,0.23308894
 	attPos = 0,0,0
 	attPos0 = 1.23756456,-0.343113899,-1.8195594E-07
@@ -1037,7 +1037,7 @@ PART
 {
 	part = acamar.adapter.s2.s0p5.1_4293858528
 	partName = Part
-	persistentId = 1904750658
+	persistentId = 82432664
 	pos = -1.30462217,10.4000902,0.233089119
 	attPos = 0,0,0
 	attPos0 = 0,-0.8125,0
@@ -1128,7 +1128,7 @@ PART
 {
 	part = octans.docking.port.s0p5.2.male_4293855808
 	partName = Part
-	persistentId = 4264252842
+	persistentId = 3452102918
 	pos = -1.30462217,9.95009041,0.233089119
 	attPos = 0,0,0
 	attPos0 = 0,0.449999809,0
@@ -1288,7 +1288,7 @@ PART
 {
 	part = atria.antenna.srf.1.1_4292568560
 	partName = Part
-	persistentId = 1656115179
+	persistentId = 2806655489
 	pos = -1.30462217,9.95069027,-0.22264576
 	attPos = 0,0,0
 	attPos0 = 0,-0.000599861145,0.455734879
@@ -1411,7 +1411,7 @@ PART
 {
 	part = atria.antenna.srf.2.1_4293855490
 	partName = Part
-	persistentId = 925530939
+	persistentId = 372829466
 	pos = -1.75932455,9.94077778,0.233089089
 	attPos = 0,0,0
 	attPos0 = -0.454702377,0.0093126297,2.98023224E-08

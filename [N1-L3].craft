@@ -1079,7 +1079,7 @@ PART
 	pos = -0.426125675,54.5046959,-0.208570868
 	attPos = 0,0,0
 	attPos0 = -0.426125675,0.167194366,-0.608570874
-	rot = 0.299561381,0.0831220374,0.950087786,-0.0262082592
+	rot = 0.299561381,0.0831220523,0.950087786,-0.0262082629
 	attRot = 0,-0.0871557668,-0.996194661,0
 	attRot0 = 0.299561381,0.0831219479,0.950087786,-0.0262082368
 	mir = 1,1,1
@@ -5347,6 +5347,28 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = SolidFuel
@@ -7085,7 +7107,7 @@ PART
 	link = castor.decoupler.s4.1_4293917988
 	attN = bottom,castor.decoupler.s4.1_4293917988_0|-3.875|0_0|-1|0_0|-3.875|0_0|-1|0
 	attN = top,canopus.fairing.s3.1_4293948490_0|3.875|0_0|1|0_0|3.875|0_0|1|0
-	attN = ring,libra.lv.engine.s0.1_4293910230_-1.75|-2|0_0|-1|0_-1.75|-2|0_0|-1|0
+	attN = ring,Null_0_-1.75|-2|0_0|-1|0_-1.75|-2|0_0|-1|0
 	attN = ring,Null_0_0|-2|-1.75_0|-1|0_0|-2|-1.75_0|-1|0
 	attN = ring,Null_0_1.75|-2|0_0|-1|0_1.75|-2|0_0|-1|0
 	attN = ring,Null_0_-1.75|-2|0_0|-1|0_-1.75|-2|0_0|-1|0
@@ -8338,7 +8360,7 @@ PART
 	link = castor.decoupler.s6.1_4293896076
 	attN = bottom,castor.decoupler.s6.1_4293896076_0|-6.875|0_0|-1|0_0|-6.875|0_0|-1|0
 	attN = top,castor.decoupler.s4.1_4293917988_0|6.875|0_0|1|0_0|6.875|0_0|1|0
-	attN = ring,libra.lv.engine.s0.2_4293898456_-1.67937899|-4.32499981|-1.67937899_0|-1|0_-1.67937899|-4.32499981|-1.67937899_0|-1|0
+	attN = ring,Null_0_-1.67937899|-4.32499981|-1.67937899_0|-1|0_-1.67937899|-4.32499981|-1.67937899_0|-1|0
 	attN = ring,Null_0_0|-4.32499981|-2.375_0|-1|0_0|-4.32499981|-2.375_0|-1|0
 	attN = ring,Null_0_2.375|-4.32499981|0_0|-1|0_2.375|-4.32499981|0_0|-1|0
 	attN = ring,Null_0_-2.375|-4.32499981|0_0|-1|0_-2.375|-4.32499981|0_0|-1|0

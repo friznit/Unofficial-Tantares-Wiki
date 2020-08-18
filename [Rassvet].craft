@@ -1,8 +1,8 @@
 ship = [Rassvet]
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
-size = 2.12132025,18.1532059,2.12132025
+size = 2.12132025,17.9805183,2.12132025
 steamPublishedFileId = 0
 persistentId = 4075359381
 rot = 0,0,0,0
@@ -722,8 +722,8 @@ PART
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
-	modCost = 293.78241
-	modMass = 0.293782413
+	modCost = 292.488922
+	modMass = 0.292488933
 	modSize = 0,0,0
 	link = corvus.lv.fuel.tank.s1.2_4294112786
 	attN = top,octans.docking.port.s0p5.2.female_4294126006_0|0.0625|0_0|1|0_0|0.0625|0_0|1|0
@@ -760,6 +760,7 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS
@@ -777,16 +778,46 @@ PART
 		{
 			h = 0
 			r = 0.625
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 0
+			}
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 1
+			}
 		}
 		XSECTION
 		{
 			h = 0.300000012
 			r = 0.879870236
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 2
+			}
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 3
+			}
 		}
 		XSECTION
 		{
 			h = 3.29999995
 			r = 0.879870236
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 4
+			}
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 5
+			}
 		}
 		XSECTION
 		{
@@ -818,7 +849,6 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
-		selectedVariant = tantareslv_red
 		EVENTS
 		{
 		}
@@ -1022,6 +1052,21 @@ PART
 				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1481,6 +1526,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleGimbal
 		isEnabled = True
 		gimbalLock = False
@@ -1663,7 +1723,7 @@ PART
 	pos = -0.482150435,4.89473915,-0.494990349
 	attPos = 0,0,0
 	attPos0 = -0.692480326,-0.249504089,-1.49011612E-08
-	rot = 0.0343961045,0.923239052,0.0142473336,0.382418215
+	rot = 0.0343961045,0.923239052,0.0142473327,0.382418215
 	attRot = 0,0,0,1
 	attRot0 = 0.0372300819,0.999306798,-9.31322575E-10,2.98023224E-08
 	mir = 1,1,1
@@ -1803,7 +1863,7 @@ PART
 	pos = 0.497164667,4.89473915,0.484324753
 	attPos = 0,0,0
 	attPos0 = 0.692480326,-0.249504089,-8.94069672E-08
-	rot = 0.0142473336,0.382418215,-0.0343961045,-0.923239052
+	rot = 0.0142473327,0.382418215,-0.0343961045,-0.923239052
 	attRot = 0,0,0,1
 	attRot0 = -9.31322575E-10,2.98023224E-08,-0.0372300819,-0.999306798
 	mir = 1,1,1

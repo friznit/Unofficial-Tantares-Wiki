@@ -1,8 +1,8 @@
 ship = [R7] Soyuz
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
-size = 6.70404482,22.1250038,6.70404816
+size = 6.70404577,22.1250038,6.70404863
 steamPublishedFileId = 0
 persistentId = 3233011642
 rot = 0,0,0,0
@@ -72,6 +72,7 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS
@@ -390,6 +391,21 @@ PART
 				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -814,38 +830,6 @@ PART
 	PARTDATA
 	{
 	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = size
-		currentSubtype = 1.25m
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -925,38 +909,6 @@ PART
 	}
 	PARTDATA
 	{
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = size
-		currentSubtype = 1.25m
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 	RESOURCE
 	{
@@ -1096,6 +1048,21 @@ PART
 				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -1784,7 +1751,7 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4294254308
 	partName = Part
 	persistentId = 2309358247
-	pos = 0.0862072855,7.51837921,-1.18823886
+	pos = 0.0862072855,7.51837921,-1.1882391
 	attPos = 0,0,0
 	attPos0 = -0.866133511,-0.0105705261,-2.38418252E-07
 	rot = -0.0292301103,2.38418579E-07,-8.38190317E-09,-0.999572754
@@ -1942,10 +1909,10 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4294253574
 	partName = Part
 	persistentId = 1605458712
-	pos = 0.086207144,7.51837921,1.75667381
+	pos = 0.086207144,7.51837921,1.75667405
 	attPos = 0,0,0
 	attPos0 = -0.866133869,-0.0105705261,-2.38418252E-07
-	rot = -4.65661287E-09,-0.999572754,0.0292301103,-1.78813934E-07
+	rot = -5.58793545E-09,-0.999572754,0.0292301103,-1.78813934E-07
 	attRot = 0,0,0,1
 	attRot0 = 0.0206688102,0.706804454,-0.0206687991,0.706804812
 	mir = 1,1,1
@@ -2100,7 +2067,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4294247070
 	partName = Part
 	persistentId = 135917379
-	pos = 0.0862074047,2.65171051,-1.47311115
+	pos = 0.0862074047,2.65171051,-1.47311139
 	attPos = 0,0,0
 	attPos0 = -2.98025178E-08,-4.87499905,-2.9802348E-07
 	rot = 0.0292301103,0,1.86264515E-08,0.999572754
@@ -2221,6 +2188,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleGimbal
 		isEnabled = True
 		gimbalLock = False
@@ -2330,7 +2312,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4294245948
 	partName = Part
 	persistentId = 2493668862
-	pos = -1.67112017,2.65171051,0.284216911
+	pos = -1.67112017,2.65171051,0.284216881
 	attPos = 0,0,0
 	attPos0 = 3.77494977E-08,-4.87499905,-2.08616257E-07
 	rot = 0.0206688177,0.706804633,-0.0206687935,0.706804693
@@ -2436,6 +2418,21 @@ PART
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				axisInverted = None
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2552,7 +2549,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4294245790
 	partName = Part
 	persistentId = 4068498213
-	pos = 0.0862070918,2.65171051,2.04154634
+	pos = 0.0862070844,2.65171051,2.04154658
 	attPos = 0,0,0
 	attPos0 = -2.98024965E-08,-4.87499905,-4.17232627E-07
 	rot = 1.58324838E-08,0.999572754,-0.0292301103,-8.94069672E-08
@@ -2658,6 +2655,21 @@ PART
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				axisInverted = None
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2774,7 +2786,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4294245632
 	partName = Part
 	persistentId = 3438238550
-	pos = 1.84353423,2.65171051,0.284217745
+	pos = 1.84353423,2.65171051,0.284217775
 	attPos = 0,0,0
 	attPos0 = 3.5886849E-08,-4.87499905,-2.08616257E-07
 	rot = -0.0206687935,0.706804693,-0.0206688177,-0.706804633
@@ -2880,6 +2892,21 @@ PART
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				axisInverted = None
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -2996,7 +3023,7 @@ PART
 	part = canopus.basic.fin.srf.2_4294236266
 	partName = Part
 	persistentId = 1268327132
-	pos = 0.0862074047,2.82056427,-2.37423682
+	pos = 0.0862074047,2.82056427,-2.3742373
 	attPos = 0,0,0
 	attPos0 = -7.77290268E-08,0.115907662,-0.90945214
 	rot = 0.0206688046,0.706804693,0.0206688307,0.706804693
@@ -3066,7 +3093,7 @@ PART
 	part = canopus.basic.fin.srf.2_4294234778
 	partName = Part
 	persistentId = 2617658925
-	pos = -2.57224655,2.82056427,0.284217328
+	pos = -2.57224703,2.82056427,0.284217387
 	attPos = 0,0,0
 	attPos0 = -1.51770948E-07,0.115907662,-0.909452438
 	rot = 0.0292301141,0.999572754,1.49011612E-08,0
@@ -3136,10 +3163,10 @@ PART
 	part = canopus.basic.fin.srf.2_4294234736
 	partName = Part
 	persistentId = 789479476
-	pos = 0.0862075612,2.82056427,2.94267297
+	pos = 0.0862075612,2.82056427,2.94267344
 	attPos = 0,0,0
 	attPos0 = -7.77284583E-08,0.115907662,-0.909452438
-	rot = 0.020668827,0.706804633,-0.0206688046,-0.706804752
+	rot = 0.0206688289,0.706804633,-0.0206688065,-0.706804752
 	attRot = 0,0,0,1
 	attRot0 = 3.02417846E-09,0.707106829,4.04487022E-09,0.707106829
 	mir = 1,1,1
@@ -3206,7 +3233,7 @@ PART
 	part = canopus.basic.fin.srf.2_4294234694
 	partName = Part
 	persistentId = 1959394043
-	pos = 2.74466038,2.82056427,0.284217328
+	pos = 2.74466085,2.82056427,0.284217268
 	attPos = 0,0,0
 	attPos0 = -1.49908303E-07,0.115907662,-0.909452438
 	rot = 1.49011612E-08,0,-0.0292301141,-0.999572754

@@ -1,5 +1,5 @@
 ship = [Kosmos 2I]
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 1.37282228,13.5,1.37282228
@@ -73,6 +73,7 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS
@@ -397,6 +398,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = FXModuleAnimateThrottle
 		isEnabled = True
 		animState = 0
@@ -456,9 +472,9 @@ PART
 		rcsEnabled = True
 		thrustPercentage = 100
 		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = False
+		enableYaw = False
+		enablePitch = False
+		enableRoll = True
 		enableX = False
 		enableY = False
 		enableZ = False
@@ -831,6 +847,21 @@ PART
 				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{

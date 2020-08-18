@@ -1,5 +1,5 @@
 ship = [Soyuz] VI
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 1.64332402,5.46408272,1.57500005
@@ -225,6 +225,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = True
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -919,6 +920,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = True
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1559,7 +1561,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = strutConnector_4293316566
-	srfN = srfAttach,tantares.basic.engine.s1.1_4293348452,collider,0|0|0,1|0|0,0|0|0
+	srfN = srfAttach,tantares.basic.engine.s1.1_4293348452,collider,0|0|0,0.125|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -1619,6 +1621,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -1647,7 +1665,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = strutConnector_4293318496
-	srfN = srfAttach,tantares.basic.engine.s1.1_4293348452,collider,0|0|0,1|0|0,0|0|0
+	srfN = srfAttach,tantares.basic.engine.s1.1_4293348452,collider,0|0|0,0.125|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -1696,6 +1714,22 @@ PART
 	{
 		name = CModuleStrut
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
 		stagingEnabled = True
 		EVENTS
 		{

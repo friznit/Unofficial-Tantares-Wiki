@@ -1,5 +1,5 @@
 ship = [Pirs]
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 1.53879511,4.48366547,1.56446838
@@ -672,6 +672,7 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS
@@ -689,6 +690,16 @@ PART
 		{
 			h = 0
 			r = 0.625
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 0
+			}
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 1
+			}
 		}
 		XSECTION
 		{

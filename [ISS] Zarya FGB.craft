@@ -1,5 +1,5 @@
 ship = [ISS] Zarya FGB
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
 size = 2.5,7.98751831,2.5
@@ -160,6 +160,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -1355,6 +1356,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -2541,6 +2543,7 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS
@@ -2564,6 +2567,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -4021,6 +4025,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -4171,6 +4176,7 @@ PART
 		nArcs = 2
 		ejectionForce = 1000
 		useClamshell = True
+		isCapped = True
 		stagingEnabled = True
 		fsm = st_idle
 		EVENTS
@@ -4194,6 +4200,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -4570,6 +4577,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -4639,6 +4647,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -4708,6 +4717,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -4777,6 +4787,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_tan
 		EVENTS
 		{
 		}
@@ -4896,6 +4907,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_cream
 		EVENTS
 		{
 		}
@@ -5015,6 +5027,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_cream
 		EVENTS
 		{
 		}
@@ -5953,6 +5966,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_cream
 		EVENTS
 		{
 		}
@@ -6021,8 +6035,8 @@ PART
 		name = ModuleDeployableAntenna
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 10
+		storedAnimationTime = 1
+		storedAnimationSpeed = 0
 		deployState = EXTENDED
 		stagingEnabled = True
 		EVENTS
@@ -6129,8 +6143,8 @@ PART
 		name = ModuleDeployableAntenna
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 10
+		storedAnimationTime = 1
+		storedAnimationSpeed = 0
 		deployState = EXTENDED
 		stagingEnabled = True
 		EVENTS

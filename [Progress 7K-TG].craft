@@ -1,8 +1,8 @@
 ship = [Progress 7K-TG]
-version = 1.9.1
+version = 1.10.1
 description = 
 type = VAB
-size = 1.67314768,1.77412415,4.26252699
+size = 1.67314816,4.2625351,1.77412057
 steamPublishedFileId = 0
 persistentId = 1193254324
 rot = 0,0,0,0
@@ -17,10 +17,10 @@ PART
 	part = Hamal.Control.1_4294072104
 	partName = Part
 	persistentId = 3211012143
-	pos = 0.822822213,20.7861862,0.483656406
+	pos = 2.30730104,21.6250973,-0.517562211
 	attPos = 0,0,0
 	attPos0 = 0.632272005,20.59972,0.350397438
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -274,12 +274,12 @@ PART
 	part = Hamal.Habitation.1_4294071078
 	partName = Part
 	persistentId = 3803038228
-	pos = 0.822822213,20.7861862,1.59616315
+	pos = 2.30730104,22.737606,-0.517562389
 	attPos = 0,0,0
-	attPos0 = 0,1.11250114,0
-	rot = 0,-0.707106829,-0.707106829,0
+	attPos0 = 2.30730104,22.737606,-0.517562389
+	rot = 0,-1,0,0
 	attRot = 0,-0.99999994,0,0
-	attRot0 = 0,-1,0,0
+	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -299,6 +299,7 @@ PART
 	link = atria.antenna.srf.2.2_4294063038
 	link = atria.antenna.srf.1.2_4289468442
 	link = Hamal.Control.1_4294072104
+	link = octans.docking.port.s0p5.1.male_4294070308
 	attN = bottom,Hamal.Control.1_4294072104_0|-0.574999988|0_0|-1|0_0|-0.574999988|0_0|-1|0
 	attN = top,octans.docking.port.s0p5.1.male_4294070308_0|0.574999988|0_0|1|0_0|0.574999988|0_0|1|0
 	EVENTS
@@ -330,6 +331,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = False
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -375,12 +377,12 @@ PART
 	part = octans.docking.port.s0p5.1.male_4294070308
 	partName = Part
 	persistentId = 63556019
-	pos = 0.822822213,20.7861862,2.29616499
+	pos = 2.30730104,23.4376087,-0.517562449
 	attPos = 0,0,0
-	attPos0 = 0.822822213,20.7861862,2.29616499
-	rot = 0.707106829,0,0,0.707106829
+	attPos0 = 2.23182988,23.2394619,-0.217938811
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
-	attRot0 = 0.707106769,0,0,0.707106769
+	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -396,7 +398,6 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = Hamal.Habitation.1_4294071078
 	attN = bottom,Hamal.Habitation.1_4294071078_0|-0.125|0_0|-1|0_0|-0.125|0_0|-1|0
 	attN = top,Null_0_0|0.125|0_0|1|0_0|0.125|0_0|1|0
 	EVENTS
@@ -535,10 +536,10 @@ PART
 	part = Hamal.Avionics.1_4294069924
 	partName = Part
 	persistentId = 295343948
-	pos = 0.822822213,20.7861862,-0.222599268
+	pos = 2.30730104,20.9188404,-0.517562211
 	attPos = 0,0,0
 	attPos0 = 0,-0.706250191,0
-	rot = 0,0.707106829,-0.707106829,0
+	rot = 0,0,-1,0
 	attRot = 0,0,-0.99999994,0
 	attRot0 = 0,0,-1,0
 	mir = 1,1,1
@@ -676,10 +677,10 @@ PART
 	part = tantares.basic.fuel.tank.s1.1_4294069176
 	partName = Part
 	persistentId = 1787036380
-	pos = 0.822822213,20.7861862,-0.641350031
+	pos = 2.30730104,20.5000896,-0.517562211
 	attPos = 0,0,0
 	attPos0 = 0,0.418749809,0
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,1,0
 	mir = 1,1,1
@@ -760,10 +761,10 @@ PART
 	part = tantares.basic.engine.s1.1_4294068002
 	partName = Part
 	persistentId = 2924871992
-	pos = 0.822822213,20.7861862,-1.26636171
+	pos = 2.30730104,19.8750744,-0.517561972
 	attPos = 0,0,0
 	attPos0 = 0,-0.625,0
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -972,10 +973,10 @@ PART
 	part = octans.moe.srf.4_4294065770
 	partName = Part
 	persistentId = 2657289320
-	pos = 0.216534495,20.7861862,-0.142007113
+	pos = 1.70101333,20.9994335,-0.517562211
 	attPos = 0,0,0
 	attPos0 = 0.606287718,-0.0805921555,3.61375676E-08
-	rot = 0.50000006,-0.50000006,0.50000006,-0.50000006
+	rot = 0.707106829,0,0.707106829,0
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,-0.707106829
 	mir = 1,1,1
@@ -1074,10 +1075,10 @@ PART
 	part = octans.moe.srf.4_4294065698
 	partName = Part
 	persistentId = 3531131068
-	pos = 0.822822154,21.3924751,-0.142007113
+	pos = 2.30730104,20.9994335,-1.1238513
 	attPos = 0,0,0
 	attPos0 = 7.22751281E-08,-0.0805921555,-0.606287658
-	rot = 0,-0.707106829,0.707106829,0
+	rot = 0,0,1,0
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,-1
 	mir = 1,1,1
@@ -1176,10 +1177,10 @@ PART
 	part = octans.moe.srf.4_4294065628
 	partName = Part
 	persistentId = 3133534685
-	pos = 1.42910993,20.7861862,-0.142007113
+	pos = 2.91358876,20.9994335,-0.517562211
 	attPos = 0,0,0
 	attPos0 = -0.606287718,-0.0805921555,1.68657888E-08
-	rot = -0.500000119,-0.5,0.5,0.500000119
+	rot = -0.707106888,0,0.707106769,0
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.707106888,0,-0.707106769
 	mir = 1,1,1
@@ -1278,10 +1279,10 @@ PART
 	part = octans.moe.srf.4_4294065558
 	partName = Part
 	persistentId = 734594773
-	pos = 0.822822213,20.1798992,-0.142007351
+	pos = 2.30730104,20.9994335,0.0887249708
 	attPos = 0,0,0
 	attPos0 = -1.3987468E-15,-0.0805921555,0.606287658
-	rot = -0.707106829,0,0,0.707106829
+	rot = -1,0,0,0
 	attRot = 0,0,0,1
 	attRot0 = 0,-1,0,0
 	mir = 1,1,1
@@ -1380,10 +1381,10 @@ PART
 	part = octans.basic.high.gain.antenna.srf.2_4294064016
 	partName = Part
 	persistentId = 2621912334
-	pos = 0.822822213,21.2977772,1.14749646
+	pos = 2.30730104,22.2889385,-1.0291537
 	attPos = 0,0,0
 	attPos0 = 0,-0.448665619,0.511590898
-	rot = -0.701420546,1.62434988E-09,1.65058156E-09,-0.712747812
+	rot = 0.00800958183,2.31572606E-09,1.85486054E-11,-0.999967933
 	attRot = 0.216439694,0,0,0.976296067
 	attRot0 = 1.85486557E-11,-0.999967933,-0.00800959487,-2.31572628E-09
 	mir = 1,1,1
@@ -1487,10 +1488,10 @@ PART
 	part = atria.antenna.srf.2.2_4294063038
 	partName = Part
 	persistentId = 845512889
-	pos = 1.44184017,20.7861862,1.56767464
+	pos = 2.9263196,22.7091179,-0.517562389
 	attPos = 0,0,0
 	attPos0 = -0.619016409,-0.0284881592,3.68962567E-08
-	rot = -0.492821634,0.492821634,0.507076859,-0.507076859
+	rot = 0.0100799501,0.707034945,0.0100799501,-0.707034945
 	attRot = 0.0436193906,-1.14853821E-10,-4.14490664E-12,0.999048233
 	attRot0 = 0.0100799343,-0.707034945,-0.010079938,-0.707034945
 	mir = 1,1,1
@@ -1610,10 +1611,10 @@ PART
 	part = atria.antenna.srf.1.2_4289468442
 	partName = Part
 	persistentId = 3276210987
-	pos = 0.22282058,20.7861862,1.57122421
+	pos = 1.70729887,22.7126675,-0.517562389
 	attPos = -0.0242987871,-0.0239696503,-2.98023224E-08
 	attPos0 = 0.624298811,-0.000968933105,2.98023224E-08
-	rot = 0.492821634,0.492821634,0.507076859,0.507076859
+	rot = -0.0100799501,0.707034945,0.0100799501,0.707034945
 	attRot = 0.0436193906,7.67527014E-11,6.61586286E-10,0.999048233
 	attRot0 = 0.010079924,0.707034945,0.0100799268,-0.707034945
 	mir = 1,1,1
@@ -1733,10 +1734,10 @@ PART
 	part = atria.antenna.srf.2.2_4289462746
 	partName = Part
 	persistentId = 883568826
-	pos = 0.822822213,20.0650139,-1.56636333
+	pos = 2.30730104,19.5750713,0.203610837
 	attPos = 0,0.047290802,0.00457453728
 	attPos0 = 0,-0.347290039,0.716598153
-	rot = 0.704876661,0,0,-0.709330082
+	rot = 0.999995112,0,0,-0.00314906193
 	attRot = 0,0.193958506,0.981009722,0
 	attRot0 = 0.999995053,0,0,-0.00314906356
 	mir = 1,1,1
@@ -1856,10 +1857,10 @@ PART
 	part = octans.whip.antenna.srf.2_4291133160
 	partName = Part
 	persistentId = 1901947519
-	pos = 1.42925787,20.7861862,-0.752412558
+	pos = 2.91373682,20.3890266,-0.517561972
 	attPos = 0,0,0
 	attPos0 = 0.606435657,-0.11106208,2.3841848E-07
-	rot = -0.50000006,0.50000006,0.50000006,-0.50000006
+	rot = 0,0.707106829,0,-0.707106829
 	attRot = 0,0,0,1
 	attRot0 = -2.98023224E-08,0.707106829,0,-0.707106829
 	mir = 1,1,1
@@ -1909,7 +1910,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1964,10 +1965,10 @@ PART
 	part = octans.whip.antenna.srf.2_4291131544
 	partName = Part
 	persistentId = 3529190574
-	pos = 0.216386557,20.7861862,-0.752412558
+	pos = 1.70086539,20.3890266,-0.517561972
 	attPos = 0,0,0
 	attPos0 = -0.606435657,-0.11106208,2.3841848E-07
-	rot = -0.500000119,-0.50000006,-0.50000006,-0.5
+	rot = -5.96046448E-08,-0.707106829,0,-0.707106829
 	attRot = 0,0,0,1
 	attRot0 = -8.94069672E-08,-0.707106829,-2.98023224E-08,-0.707106829
 	mir = 1,1,1
@@ -2017,7 +2018,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
