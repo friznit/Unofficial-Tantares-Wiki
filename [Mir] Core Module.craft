@@ -1,8 +1,8 @@
 ship = [Mir] Core Module
-version = 1.10.1
+version = 1.11.1
 description = 
-type = SPH
-size = 2.65896273,2.90948296,8.27116394
+type = VAB
+size = 2.65896273,2.90948105,8.26251602
 steamPublishedFileId = 0
 persistentId = 2280967612
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = eridani.node.adapter.s1p5.s0p5.1_4294046550
 	partName = Part
-	persistentId = 3861595034
+	persistentId = 3846056042
 	pos = 0.469345391,14.1902246,-0.00978711247
 	attPos = 0,0,0
 	attPos0 = 0.469345391,14.1902246,-0.00978711247
@@ -69,6 +69,90 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCommand
+		isEnabled = True
+		hibernation = False
+		hibernateOnWarp = False
+		activeControlPointName = _default
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			HibernateToggle
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		standaloneToggle = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Activate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Deactivate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Toggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleColorChanger
 		isEnabled = True
 		animState = False
@@ -83,6 +167,22 @@ PART
 				actionGroup = Light
 				wasActiveBeforePartWasAdjusted = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -107,13 +207,24 @@ PART
 		{
 		}
 	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 15
+		maxAmount = 15
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = eridani.node.s0p5.1_4294045728
 	partName = Part
-	persistentId = 2745067954
-	pos = 0.469345391,14.1902246,0.927713037
+	persistentId = 3413418468
+	pos = 0.469345391,14.1902246,0.927713752
 	attPos = 0,0,0
 	attPos0 = 0,0.9375,0
 	rot = 0,-0.707106829,-0.707106829,0
@@ -173,6 +284,22 @@ PART
 	}
 	MODULE
 	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -195,8 +322,8 @@ PART
 {
 	part = octans.docking.port.s0p5.2.female_4294042136
 	partName = Part
-	persistentId = 2105648574
-	pos = 0.469345391,14.7652245,0.927713156
+	persistentId = 3384147501
+	pos = 0.469345391,14.7652245,0.92771399
 	attPos = 0,0,0
 	attPos0 = 0,0,0.574999988
 	rot = 0,-1.00000012,0,0
@@ -315,8 +442,8 @@ PART
 {
 	part = octans.docking.port.s0p5.2.female_4294040802
 	partName = Part
-	persistentId = 4200430496
-	pos = 0.469345391,14.1902237,1.50271463
+	persistentId = 3125381198
+	pos = 0.469345391,14.1902237,1.50271654
 	attPos = 0,0,0
 	attPos0 = 0,0.575000763,0
 	rot = 0,-0.707106829,-0.707106829,0
@@ -435,8 +562,8 @@ PART
 {
 	part = octans.docking.port.s0p5.2.female_4294040494
 	partName = Part
-	persistentId = 1621177019
-	pos = 0.469345391,13.6152248,0.927713275
+	persistentId = 3351734032
+	pos = 0.469345391,13.6152248,0.927714467
 	attPos = 0,0,0
 	attPos0 = 0,0,-0.574999988
 	rot = 0,0,-1.00000012,0
@@ -555,8 +682,8 @@ PART
 {
 	part = octans.docking.port.s0p5.2.female_4294040180
 	partName = Part
-	persistentId = 2991099990
-	pos = -0.105654895,14.1902246,0.927713275
+	persistentId = 3174261353
+	pos = -0.105655611,14.1902246,0.927714467
 	attPos = 0,0,0
 	attPos0 = 0.574999988,0,0
 	rot = 0,0,-0.707106829,-0.707106829
@@ -675,8 +802,8 @@ PART
 {
 	part = octans.docking.port.s0p5.2.female_4294039784
 	partName = Part
-	persistentId = 2419370068
-	pos = 1.04434574,14.1902246,0.927713275
+	persistentId = 3082109281
+	pos = 1.04434645,14.1902246,0.927714467
 	attPos = 0,0,0
 	attPos0 = -0.574999988,0,0
 	rot = 0,0,0.707106829,-0.707106829
@@ -795,8 +922,8 @@ PART
 {
 	part = eridani.crew.s1p5.1_4294033220
 	partName = Part
-	persistentId = 3127495908
-	pos = 0.469345391,14.1902246,-1.3847872
+	persistentId = 3839996862
+	pos = 0.469345391,14.1902246,-1.38478792
 	attPos = 0,0,0
 	attPos0 = 0,-1.375,0
 	rot = 0,-0.707106829,-0.707106829,0
@@ -1058,6 +1185,22 @@ PART
 	}
 	MODULE
 	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -1088,6 +1231,28 @@ PART
 	}
 	RESOURCE
 	{
+		name = LiquidFuel
+		amount = 18
+		maxAmount = 18
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 22
+		maxAmount = 22
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
 		name = MonoPropellant
 		amount = 30
 		maxAmount = 30
@@ -1102,8 +1267,8 @@ PART
 {
 	part = eridani.crew.s2.s1p5.1_4294032768
 	partName = Part
-	persistentId = 1296707007
-	pos = 0.469345391,14.1902256,-2.69728732
+	persistentId = 1896902158
+	pos = 0.469345391,14.1902256,-2.69728923
 	attPos = 0,0,0
 	attPos0 = 0,-1.3125,0
 	rot = 0,-0.707106829,-0.707106829,0
@@ -1200,6 +1365,22 @@ PART
 	}
 	MODULE
 	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -1222,8 +1403,8 @@ PART
 {
 	part = eridani.crew.s2.1_4294031596
 	partName = Part
-	persistentId = 3494019512
-	pos = 0.469345391,14.1902246,-4.57228756
+	persistentId = 3275745419
+	pos = 0.469345391,14.1902275,-4.57229185
 	attPos = 0,0,0
 	attPos0 = 0,-1.875,0
 	rot = 0,-0.707106829,-0.707106829,0
@@ -1355,6 +1536,22 @@ PART
 	}
 	MODULE
 	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -1374,6 +1571,28 @@ PART
 	}
 	RESOURCE
 	{
+		name = LiquidFuel
+		amount = 45
+		maxAmount = 45
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 55
+		maxAmount = 55
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
 		name = MonoPropellant
 		amount = 180
 		maxAmount = 180
@@ -1388,8 +1607,8 @@ PART
 {
 	part = eridani.engine.s0.1_4294031008
 	partName = Part
-	persistentId = 2797674804
-	pos = 1.02929425,13.6302795,-6.15979099
+	persistentId = 2093728672
+	pos = 1.02929473,13.6302853,-6.15979815
 	attPos = 0,0,0
 	attPos0 = -0.559948564,-1.58749962,-0.559948504
 	rot = 0,-0.707106829,-0.707106829,0
@@ -1485,6 +1704,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -1495,6 +1715,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -1527,8 +1748,8 @@ PART
 {
 	part = eridani.engine.s0.1_4294030368
 	partName = Part
-	persistentId = 3914474735
-	pos = -0.0906036496,14.7501764,-6.15979099
+	persistentId = 1707956884
+	pos = -0.0906042457,14.7501822,-6.15979815
 	attPos = 0,0,0
 	attPos0 = 0.559948623,-1.58749962,0.559948444
 	rot = 0.707106829,3.09086232E-08,3.09086232E-08,0.707106829
@@ -1624,12 +1845,14 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 			}
 			thrustPercentage
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 			}
 		}
@@ -1658,8 +1881,8 @@ PART
 {
 	part = octans.docking.port.s0p5.2.female_4294026082
 	partName = Part
-	persistentId = 3453836743
-	pos = 0.469345391,14.1902256,-6.14729023
+	persistentId = 3447814413
+	pos = 0.469345391,14.1902332,-6.14729929
 	attPos = 0,0,0
 	attPos0 = 0,-1.57499981,0
 	rot = 0.707106829,0,0,-0.707106829
@@ -1778,8 +2001,8 @@ PART
 {
 	part = eridani.solar.srf.2.2_4294010060
 	partName = Part
-	persistentId = 1152060245
-	pos = -0.461068988,14.1902246,-1.39066088
+	persistentId = 4209349977
+	pos = -0.461069524,14.1902246,-1.3906616
 	attPos = 0,0,0
 	attPos0 = 0.930413961,-0.00587368011,5.54569972E-08
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -1828,13 +2051,31 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1867,8 +2108,8 @@ PART
 {
 	part = eridani.solar.srf.2.2_4294009044
 	partName = Part
-	persistentId = 3410075648
-	pos = 1.39975977,14.1902246,-1.39066088
+	persistentId = 1915904784
+	pos = 1.39976025,14.1902246,-1.3906616
 	attPos = 0,0,0
 	attPos0 = -0.930413961,-0.00587368011,2.58823754E-08
 	rot = -0.500000119,0.5,0.5,-0.500000119
@@ -1917,13 +2158,31 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1956,8 +2215,8 @@ PART
 {
 	part = eridani.dorsal.solar.srf.2_4294007702
 	partName = Part
-	persistentId = 489547117
-	pos = 0.469345391,15.1192589,-1.39888263
+	persistentId = 808224592
+	pos = 0.469345391,15.1192589,-1.39888358
 	attPos = 0,0,0
 	attPos0 = 0,-0.0140953064,0.929033935
 	rot = 0.707106829,0,0,0.707106829
@@ -2005,13 +2264,31 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -2044,8 +2321,8 @@ PART
 {
 	part = eridani.rcs.linear.srf.1_4293974884
 	partName = Part
-	persistentId = 1278392514
-	pos = 0.46934551,12.9737291,-5.88591194
+	persistentId = 3059135368
+	pos = 0.46934551,12.973732,-5.88591671
 	attPos = 0,0,0.0214207172
 	attPos0 = -1.1920929E-07,-1.31362343,-1.23791742
 	rot = 0,0.707106829,0.707106829,0
@@ -2096,6 +2373,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2130,8 +2425,8 @@ PART
 {
 	part = eridani.rcs.linear.srf.1_4293974076
 	partName = Part
-	persistentId = 3678440312
-	pos = 1.68584251,14.1902246,-5.88591146
+	persistentId = 2279169679
+	pos = 1.68584323,14.1902275,-5.88591576
 	attPos = 0.0214207172,0,9.31322575E-10
 	attPos0 = -1.2379173,-1.31362343,4.56348062E-08
 	rot = -0.50000006,0.50000006,0.50000006,-0.50000006
@@ -2182,6 +2477,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2216,8 +2529,8 @@ PART
 {
 	part = eridani.rcs.linear.srf.1_4293974014
 	partName = Part
-	persistentId = 325607592
-	pos = 0.469345152,15.4067221,-5.88591099
+	persistentId = 1504473566
+	pos = 0.469345152,15.4067249,-5.88591576
 	attPos = 0,0,-0.0214207172
 	attPos0 = 2.38418579E-07,-1.31362343,1.23791742
 	rot = -0.707106829,-3.09086232E-08,-3.09086232E-08,-0.707106829
@@ -2268,6 +2581,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2302,8 +2633,8 @@ PART
 {
 	part = eridani.rcs.linear.srf.1_4293973952
 	partName = Part
-	persistentId = 1905457790
-	pos = -0.747151554,14.1902246,-5.88591146
+	persistentId = 1654982241
+	pos = -0.74715215,14.1902275,-5.88591576
 	attPos = -0.0214207172,0,9.31322575E-10
 	attPos0 = 1.2379173,-1.31362343,-1.92783773E-07
 	rot = -0.50000006,-0.50000006,-0.50000006,-0.50000006
@@ -2354,6 +2685,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2388,8 +2737,8 @@ PART
 {
 	part = eridani.rcs.linear.srf.2_4293973550
 	partName = Part
-	persistentId = 4025567502
-	pos = 0.46934551,12.9758863,-5.54120255
+	persistentId = 1715091131
+	pos = 0.46934551,12.9758892,-5.54120731
 	attPos = 0,0,0.0232243538
 	attPos0 = -1.1920929E-07,-0.968914986,-1.23756361
 	rot = 0,0.707106829,0.707106829,0
@@ -2438,6 +2787,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2472,8 +2839,8 @@ PART
 {
 	part = eridani.rcs.linear.srf.2_4293973222
 	partName = Part
-	persistentId = 1552038257
-	pos = 0.469345152,15.4045649,-5.54120255
+	persistentId = 244014380
+	pos = 0.469345152,15.4045677,-5.54120731
 	attPos = 0,0,-0.0232243538
 	attPos0 = 2.38418579E-07,-0.968914986,1.23756361
 	rot = -0.707106829,-3.09086232E-08,-3.09086232E-08,-0.707106829
@@ -2522,6 +2889,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2556,8 +2941,8 @@ PART
 {
 	part = eridani.low.gain.antenna.srf.1_4293968472
 	partName = Part
-	persistentId = 1611487026
-	pos = -0.0715954304,13.0748301,-4.77639008
+	persistentId = 1576705068
+	pos = -0.0715957284,13.0748329,-4.77639437
 	attPos = 0,0,0
 	attPos0 = 0.540940642,-0.204101563,-1.11539531
 	rot = 0.13794972,0.69351995,0.69351995,0.13794972
@@ -2606,6 +2991,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -2630,8 +3033,8 @@ PART
 {
 	part = eridani.low.gain.antenna.srf.1_4293968308
 	partName = Part
-	persistentId = 4000438819
-	pos = 1.01028609,13.0748301,-4.77639008
+	persistentId = 279340233
+	pos = 1.01028633,13.0748329,-4.77639437
 	attPos = 0,0,0
 	attPos0 = -0.540940642,-0.204101563,-1.11539531
 	rot = 0.137949735,-0.69351995,-0.69351995,0.137949735
@@ -2680,6 +3083,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -2704,8 +3125,8 @@ PART
 {
 	part = eridani.low.gain.antenna.srf.1_4293967704
 	partName = Part
-	persistentId = 298153806
-	pos = 1.4925878,14.9170713,-4.78684044
+	persistentId = 1435605681
+	pos = 1.49258828,14.9170742,-4.78684473
 	attPos = 0,0,0
 	attPos0 = -1.02324212,-0.214552879,0.726846933
 	rot = 0.653281569,-0.270598084,-0.270598084,0.653281569
@@ -2753,6 +3174,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -2777,8 +3216,8 @@ PART
 {
 	part = eridani.low.gain.antenna.srf.1_4293967566
 	partName = Part
-	persistentId = 3491418907
-	pos = -0.521725178,14.9492445,-5.06629276
+	persistentId = 976538805
+	pos = -0.521725714,14.9492474,-5.06629705
 	attPos = 0,0,0
 	attPos0 = 0.991070151,-0.494005203,0.759019256
 	rot = 0.653281569,0.270598084,0.270598084,0.653281569
@@ -2826,6 +3265,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -2850,11 +3307,11 @@ PART
 {
 	part = octans.high.gain.antenna.srf.1_4293963766
 	partName = Part
-	persistentId = 10912951
-	pos = 0.934407711,13.7251625,1.14763916
+	persistentId = 1855318736
+	pos = 0.934408188,13.7251625,1.14764011
 	attPos = 0,0,0
 	attPos0 = -0.465061933,0.21992588,-0.465061903
-	rot = -0.331854194,0.801167011,0.460092574,-0.190576583
+	rot = -0.331854135,0.801166892,0.460092425,-0.190576524
 	attRot = -0.0436193869,0,0,0.999048233
 	attRot0 = -0.241175979,-0.36941433,0.0998983607,-0.891845107
 	mir = 1,1,1
@@ -2899,6 +3356,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -2940,11 +3415,11 @@ PART
 {
 	part = octans.high.gain.antenna.srf.1_4293964502
 	partName = Part
-	persistentId = 403690278
-	pos = -0.00183674693,13.7190418,1.1353581
+	persistentId = 2100217322
+	pos = -0.00183728337,13.7190418,1.13535953
 	attPos = 0,0,0
 	attPos0 = 0.471181661,0.207644463,-0.471181661
-	rot = 0.331854194,0.801167011,0.460092574,0.190576583
+	rot = 0.331854135,0.801166892,0.460092425,0.190576524
 	attRot = -0.0436193943,0,0,0.999048233
 	attRot0 = -0.241175964,0.36941433,-0.0998983532,-0.891845107
 	mir = 1,1,1
@@ -2989,6 +3464,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -3030,11 +3523,11 @@ PART
 {
 	part = octans.whip.antenna.srf.1_4293963216
 	partName = Part
-	persistentId = 1704672428
-	pos = -0.229907811,13.6034813,-0.350661755
+	persistentId = 4106505462
+	pos = -0.229908049,13.6034813,-0.350661695
 	attPos = 0,0,0
 	attPos0 = 0.699253082,-0.340874672,-0.586743116
-	rot = 0.298836261,0.640856504,0.640856504,0.298836261
+	rot = 0.298836231,0.640856445,0.640856445,0.298836231
 	attRot = 0,0,0,1
 	attRot0 = 0,0.42261827,0,-0.906307817
 	mir = 1,1,1
@@ -3076,6 +3569,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -3137,8 +3648,8 @@ PART
 {
 	part = eridani.high.gain.antenna.srf.1_4294030140
 	partName = Part
-	persistentId = 1200846482
-	pos = 1.21395707,14.9348383,-6.0722909
+	persistentId = 2646864691
+	pos = 1.21395755,14.934844,-6.07229853
 	attPos = 0,0,0
 	attPos0 = -0.744610906,-1.50000179,0.744612873
 	rot = 0,0,0.923879623,0.382683516
@@ -3186,11 +3697,29 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableAntenna
 		isEnabled = True
-		currentRotation = (0.700909257, 0, 0, 0.713250458)
+		currentRotation = (0.707106829, 0, 0, 0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS

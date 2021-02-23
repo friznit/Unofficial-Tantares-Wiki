@@ -1,5 +1,5 @@
 ship = [Kosmos 3M]
-version = 1.10.1
+version = 1.11.1
 description = 
 type = VAB
 size = 1.53864825,13,1.53864813
@@ -112,6 +112,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -122,6 +123,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -579,6 +581,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -589,6 +592,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -805,7 +809,7 @@ PART
 	pos = 0.472818404,7.9528389,-0.156301141
 	attPos = 0,0,0
 	attPos0 = 0.487112194,-0.231748581,-0.487112164
-	rot = 0.0142473448,0.382418096,0.0343961418,0.923238993
+	rot = 0.0142473467,0.382418096,0.0343961492,0.923238993
 	attRot = 0,0,0,1
 	attRot0 = 0.0142473411,0.382418096,0.0343961269,0.923238993
 	mir = 1,1,1
@@ -875,7 +879,7 @@ PART
 	pos = -0.501405835,7.9528389,-0.156301171
 	attPos = 0,0,0
 	attPos0 = -0.487112075,-0.231748581,-0.487112194
-	rot = 0.0343961455,0.923238993,0.0142473467,0.382418126
+	rot = 0.0343961529,0.923238993,0.0142473485,0.382418126
 	attRot = 0,0,0,1
 	attRot0 = 0.0343961306,0.923238993,0.0142473429,0.382418126
 	mir = 1,1,1
@@ -945,7 +949,7 @@ PART
 	pos = -0.501405895,7.9528389,0.817923188
 	attPos = 0,0,0
 	attPos0 = -0.487112135,-0.231748581,0.487112194
-	rot = 0.0343961455,0.923238993,-0.0142473476,-0.382418126
+	rot = 0.0343961529,0.923238993,-0.0142473495,-0.382418126
 	attRot = 0,0,0,1
 	attRot0 = 0.0343961306,0.923238993,-0.0142473439,-0.382418126
 	mir = 1,1,1
@@ -1015,7 +1019,7 @@ PART
 	pos = 0.472818375,7.9528389,0.817923188
 	attPos = 0,0,0
 	attPos0 = 0.487112164,-0.231748581,0.487112135
-	rot = 0.0142473467,0.382418126,-0.0343961455,-0.923238993
+	rot = 0.0142473485,0.382418126,-0.0343961529,-0.923238993
 	attRot = 0,0,0,1
 	attRot0 = 0.0142473429,0.382418126,-0.0343961306,-0.923238993
 	mir = 1,1,1

@@ -1,5 +1,5 @@
 ship = [Kosmos 2I]
-version = 1.10.1
+version = 1.11.1
 description = 
 type = VAB
 size = 1.37282228,13.5,1.37282228
@@ -16,7 +16,7 @@ PART
 {
 	part = canopus.fairing.s0p5.1_4293600692
 	partName = Part
-	persistentId = 640103096
+	persistentId = 3277081418
 	pos = 0.024388995,14.5166492,0.0864973292
 	attPos = 0,0,0
 	attPos0 = 0.024388995,14.5166492,0.0864973292
@@ -127,7 +127,7 @@ PART
 {
 	part = chara.lv.fuel.tank.s0p5.1_4293585764
 	partName = Part
-	persistentId = 4065875291
+	persistentId = 3392228018
 	pos = 0.024388995,13.9541492,0.0864973292
 	attPos = 0,0,0
 	attPos0 = 0,-0.5625,0
@@ -203,7 +203,7 @@ PART
 {
 	part = chara.lv.fuel.tank.s0p5.2_4293583166
 	partName = Part
-	persistentId = 3270835164
+	persistentId = 2059121941
 	pos = 0.024388995,12.4541492,0.0864973292
 	attPos = 0,0,0
 	attPos0 = 0,-1.5,0
@@ -279,7 +279,7 @@ PART
 {
 	part = chara.lv.engine.s0p5.2_4293570982
 	partName = Part
-	persistentId = 2511650172
+	persistentId = 3578180443
 	pos = 0.024388995,10.9541492,0.0864973292
 	attPos = 0,0,0
 	attPos0 = 0,-1.5,0
@@ -375,6 +375,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -385,6 +386,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -532,7 +534,7 @@ PART
 {
 	part = castor.decoupler.s0p5.1_4293563624
 	partName = Part
-	persistentId = 65457372
+	persistentId = 849702978
 	pos = 0.024388995,10.3916492,0.0864973292
 	attPos = 0,0,0
 	attPos0 = 0,-0.5625,0
@@ -656,7 +658,7 @@ PART
 {
 	part = chara.lv.fuel.tank.s0p5.4_4293543188
 	partName = Part
-	persistentId = 2062966225
+	persistentId = 2123572182
 	pos = 0.024388995,6.32914925,0.0864973292
 	attPos = 0,0,0
 	attPos0 = 0,-4.0625,0
@@ -732,7 +734,7 @@ PART
 {
 	part = chara.lv.engine.s0p5.1_4293535372
 	partName = Part
-	persistentId = 2356073928
+	persistentId = 3806798956
 	pos = 0.024388995,1.70414925,0.0864973292
 	attPos = 0,0,0
 	attPos0 = 0,-4.625,0
@@ -831,6 +833,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -841,6 +844,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -955,7 +959,7 @@ PART
 {
 	part = canopus.basic.fin.srf.1_4293525722
 	partName = Part
-	persistentId = 3805079000
+	persistentId = 1476464774
 	pos = 0.400938392,1.47070885,-0.290051997
 	attPos = 0,0,0
 	attPos0 = 0.376549393,-0.233440399,-0.376549333
@@ -1025,7 +1029,7 @@ PART
 {
 	part = canopus.basic.fin.srf.1_4293525342
 	partName = Part
-	persistentId = 3201207619
+	persistentId = 521119913
 	pos = -0.352160275,1.47070885,-0.290052056
 	attPos = 0,0,0
 	attPos0 = -0.376549274,-0.233440399,-0.376549393
@@ -1095,7 +1099,7 @@ PART
 {
 	part = canopus.basic.fin.srf.1_4293525300
 	partName = Part
-	persistentId = 815246360
+	persistentId = 1509183150
 	pos = -0.352160364,1.47070885,0.4630467
 	attPos = 0,0,0
 	attPos0 = -0.376549363,-0.233440399,0.376549363
@@ -1165,7 +1169,7 @@ PART
 {
 	part = canopus.basic.fin.srf.1_4293525258
 	partName = Part
-	persistentId = 908076610
+	persistentId = 2199139532
 	pos = 0.400938332,1.47070885,0.46304667
 	attPos = 0,0,0
 	attPos0 = 0.376549333,-0.233440399,0.376549333

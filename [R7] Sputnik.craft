@@ -1,8 +1,8 @@
 ship = [R7] Sputnik
-version = 1.10.1
+version = 1.11.1
 description = 
 type = VAB
-size = 6.58579588,18.7714462,6.58579731
+size = 6.58579588,18.7714443,6.58579826
 steamPublishedFileId = 0
 persistentId = 146077105
 rot = 0,0,0,0
@@ -136,12 +136,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 300
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -448,12 +447,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 1480
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -590,12 +588,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 600
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1070,6 +1067,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -1080,6 +1078,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -1337,12 +1336,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 770
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1360,7 +1358,7 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4293648136
 	partName = Part
 	persistentId = 286971158
-	pos = 0.11007005,8.73733997,-1.41236305
+	pos = 0.11007005,8.73733997,-1.41236329
 	attPos = 0.0669300556,0,0
 	attPos0 = -0.865979552,0.0297250748,-2.3841848E-07
 	rot = -0.0292301103,2.38418579E-07,-8.38190317E-09,-0.999572754
@@ -1439,7 +1437,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4293641874
 	partName = Part
 	persistentId = 855491526
-	pos = 0.110070169,3.87067223,-1.69723523
+	pos = 0.110070169,3.87067223,-1.69723547
 	attPos = 0,0,0
 	attPos0 = -2.98023828E-08,-4.875,-3.2782566E-07
 	rot = 0.0292301103,0,1.86264515E-08,0.999572754
@@ -1537,6 +1535,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -1547,6 +1546,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -1684,7 +1684,7 @@ PART
 	part = canopus.basic.fin.srf.2_4293621358
 	partName = Part
 	persistentId = 1321691564
-	pos = 0.110070288,3.945364,-2.60592151
+	pos = 0.110070288,3.945364,-2.60592198
 	attPos = 0,0,0
 	attPos0 = -7.71593776E-08,0.0214662459,-0.911496818
 	rot = 0.0206688046,0.706804693,0.0206688307,0.706804693
@@ -1874,12 +1874,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 770
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1976,7 +1975,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4293640018
 	partName = Part
 	persistentId = 3252153641
-	pos = -1.58057117,3.87067223,-0.00659321109
+	pos = -1.58057117,3.87067223,-0.00659324881
 	attPos = 0,0,0
 	attPos0 = 3.68182782E-08,-4.875,-2.68220788E-07
 	rot = 0.0206688214,0.706804633,-0.0206687972,0.706804693
@@ -2074,6 +2073,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -2084,6 +2084,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -2221,7 +2222,7 @@ PART
 	part = canopus.basic.fin.srf.2_4293620018
 	partName = Part
 	persistentId = 2623373588
-	pos = -2.489259,3.945364,-0.00659248279
+	pos = -2.48925924,3.945364,-0.00659242319
 	attPos = 0,0,0
 	attPos0 = -1.51040467E-07,0.0214657709,-0.911497235
 	rot = 0.0292301159,0.999572754,1.49011612E-08,0
@@ -2411,12 +2412,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 770
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2434,7 +2434,7 @@ PART
 	part = tantares.lv.booster.fuel.tank.s1p5.1_4293648026
 	partName = Part
 	persistentId = 264857541
-	pos = 0.110069908,8.73733997,1.39917827
+	pos = 0.110069908,8.73733997,1.3991785
 	attPos = 0.0669299364,0,0
 	attPos0 = -0.86597991,0.0297250748,-2.3841848E-07
 	rot = -5.58793545E-09,-0.999572754,0.0292301103,-1.78813934E-07
@@ -2513,7 +2513,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4293639860
 	partName = Part
 	persistentId = 1887503868
-	pos = 0.110069849,3.87067223,1.68405044
+	pos = 0.110069849,3.87067223,1.68405068
 	attPos = 0,0,0
 	attPos0 = -2.9802365E-08,-4.875,-3.27825461E-07
 	rot = 1.58324838E-08,0.999572754,-0.0292301103,-8.94069672E-08
@@ -2611,6 +2611,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -2621,6 +2622,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -2758,7 +2760,7 @@ PART
 	part = canopus.basic.fin.srf.2_4293619976
 	partName = Part
 	persistentId = 2001499512
-	pos = 0.110070325,3.945364,2.59273791
+	pos = 0.110070325,3.945364,2.59273839
 	attPos = 0,0,0
 	attPos0 = -7.71587949E-08,0.021465769,-0.911497176
 	rot = 0.0206688307,0.706804633,-0.0206688065,-0.706804752
@@ -2948,12 +2950,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 770
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3050,7 +3051,7 @@ PART
 	part = tantares.lv.engine.s1p5.2_4293639702
 	partName = Part
 	persistentId = 3715021036
-	pos = 1.80071068,3.87067223,-0.00659209723
+	pos = 1.80071068,3.87067223,-0.00659205951
 	attPos = 0,0,0
 	attPos0 = 3.68182782E-08,-4.875,-2.68220788E-07
 	rot = -0.0206687972,0.706804693,-0.0206688214,-0.706804633
@@ -3148,6 +3149,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -3158,6 +3160,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -3295,7 +3298,7 @@ PART
 	part = canopus.basic.fin.srf.2_4293619934
 	partName = Part
 	persistentId = 2038834586
-	pos = 2.70939851,3.945364,-0.00659282552
+	pos = 2.70939875,3.945364,-0.00659288513
 	attPos = 0,0,0
 	attPos0 = -1.51040467E-07,0.0214657709,-0.911497235
 	rot = 1.49011612E-08,0,-0.0292301159,-0.999572754

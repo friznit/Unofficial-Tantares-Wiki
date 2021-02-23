@@ -1,5 +1,5 @@
 ship = [LK-1]
-version = 1.10.1
+version = 1.11.1
 description = 
 type = VAB
 size = 2.1101234,3.29250336,2.0946455
@@ -17,7 +17,7 @@ PART
 	part = aquarius.service.module.s1p5.1_4293157994
 	partName = Part
 	persistentId = 3499346077
-	pos = -0.147379354,25.5703735,-0.2717686
+	pos = -0.165140688,25.6817303,-0.271064192
 	attPos = 0,0,0
 	attPos0 = -0.147379354,25.5703735,-0.2717686
 	rot = 0,0,0,1
@@ -43,7 +43,6 @@ PART
 	link = cursa.solar.srf.1.2_4293069538
 	link = octans.moe.srf.4.extended_4285723094
 	link = octans.moe.srf.4.extended_4293068358
-	link = castor.decoupler.s1p5.1_4291416718
 	attN = top,castor.decoupler.s1p5.1_4291416718_0|0.375|0_0|1|0_0|0.375|0_0|1|0
 	attN = bottom,Auriga.Engine.1_4293156888_0|-0.375|0_0|-1|0_0|-0.375|0_0|-1|0
 	EVENTS
@@ -114,7 +113,7 @@ PART
 	part = Auriga.Engine.1_4293156888
 	partName = Part
 	persistentId = 218989387
-	pos = -0.147379354,24.8828735,-0.2717686
+	pos = -0.165140688,24.9942303,-0.271064192
 	attPos = 0,0,0
 	attPos0 = 0,-0.6875,0
 	rot = 0,0,0,1
@@ -212,6 +211,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -222,6 +222,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -277,7 +278,7 @@ PART
 	part = octans.whip.antenna.srf.2_4293090756
 	partName = Part
 	persistentId = 1076106493
-	pos = -0.790611088,24.6301212,-0.915000319
+	pos = -0.808372438,24.741478,-0.914295912
 	attPos = 0,0,0
 	attPos0 = -0.64323175,-0.252752304,-0.64323169
 	rot = -0.239117518,0.369643837,0.0990457386,0.892399192
@@ -325,6 +326,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -387,7 +406,7 @@ PART
 	part = octans.whip.antenna.srf.2_4293071672
 	partName = Part
 	persistentId = 3554734539
-	pos = -0.790611029,24.6301212,0.37146309
+	pos = -0.808372378,24.741478,0.372167498
 	attPos = 0,0,0
 	attPos0 = -0.64323169,-0.252752304,0.64323169
 	rot = -0.0990457013,0.892399192,0.239117533,0.369643837
@@ -435,6 +454,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -497,7 +534,7 @@ PART
 	part = octans.whip.antenna.srf.2_4293071626
 	partName = Part
 	persistentId = 3161732000
-	pos = 0.49585247,24.6301212,0.371463031
+	pos = 0.478091121,24.741478,0.372167438
 	attPos = 0,0,0
 	attPos0 = 0.643231809,-0.252752304,0.64323163
 	rot = 0.099045746,0.892399192,0.239117518,-0.369643867
@@ -545,6 +582,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -607,7 +662,7 @@ PART
 	part = octans.whip.antenna.srf.2_4293071580
 	partName = Part
 	persistentId = 190973298
-	pos = 0.495852292,24.6301212,-0.915000319
+	pos = 0.478090942,24.741478,-0.914295912
 	attPos = 0,0,0
 	attPos0 = 0.64323163,-0.252752304,-0.64323175
 	rot = 0.239117533,0.369643837,0.0990457013,-0.892399192
@@ -655,6 +710,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -717,7 +790,7 @@ PART
 	part = cursa.solar.srf.1.2_4293097722
 	partName = Part
 	persistentId = 1225272879
-	pos = 0.762085974,25.340765,-0.27176854
+	pos = 0.744324625,25.4521217,-0.271064132
 	attPos = 0,0,0
 	attPos0 = 0.909465313,-0.229608536,5.96046448E-08
 	rot = 0.5,0.5,-0.5,-0.5
@@ -763,6 +836,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -822,7 +913,7 @@ PART
 	part = cursa.solar.srf.1.2_4293069538
 	partName = Part
 	persistentId = 2761186917
-	pos = -1.05684471,25.340765,-0.27176854
+	pos = -1.07460606,25.4521217,-0.271064132
 	attPos = 0,0,0
 	attPos0 = -0.909465313,-0.229608536,5.96046448E-08
 	rot = 0.5,-0.5,0.5,-0.5
@@ -868,6 +959,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -927,7 +1036,7 @@ PART
 	part = octans.moe.srf.4.extended_4285723094
 	partName = Part
 	persistentId = 4132154205
-	pos = -0.147379279,25.38867,-1.18159127
+	pos = -0.165140614,25.5000267,-1.18088686
 	attPos = 0,0,0
 	attPos0 = 8.19563866E-08,-0.181703568,-0.909822643
 	rot = 0,0,0.707106829,-0.707106829
@@ -973,6 +1082,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -1028,7 +1155,7 @@ PART
 	part = octans.moe.srf.4.extended_4293068358
 	partName = Part
 	persistentId = 292743120
-	pos = -0.147379354,25.38867,0.638054013
+	pos = -0.165140688,25.5000267,0.638758421
 	attPos = 0,0,0
 	attPos0 = 0,-0.181703568,0.909822643
 	rot = 0.707106829,-0.707106829,-3.09086197E-08,3.09086197E-08
@@ -1074,6 +1201,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -1129,7 +1274,7 @@ PART
 	part = castor.decoupler.s1p5.1_4291416718
 	partName = Part
 	persistentId = 221099937
-	pos = -0.147379354,26.0078735,-0.2717686
+	pos = -0.165140688,26.1192303,-0.271064192
 	attPos = 0,0,0
 	attPos0 = 0,0.4375,0
 	rot = 0,0,0,1
@@ -1150,7 +1295,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = alnair.heatshield.s1p5.1_4291439724
+	link = aquarius.service.module.s1p5.1_4293157994
 	attN = top,alnair.heatshield.s1p5.1_4291439724_0|0.0625|0_0|1|0_0|0.0625|0_0|1|0
 	attN = bottom,aquarius.service.module.s1p5.1_4293157994_0|-0.0625|0_0|-1|0_0|-0.0625|0_0|-1|0
 	EVENTS
@@ -1253,7 +1398,7 @@ PART
 	part = alnair.heatshield.s1p5.1_4291439724
 	partName = Part
 	persistentId = 1051492790
-	pos = -0.147379354,26.1953735,-0.2717686
+	pos = -0.165140688,26.3067303,-0.271064192
 	attPos = 0,0,0
 	attPos0 = 0,0.1875,0
 	rot = 0,0,0,1
@@ -1274,7 +1419,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = alnair.crew.s1p5.1_4291415334
+	link = castor.decoupler.s1p5.1_4291416718
 	attN = bottom,castor.decoupler.s1p5.1_4291416718_0|-0.125|0_0|-1|0_0|-0.125|0_0|-1|0
 	attN = top,alnair.crew.s1p5.1_4291415334_0|0.125|0_0|1|0_0|0.125|0_0|1|0
 	EVENTS
@@ -1396,14 +1541,14 @@ PART
 	part = alnair.crew.s1p5.1_4291415334
 	partName = Part
 	persistentId = 1757847871
-	pos = -0.147379354,26.7578735,-0.2717686
+	pos = -0.165140688,26.8692303,-0.271064192
 	attPos = 0,0,0
-	attPos0 = 0,0.5625,0
+	attPos0 = -0.165140688,26.8692303,-0.271064192
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
-	symMethod = Radial
+	symMethod = Mirror
 	autostrutMode = Off
 	rigidAttachment = False
 	istg = 1
@@ -1418,6 +1563,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = Auriga.Parachute.1_4293173398
+	link = alnair.heatshield.s1p5.1_4291439724
 	attN = bottom,alnair.heatshield.s1p5.1_4291439724_0|-0.4375|0_0|-1|0_0|-0.4375|0_0|-1|0
 	attN = top,Auriga.Parachute.1_4293173398_0|0.4375|0_0|1|0_0|0.4375|0_0|1|0
 	EVENTS
@@ -1681,6 +1827,28 @@ PART
 	}
 	RESOURCE
 	{
+		name = LiquidFuel
+		amount = 9
+		maxAmount = 9
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 11
+		maxAmount = 11
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
 		name = MonoPropellant
 		amount = 15
 		maxAmount = 15
@@ -1696,7 +1864,7 @@ PART
 	part = Auriga.Parachute.1_4293173398
 	partName = Part
 	persistentId = 65422068
-	pos = -0.147379354,27.340374,-0.2717686
+	pos = -0.165140688,27.4517307,-0.271064192
 	attPos = 0,0,0
 	attPos0 = 0,0.582500458,0
 	rot = 0,0,0,1
@@ -1833,7 +2001,7 @@ PART
 	part = Auriga.DrogueParachute.1_4293142394
 	partName = Part
 	persistentId = 3615511633
-	pos = -0.147379354,27.6303749,-0.2717686
+	pos = -0.165140688,27.7417316,-0.271064192
 	attPos = 0,0,0
 	attPos0 = 0,0.290000916,0
 	rot = 0,0,0,1

@@ -1,7 +1,7 @@
 ship = [Mir] Spektr
-version = 1.10.1
+version = 1.11.1
 description = 
-type = SPH
+type = VAB
 size = 2.5,7.60412598,2.5
 steamPublishedFileId = 0
 persistentId = 663399822
@@ -16,7 +16,7 @@ PART
 {
 	part = aquila.crew.s1p5.2.1_4293694532
 	partName = Part
-	persistentId = 2950683953
+	persistentId = 151473867
 	pos = -0.210062385,17.592907,-0.0349988528
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -78,6 +78,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleInventoryPart
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		STOREDPARTS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -181,7 +199,7 @@ PART
 {
 	part = aquila.crew.s1p5.1.2_4293689566
 	partName = Part
-	persistentId = 2466972218
+	persistentId = 3199039746
 	pos = -0.210062385,16.030405,-0.0349988528
 	attPos = 0,0,0
 	attPos0 = 0,1.5625,0
@@ -203,11 +221,11 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = Andromeda.MonoSphere.2_4293489154
-	link = Andromeda.MonoSphere.2_4293488432
 	link = aquila.crew.s1p5.3.2_4293686266
 	link = eridani.solar.srf.1.2_4293824208
 	link = eridani.solar.srf.1.2_4293814914
+	link = Andromeda.FuelSphere.2_4293010350
+	link = Andromeda.FuelSphere.2_4293009954
 	attN = bottom,aquila.crew.s1p5.2.1_4293694532_0|-0.625|0_0|-1|0_0|-0.625|0_0|-1|0
 	attN = top,aquila.crew.s1p5.3.2_4293686266_0|0.625|0_0|1|0_0|0.625|0_0|1|0
 	EVENTS
@@ -233,6 +251,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleInventoryPart
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		STOREDPARTS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -315,7 +351,7 @@ PART
 {
 	part = aquila.adapter.s2.s1p5.1_4293671902
 	partName = Part
-	persistentId = 3654020199
+	persistentId = 3449108385
 	pos = -0.210062385,18.905407,-0.0349988528
 	attPos = 0,0,0
 	attPos0 = 0,-1.3125,0
@@ -367,6 +403,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleInventoryPart
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		STOREDPARTS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -464,7 +518,7 @@ PART
 {
 	part = aquila.control.s2.1_4293659372
 	partName = Part
-	persistentId = 3384642647
+	persistentId = 3485955998
 	pos = -0.210062385,19.3554058,-0.0349988528
 	attPos = 0,0,0
 	attPos0 = 0,-0.449999809,0
@@ -710,7 +764,7 @@ PART
 {
 	part = aquila.adapter.s2.s0p5.1_4293656096
 	partName = Part
-	persistentId = 1247781340
+	persistentId = 3658851392
 	pos = -0.210062385,19.8054047,-0.0349988528
 	attPos = 0,0,0
 	attPos0 = 0,-0.449999809,0
@@ -758,6 +812,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleInventoryPart
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		STOREDPARTS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -855,7 +927,7 @@ PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293635212
 	partName = Part
-	persistentId = 1529406600
+	persistentId = 1271171976
 	pos = -0.77589339,17.592907,0.702407181
 	attPos = 0,0,0
 	attPos0 = 0.565831006,0,0.737406015
@@ -905,6 +977,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleActiveRadiator
 		isEnabled = True
 		IsCooling = False
@@ -934,16 +1024,21 @@ PART
 		{
 		}
 	}
-	RESOURCE
+	MODULE
 	{
-		name = MonoPropellant
-		amount = 60
-		maxAmount = 60
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	RESOURCE
 	{
@@ -967,12 +1062,23 @@ PART
 		isVisible = True
 		flowMode = Both
 	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 60
+		maxAmount = 60
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293634840
 	partName = Part
-	persistentId = 544919779
+	persistentId = 2750723105
 	pos = 0.355768621,17.592907,-0.77240485
 	attPos = 0,0,0
 	attPos0 = -0.565831006,0,-0.737406015
@@ -1022,6 +1128,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleActiveRadiator
 		isEnabled = True
 		IsCooling = False
@@ -1051,16 +1175,21 @@ PART
 		{
 		}
 	}
-	RESOURCE
+	MODULE
 	{
-		name = MonoPropellant
-		amount = 60
-		maxAmount = 60
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	RESOURCE
 	{
@@ -1084,12 +1213,23 @@ PART
 		isVisible = True
 		flowMode = Both
 	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 60
+		maxAmount = 60
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293634782
 	partName = Part
-	persistentId = 604830147
+	persistentId = 1335757143
 	pos = 0.355768621,17.592907,0.702407181
 	attPos = 0,0,0
 	attPos0 = -0.565831006,0,0.737406015
@@ -1139,6 +1279,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleActiveRadiator
 		isEnabled = True
 		IsCooling = False
@@ -1168,16 +1326,21 @@ PART
 		{
 		}
 	}
-	RESOURCE
+	MODULE
 	{
-		name = MonoPropellant
-		amount = 60
-		maxAmount = 60
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	RESOURCE
 	{
@@ -1201,12 +1364,23 @@ PART
 		isVisible = True
 		flowMode = Both
 	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 60
+		maxAmount = 60
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = aquila.radiator.fuel.tank.double.srf.2_4293634640
 	partName = Part
-	persistentId = 1175781099
+	persistentId = 380756461
 	pos = -0.77589339,17.592907,-0.77240485
 	attPos = 0,0,0
 	attPos0 = 0.565831006,0,-0.737406015
@@ -1256,6 +1430,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleActiveRadiator
 		isEnabled = True
 		IsCooling = False
@@ -1285,16 +1477,21 @@ PART
 		{
 		}
 	}
-	RESOURCE
+	MODULE
 	{
-		name = MonoPropellant
-		amount = 60
-		maxAmount = 60
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	RESOURCE
 	{
@@ -1318,12 +1515,23 @@ PART
 		isVisible = True
 		flowMode = Both
 	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 60
+		maxAmount = 60
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = aquila.active.radiator.srf.2_4293632394
 	partName = Part
-	persistentId = 2067012117
+	persistentId = 3551337944
 	pos = -1.12081337,17.6557045,-0.0349987969
 	attPos = 0,0,0
 	attPos0 = 0.910750926,-0.0627985001,5.42849889E-08
@@ -1374,6 +1582,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleActiveRadiator
 		isEnabled = True
 		IsCooling = False
@@ -1408,7 +1634,7 @@ PART
 {
 	part = aquila.active.radiator.srf.2_4293632164
 	partName = Part
-	persistentId = 4287501124
+	persistentId = 1508471637
 	pos = 0.700688541,17.6557045,-0.0349988267
 	attPos = 0,0,0
 	attPos0 = -0.910750926,-0.0627985001,2.53353853E-08
@@ -1459,6 +1685,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleActiveRadiator
 		isEnabled = True
 		IsCooling = False
@@ -1493,7 +1737,7 @@ PART
 {
 	part = radialEngineMini.v2_4293518378
 	partName = Part
-	persistentId = 914971802
+	persistentId = 1964421456
 	pos = -0.370336711,18.5356636,-0.943959057
 	attPos = 0,0,0
 	attPos0 = 0.160274312,0.369743347,-0.908960223
@@ -1588,6 +1832,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -1598,6 +1843,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -1725,12 +1971,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 120
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1747,7 +1992,7 @@ PART
 {
 	part = radialEngineMini.v2_4293517656
 	partName = Part
-	persistentId = 3725403038
+	persistentId = 3953363654
 	pos = -0.0497881472,18.5356636,0.873961389
 	attPos = 0,0,0
 	attPos0 = -0.160274237,0.369743347,0.908960223
@@ -1842,12 +2087,14 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 			}
 			thrustPercentage
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 			}
 		}
@@ -1971,12 +2218,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 120
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1993,7 +2239,7 @@ PART
 {
 	part = radialEngineMini.v2_4293517382
 	partName = Part
-	persistentId = 3569257422
+	persistentId = 3648984466
 	pos = -0.0501139462,18.5350342,-0.942111015
 	attPos = 0,0,0
 	attPos0 = -0.159948438,0.370370865,-0.907112181
@@ -2088,12 +2334,14 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 			}
 			thrustPercentage
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 			}
 		}
@@ -2217,12 +2465,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 120
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2239,7 +2486,7 @@ PART
 {
 	part = radialEngineMini.v2_4293516642
 	partName = Part
-	persistentId = 4023085377
+	persistentId = 2522262263
 	pos = -0.370010912,18.5350342,0.872113347
 	attPos = 0,0,0
 	attPos0 = 0.159948513,0.370370865,0.907112181
@@ -2334,12 +2581,14 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 			}
 			thrustPercentage
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 			}
 		}
@@ -2463,12 +2712,11 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleCargoPart
 		isEnabled = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 120
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2479,179 +2727,13 @@ PART
 		UPGRADESAPPLIED
 		{
 		}
-	}
-}
-PART
-{
-	part = Andromeda.MonoSphere.2_4293489154
-	partName = Part
-	persistentId = 696233237
-	pos = 0.433109105,16.5080395,-0.678170323
-	attPos = 0,0,0
-	attPos0 = -0.643171489,-0.47763443,-0.643171489
-	rot = -0.270598054,0.65328151,0.65328151,0.270598054
-	attRot = 0.707106769,0,0,0.707106769
-	attRot0 = -0.65328151,-0.270598054,0.270598054,-0.65328151
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Andromeda.MonoSphere.2_4293488432
-	srfN = srfAttach,aquila.crew.s1p5.1.2_4293689566,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 176
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 20
-		maxAmount = 20
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = Andromeda.MonoSphere.2_4293488432
-	partName = Part
-	persistentId = 1170428837
-	pos = -0.853233933,16.5080395,0.608172596
-	attPos = 0,0,0
-	attPos0 = 0.643171549,-0.47763443,0.64317143
-	rot = -0.65328151,-0.270598084,-0.270598084,0.65328151
-	attRot = 0.707106769,0,0,0.707106769
-	attRot0 = 0.270598084,-0.65328151,0.65328151,0.270598084
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Andromeda.MonoSphere.2_4293489154
-	srfN = srfAttach,aquila.crew.s1p5.1.2_4293689566,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 176
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 20
-		maxAmount = 20
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
 	}
 }
 PART
 {
 	part = octans.moe.srf.3.extended_4292490394
 	partName = Part
-	persistentId = 566998015
+	persistentId = 199714719
 	pos = -1.11944306,18.4874496,-0.0349987969
 	attPos = 0,0,0
 	attPos0 = 0.909380674,-0.894542694,5.42033156E-08
@@ -2701,6 +2783,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2736,6 +2836,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_white
 		EVENTS
 		{
 		}
@@ -2751,7 +2852,7 @@ PART
 {
 	part = octans.moe.srf.3.extended_4292489490
 	partName = Part
-	persistentId = 1542524031
+	persistentId = 4212034181
 	pos = 0.69931829,18.4874496,-0.0349988267
 	attPos = 0,0,0
 	attPos0 = -0.909380674,-0.894542694,2.52972683E-08
@@ -2801,6 +2902,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2836,6 +2955,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = tantares_white
 		EVENTS
 		{
 		}
@@ -2851,7 +2971,7 @@ PART
 {
 	part = octans.docking.port.s0p5.2.male_4293834672
 	partName = Part
-	persistentId = 3277244441
+	persistentId = 1994728846
 	pos = -0.210062385,20.2554054,-0.0349988528
 	attPos = 0,0,0
 	attPos0 = -0.210062385,20.2554054,-0.0349988528
@@ -2978,6 +3098,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -3011,7 +3132,7 @@ PART
 {
 	part = aquila.crew.s1p5.3.2_4293686266
 	partName = Part
-	persistentId = 1821110143
+	persistentId = 991533539
 	pos = -0.210062385,14.405405,-0.0349988528
 	attPos = 0,0,0
 	attPos0 = 0,1.625,0
@@ -3033,8 +3154,6 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = Ara.GooExperiment.1_4293569242
-	link = Ara.SensorBarometer.1_4293565874
 	link = lepus.low.gain.antenna.srf.1_4293325390
 	link = lepus.low.gain.antenna.srf.1_4293321436
 	link = eridani.solar.srf.2.2_4293828784
@@ -3076,6 +3195,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleInventoryPart
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		STOREDPARTS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -3156,229 +3293,9 @@ PART
 }
 PART
 {
-	part = Ara.GooExperiment.1_4293569242
-	partName = Part
-	persistentId = 1042931163
-	pos = -0.210062385,14.3363571,0.550780475
-	attPos = 0,0,0
-	attPos0 = 0,0.0690479279,0.585779309
-	rot = 0.989191413,0,0,-0.146630108
-	attRot = 0,0,0,1
-	attRot0 = 0,0.989191413,-0.146630108,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,aquila.crew.s1p5.3.2_4293686266,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		aniState = LOCKED
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		deployPercent = 100
-		animationIsDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		AXISGROUPS
-		{
-			deployPercent
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisInverted = None
-				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleScienceExperiment
-		isEnabled = True
-		Deployed = False
-		Inoperable = False
-		cooldownToGo = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DeployAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ResetAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = Ara.SensorBarometer.1_4293565874
-	partName = Part
-	persistentId = 980939766
-	pos = -0.210062385,14.7530079,0.677114487
-	attPos = 0,0,0
-	attPos0 = 0,-0.347602844,0.712113321
-	rot = 0.989191413,0,0,-0.146630108
-	attRot = 0,0,0,1
-	attRot0 = 0,0.989191413,-0.146630108,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,aquila.crew.s1p5.3.2_4293686266,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnviroSensor
-		isEnabled = True
-		sensorActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleScienceExperiment
-		isEnabled = True
-		Deployed = False
-		Inoperable = False
-		cooldownToGo = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DeployAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ResetAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = lepus.low.gain.antenna.srf.1_4293325390
 	partName = Part
-	persistentId = 2396489436
+	persistentId = 1534134469
 	pos = -0.2100624,13.405405,-0.268240362
 	attPos = 0,0,0
 	attPos0 = 2.0390619E-08,1,-0.233241498
@@ -3427,6 +3344,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -3468,7 +3403,7 @@ PART
 {
 	part = lepus.low.gain.antenna.srf.1_4293321436
 	partName = Part
-	persistentId = 2976640269
+	persistentId = 866936904
 	pos = -0.450836658,13.405405,-0.0349988379
 	attPos = 0,0,0
 	attPos0 = 0.240774274,1,1.4351266E-08
@@ -3517,6 +3452,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -3558,7 +3511,7 @@ PART
 {
 	part = eridani.solar.srf.2.2_4293828784
 	partName = Part
-	persistentId = 1050015495
+	persistentId = 2209128408
 	pos = 0.443172991,14.5521107,-0.0349988155
 	attPos = 0,0,0
 	attPos0 = -0.653235376,-0.146705627,3.89358661E-08
@@ -3608,13 +3561,31 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -3647,7 +3618,7 @@ PART
 {
 	part = eridani.solar.srf.2.2_4293824650
 	partName = Part
-	persistentId = 2388315146
+	persistentId = 385754512
 	pos = -0.86329776,14.5521107,-0.0349989496
 	attPos = 0,0,0
 	attPos0 = 0.653235376,-0.146705627,-9.60435145E-08
@@ -3697,13 +3668,31 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -3736,7 +3725,7 @@ PART
 {
 	part = eridani.solar.srf.1.2_4293824208
 	partName = Part
-	persistentId = 2900601939
+	persistentId = 910634465
 	pos = 0.69937861,16.4835167,-0.0349987969
 	attPos = 0,0,0
 	attPos0 = -0.909440994,-0.453111649,5.4206911E-08
@@ -3786,6 +3775,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		efficiencyMult = 1
@@ -3825,7 +3832,7 @@ PART
 {
 	part = eridani.solar.srf.1.2_4293814914
 	partName = Part
-	persistentId = 2520493581
+	persistentId = 3836800854
 	pos = -1.11950338,16.4835167,-0.0349989869
 	attPos = 0,0,0
 	attPos0 = 0.909440994,-0.453111649,-1.33712774E-07
@@ -3875,6 +3882,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		efficiencyMult = 1
@@ -3914,7 +3939,7 @@ PART
 {
 	part = eridani.low.gain.antenna.srf.1_4293814424
 	partName = Part
-	persistentId = 3091705872
+	persistentId = 1614894064
 	pos = 0.0292942077,16.7136078,0.858292043
 	attPos = 0,0,0
 	attPos0 = -0.239356592,0.879299164,0.893290877
@@ -3964,6 +3989,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -3988,7 +4031,7 @@ PART
 {
 	part = eridani.low.gain.antenna.srf.1_4293814348
 	partName = Part
-	persistentId = 2225997843
+	persistentId = 3395111185
 	pos = -0.449418902,16.7136078,-0.928289711
 	attPos = 0,0,0
 	attPos0 = 0.239356518,0.879299164,-0.893290877
@@ -4038,6 +4081,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDataTransmitter
 		isEnabled = True
 		xmitIncomplete = False
@@ -4062,7 +4123,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292852140
 	partName = Part
-	persistentId = 3679324835
+	persistentId = 335670217
 	pos = -0.503191948,14.3327675,-0.542714059
 	attPos = 0,0,0
 	attPos0 = 0.293129563,0.072637558,-0.507715225
@@ -4109,6 +4170,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -4162,7 +4241,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292851678
 	partName = Part
-	persistentId = 2450317481
+	persistentId = 3991757944
 	pos = 0.0830671787,14.3327675,-0.542714059
 	attPos = 0,0,0
 	attPos0 = -0.293129563,0.072637558,-0.507715225
@@ -4209,6 +4288,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -4262,7 +4359,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292854198
 	partName = Part
-	persistentId = 1544842383
+	persistentId = 3490630783
 	pos = -0.502333403,14.3319254,0.471229404
 	attPos = 0,0,0
 	attPos0 = 0.292271018,0.0734796524,0.506228268
@@ -4309,6 +4406,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -4362,7 +4477,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292851518
 	partName = Part
-	persistentId = 4031925968
+	persistentId = 2561459454
 	pos = 0.0822086334,14.3319254,0.471229404
 	attPos = 0,0,0
 	attPos0 = -0.292271018,0.0734796524,0.506228268
@@ -4409,6 +4524,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -4462,7 +4595,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292854970
 	partName = Part
-	persistentId = 4209297245
+	persistentId = 1102846645
 	pos = -0.524012148,14.4708977,0.508778095
 	attPos = 0,0,0
 	attPos0 = 0.313949764,-0.06549263,0.543776929
@@ -4509,6 +4642,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -4562,7 +4713,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292851198
 	partName = Part
-	persistentId = 280380352
+	persistentId = 48720112
 	pos = 0.103887379,14.4708977,0.508778095
 	attPos = 0,0,0
 	attPos0 = -0.313949764,-0.06549263,0.543776929
@@ -4609,6 +4760,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -4662,7 +4831,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292854074
 	partName = Part
-	persistentId = 3167963712
+	persistentId = 1544290496
 	pos = -0.480260491,14.1867027,0.432997972
 	attPos = 0,0,0
 	attPos0 = 0.270198107,0.218702316,0.467996836
@@ -4709,6 +4878,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -4762,7 +4949,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292851118
 	partName = Part
-	persistentId = 2027840577
+	persistentId = 1830656848
 	pos = 0.0601357222,14.1867027,0.432997972
 	attPos = 0,0,0
 	attPos0 = -0.270198107,0.218702316,0.467996836
@@ -4809,6 +4996,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -4862,7 +5067,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292852016
 	partName = Part
-	persistentId = 4099438060
+	persistentId = 4215665088
 	pos = -0.481888741,14.1840935,-0.505815804
 	attPos = 0,0,0
 	attPos0 = 0.271826357,0.221311569,-0.47081694
@@ -4909,6 +5114,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -4962,7 +5185,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292851038
 	partName = Part
-	persistentId = 727481197
+	persistentId = 727719530
 	pos = 0.061763972,14.1840935,-0.505815804
 	attPos = 0,0,0
 	attPos0 = -0.271826357,0.221311569,-0.47081694
@@ -5009,6 +5232,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -5062,7 +5303,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292852264
 	partName = Part
-	persistentId = 3599964819
+	persistentId = 2965266749
 	pos = -0.524620175,14.4756079,-0.579828739
 	attPos = 0,0,0
 	attPos0 = 0.314557791,-0.0702028275,-0.544829905
@@ -5109,6 +5350,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -5162,7 +5421,7 @@ PART
 {
 	part = octans.moe.linear.srf.1_4292850958
 	partName = Part
-	persistentId = 3332039899
+	persistentId = 2599350341
 	pos = 0.104495406,14.4756079,-0.579828739
 	attPos = 0,0,0
 	attPos0 = -0.314557791,-0.0702028275,-0.544829905
@@ -5212,6 +5471,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -5256,5 +5533,191 @@ PART
 		UPGRADESAPPLIED
 		{
 		}
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.2_4293010350
+	partName = Part
+	persistentId = 2224312153
+	pos = -0.681149423,16.3304043,0.548860729
+	attPos = -0.17214644,-0.00503540039,-0.059373796
+	attPos0 = 0.643233478,-0.294963837,0.643233359
+	rot = -0.923879564,7.64579546E-12,-0.382683396,-1.84585854E-11
+	attRot = 0,0,0,1
+	attRot0 = -7.64579546E-12,-0.923879564,-1.84585854E-11,0.382683396
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.2_4293009954
+	srfN = srfAttach,aquila.crew.s1p5.1.2_4293689566,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 9
+		maxAmount = 9
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 11
+		maxAmount = 11
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.2_4293009954
+	partName = Part
+	persistentId = 9908183
+	pos = 0.261024714,16.3304043,-0.618858337
+	attPos = 0.17214644,-0.00503540039,0.059373796
+	attPos0 = -0.643233538,-0.294963837,-0.643233299
+	rot = 0.382683426,1.84585854E-11,-0.923879564,7.64579632E-12
+	attRot = 0,0,0,1
+	attRot0 = -1.84585854E-11,0.382683426,7.64579632E-12,0.923879564
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.2_4293010350
+	srfN = srfAttach,aquila.crew.s1p5.1.2_4293689566,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 9
+		maxAmount = 9
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 11
+		maxAmount = 11
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
 	}
 }

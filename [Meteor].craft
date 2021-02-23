@@ -1,8 +1,8 @@
 ship = [Meteor]
-version = 1.10.1
+version = 1.11.1
 description = 
 type = VAB
-size = 1.1244154,2.56250191,1.08115017
+size = 1.1244154,2.56250191,0.987500012
 steamPublishedFileId = 0
 persistentId = 3930764535
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = dalim.control.s0p5.1_4293897778
 	partName = Part
-	persistentId = 2553676242
+	persistentId = 2787457430
 	pos = 0,15,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -264,7 +264,7 @@ PART
 {
 	part = dalim.materials.bay.s0p5.1_4293882310
 	partName = Part
-	persistentId = 1982777466
+	persistentId = 1867537850
 	pos = 0,15.75,0
 	attPos = 0,0,0
 	attPos0 = 0,0.75,0
@@ -341,6 +341,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -401,7 +402,7 @@ PART
 {
 	part = dalim.adapter.s0p5.s0.1_4293875840
 	partName = Part
-	persistentId = 2559942039
+	persistentId = 1048666904
 	pos = 0,16.1875,0
 	attPos = 0,0,0
 	attPos0 = 0,0.4375,0
@@ -471,7 +472,7 @@ PART
 {
 	part = dalim.sensor.radiometer.s0.1_4293872022
 	partName = Part
-	persistentId = 2898022072
+	persistentId = 811732365
 	pos = 0,16.5,0
 	attPos = 0,0,0
 	attPos0 = 0,0.3125,0
@@ -568,7 +569,7 @@ PART
 {
 	part = dalim.adapter.s0p5.s0.1_4293868664
 	partName = Part
-	persistentId = 503153481
+	persistentId = 4176382700
 	pos = 0,14.5625,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.4375,0
@@ -591,12 +592,14 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = castor.ion.engine.s0.1_4293844752
-	link = Andromeda.MonoSphere.1_4293814638
-	link = Andromeda.MonoSphere.1_4293813752
-	link = Andromeda.MonoSphere.1_4293813718
-	link = Andromeda.MonoSphere.1_4293813684
-	link = Andromeda.MonoSphere.1_4293813650
-	link = Andromeda.MonoSphere.1_4293813616
+	link = Andromeda.FuelSphere.1_4293661368
+	link = Andromeda.FuelSphere.1_4293660920
+	link = Andromeda.FuelSphere.1_4293660888
+	link = Andromeda.FuelSphere.1_4293660856
+	link = Andromeda.FuelSphere.1_4293660824
+	link = Andromeda.FuelSphere.1_4293660792
+	link = Andromeda.FuelSphere.1_4293660760
+	link = Andromeda.FuelSphere.1_4293660728
 	attN = bottom,dalim.control.s0p5.1_4293897778_0|-0.0625|0_0|-1|0_0|-0.0625|0_0|-1|0
 	attN = top,castor.ion.engine.s0.1_4293844752_0|0.0625|0_0|1|0_0|0.0625|0_0|1|0
 	EVENTS
@@ -644,7 +647,7 @@ PART
 {
 	part = castor.ion.engine.s0.1_4293844752
 	partName = Part
-	persistentId = 4278260028
+	persistentId = 3535964317
 	pos = 0,14.375,0
 	attPos = 0,0,0
 	attPos0 = 0,0.1875,0
@@ -742,6 +745,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -752,6 +756,7 @@ PART
 			{
 				axisGroup = None
 				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
 				axisInverted = None
 				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
@@ -782,531 +787,9 @@ PART
 }
 PART
 {
-	part = Andromeda.MonoSphere.1_4293814638
-	partName = Part
-	persistentId = 303355644
-	pos = -3.05061789E-08,14.5375795,-0.348950028
-	attPos = 0,0,0
-	attPos0 = 3.05061789E-08,0.0249204636,-0.348950028
-	rot = 0,0.426459521,0.904506683,0
-	attRot = 0,0,0,1
-	attRot0 = -0.426459521,0,0,-0.904506683
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Andromeda.MonoSphere.1_4293813752
-	sym = Andromeda.MonoSphere.1_4293813718
-	sym = Andromeda.MonoSphere.1_4293813684
-	sym = Andromeda.MonoSphere.1_4293813650
-	sym = Andromeda.MonoSphere.1_4293813616
-	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 88
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 10
-		maxAmount = 10
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = Andromeda.MonoSphere.1_4293813752
-	partName = Part
-	persistentId = 834391107
-	pos = 0.302199572,14.5375795,-0.174475044
-	attPos = 0,0,0
-	attPos0 = -0.302199572,0.0249204636,-0.174475044
-	rot = -0.452253342,0.369324803,0.783325732,0.213229775
-	attRot = 0,0,0,1
-	attRot0 = -0.369324774,-0.452253312,0.213229761,-0.783325672
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Andromeda.MonoSphere.1_4293813718
-	sym = Andromeda.MonoSphere.1_4293813684
-	sym = Andromeda.MonoSphere.1_4293813650
-	sym = Andromeda.MonoSphere.1_4293813616
-	sym = Andromeda.MonoSphere.1_4293814638
-	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 88
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 10
-		maxAmount = 10
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = Andromeda.MonoSphere.1_4293813718
-	partName = Part
-	persistentId = 1519280428
-	pos = 0.302199602,14.5375795,0.174475029
-	attPos = 0,0,0
-	attPos0 = -0.302199602,0.0249204636,0.174475029
-	rot = -0.783325791,0.213229746,0.452253312,0.369324803
-	attRot = 0,0,0,1
-	attRot0 = -0.213229746,-0.783325791,0.369324803,-0.452253312
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Andromeda.MonoSphere.1_4293813684
-	sym = Andromeda.MonoSphere.1_4293813650
-	sym = Andromeda.MonoSphere.1_4293813616
-	sym = Andromeda.MonoSphere.1_4293814638
-	sym = Andromeda.MonoSphere.1_4293813752
-	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 88
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 10
-		maxAmount = 10
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = Andromeda.MonoSphere.1_4293813684
-	partName = Part
-	persistentId = 3619482638
-	pos = -1.45351362E-15,14.5375795,0.348950028
-	attPos = 0,0,0
-	attPos0 = 1.45351362E-15,0.0249204636,0.348950028
-	rot = -0.904506683,-1.86411384E-08,-3.95372446E-08,0.426459521
-	attRot = 0,0,0,1
-	attRot0 = 1.86411384E-08,-0.904506683,0.426459521,3.95372446E-08
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Andromeda.MonoSphere.1_4293813650
-	sym = Andromeda.MonoSphere.1_4293813616
-	sym = Andromeda.MonoSphere.1_4293814638
-	sym = Andromeda.MonoSphere.1_4293813752
-	sym = Andromeda.MonoSphere.1_4293813718
-	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 88
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 10
-		maxAmount = 10
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = Andromeda.MonoSphere.1_4293813650
-	partName = Part
-	persistentId = 2262842984
-	pos = -0.302199602,14.5375795,0.174475044
-	attPos = 0,0,0
-	attPos0 = 0.302199602,0.0249204636,0.174475044
-	rot = -0.783325732,-0.21322979,-0.452253401,0.369324774
-	attRot = 0,0,0,1
-	attRot0 = 0.21322979,-0.783325732,0.369324774,0.452253401
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Andromeda.MonoSphere.1_4293813616
-	sym = Andromeda.MonoSphere.1_4293814638
-	sym = Andromeda.MonoSphere.1_4293813752
-	sym = Andromeda.MonoSphere.1_4293813718
-	sym = Andromeda.MonoSphere.1_4293813684
-	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 88
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 10
-		maxAmount = 10
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = Andromeda.MonoSphere.1_4293813616
-	partName = Part
-	persistentId = 1720077677
-	pos = -0.302199632,14.5375795,-0.17447494
-	attPos = 0,0,0
-	attPos0 = 0.302199632,0.0249204636,-0.17447494
-	rot = -0.452253401,-0.369324774,-0.783325732,0.21322979
-	attRot = 0,0,0,1
-	attRot0 = 0.369324774,-0.452253401,0.21322979,0.783325732
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = Andromeda.MonoSphere.1_4293814638
-	sym = Andromeda.MonoSphere.1_4293813752
-	sym = Andromeda.MonoSphere.1_4293813718
-	sym = Andromeda.MonoSphere.1_4293813684
-	sym = Andromeda.MonoSphere.1_4293813650
-	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 88
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 10
-		maxAmount = 10
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
 	part = dalim.solar.srf.1.2_4293796486
 	partName = Part
-	persistentId = 1357434510
+	persistentId = 3136178313
 	pos = -0.45496732,15.3632135,2.71181673E-08
 	attPos = 0,0,0
 	attPos0 = -0.45496732,0.363213539,2.71181673E-08
@@ -1356,13 +839,31 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1411,7 +912,7 @@ PART
 {
 	part = dalim.solar.srf.1.2_4293794476
 	partName = Part
-	persistentId = 1191293729
+	persistentId = 2316560809
 	pos = 0.45496732,15.3632135,2.71181673E-08
 	attPos = 0,0,0
 	attPos0 = 0.45496732,0.363213539,2.71181673E-08
@@ -1461,13 +962,31 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0.707106829, 0, 0, -0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -1510,5 +1029,797 @@ PART
 		UPGRADESAPPLIED
 		{
 		}
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.1_4293661368
+	partName = Part
+	persistentId = 4151400995
+	pos = -0.299999982,14.5625,-1.78813941E-08
+	attPos = -0.0109518766,-0.0561199188,-3.6415571E-08
+	attPos0 = 0.310951859,0.0561199188,1.85341769E-08
+	rot = -0.639582753,-0.301552445,-0.639582813,0.301552445
+	attRot = 0,0,0,1
+	attRot0 = -0.301552415,0.639582753,-0.301552415,-0.639582813
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.1_4293660920
+	sym = Andromeda.FuelSphere.1_4293660888
+	sym = Andromeda.FuelSphere.1_4293660856
+	sym = Andromeda.FuelSphere.1_4293660824
+	sym = Andromeda.FuelSphere.1_4293660792
+	sym = Andromeda.FuelSphere.1_4293660760
+	sym = Andromeda.FuelSphere.1_4293660728
+	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.5
+		maxAmount = 4.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 5.5
+		maxAmount = 5.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.1_4293660920
+	partName = Part
+	persistentId = 439162577
+	pos = -0.212131992,14.5625,-0.212132111
+	attPos = -0.00774417818,-0.0561199188,0.00774405897
+	attPos0 = 0.21987617,0.0561199188,-0.21987617
+	rot = -0.34613955,-0.393997252,-0.835655272,0.163198933
+	attRot = 0,0,0,1
+	attRot0 = -0.393997222,0.34613964,-0.163198978,-0.835655212
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.1_4293660888
+	sym = Andromeda.FuelSphere.1_4293660856
+	sym = Andromeda.FuelSphere.1_4293660824
+	sym = Andromeda.FuelSphere.1_4293660792
+	sym = Andromeda.FuelSphere.1_4293660760
+	sym = Andromeda.FuelSphere.1_4293660728
+	sym = Andromeda.FuelSphere.1_4293661368
+	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.5
+		maxAmount = 4.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 5.5
+		maxAmount = 5.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.1_4293660888
+	partName = Part
+	persistentId = 2756439334
+	pos = 0,14.5625,-0.300000012
+	attPos = -3.70683502E-08,-0.0561199188,0.010951817
+	attPos0 = 3.70683502E-08,0.0561199188,-0.310951829
+	rot = -4.21468513E-08,0.426459551,0.904506683,0
+	attRot = 0,0,0,1
+	attRot0 = -0.426459551,-4.21468513E-08,0,-0.904506683
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.1_4293660856
+	sym = Andromeda.FuelSphere.1_4293660824
+	sym = Andromeda.FuelSphere.1_4293660792
+	sym = Andromeda.FuelSphere.1_4293660760
+	sym = Andromeda.FuelSphere.1_4293660728
+	sym = Andromeda.FuelSphere.1_4293661368
+	sym = Andromeda.FuelSphere.1_4293660920
+	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.5
+		maxAmount = 4.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 5.5
+		maxAmount = 5.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.1_4293660856
+	partName = Part
+	persistentId = 2822610569
+	pos = 0.212132052,14.5625,-0.212132037
+	attPos = 0.00774407387,-0.0561199188,0.00774413347
+	attPos0 = -0.219876125,0.0561199188,-0.21987617
+	rot = -0.346139789,0.393997252,0.835655153,0.163199008
+	attRot = 0,0,0,1
+	attRot0 = -0.393997192,-0.346139729,0.163198978,-0.835655153
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.1_4293660824
+	sym = Andromeda.FuelSphere.1_4293660792
+	sym = Andromeda.FuelSphere.1_4293660760
+	sym = Andromeda.FuelSphere.1_4293660728
+	sym = Andromeda.FuelSphere.1_4293661368
+	sym = Andromeda.FuelSphere.1_4293660920
+	sym = Andromeda.FuelSphere.1_4293660888
+	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.5
+		maxAmount = 4.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 5.5
+		maxAmount = 5.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.1_4293660824
+	partName = Part
+	persistentId = 3117942134
+	pos = 0.299999982,14.5625,-1.78813941E-08
+	attPos = 0.0109518766,-0.0561199188,-2.65314917E-08
+	attPos0 = -0.310951859,0.0561199188,8.65009842E-09
+	rot = -0.639582813,0.301552445,0.639582753,0.301552445
+	attRot = 0,0,0,1
+	attRot0 = -0.301552415,-0.639582813,0.301552415,-0.639582753
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.1_4293660792
+	sym = Andromeda.FuelSphere.1_4293660760
+	sym = Andromeda.FuelSphere.1_4293660728
+	sym = Andromeda.FuelSphere.1_4293661368
+	sym = Andromeda.FuelSphere.1_4293660920
+	sym = Andromeda.FuelSphere.1_4293660888
+	sym = Andromeda.FuelSphere.1_4293660856
+	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.5
+		maxAmount = 4.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 5.5
+		maxAmount = 5.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.1_4293660792
+	partName = Part
+	persistentId = 2683869177
+	pos = 0.212132037,14.5625,0.212132022
+	attPos = 0.00774411857,-0.0561199188,-0.00774416327
+	attPos0 = -0.219876155,0.0561199188,0.219876185
+	rot = -0.835655212,0.163199008,0.346139669,0.393997252
+	attRot = 0,0,0,1
+	attRot0 = -0.163198978,-0.835655272,0.393997252,-0.34613964
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.1_4293660760
+	sym = Andromeda.FuelSphere.1_4293660728
+	sym = Andromeda.FuelSphere.1_4293661368
+	sym = Andromeda.FuelSphere.1_4293660920
+	sym = Andromeda.FuelSphere.1_4293660888
+	sym = Andromeda.FuelSphere.1_4293660856
+	sym = Andromeda.FuelSphere.1_4293660824
+	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.5
+		maxAmount = 4.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 5.5
+		maxAmount = 5.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.1_4293660760
+	partName = Part
+	persistentId = 1516269143
+	pos = -2.6226834E-08,14.5625,0.300000012
+	attPos = 2.6226834E-08,-0.0561199188,-0.010951817
+	attPos0 = -6.71633811E-16,0.0561199188,0.310951829
+	rot = -0.904506683,-1.86411384E-08,-8.16840924E-08,0.426459551
+	attRot = 0,0,0,1
+	attRot0 = 0,-0.904506683,0.426459551,4.21468513E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.1_4293660728
+	sym = Andromeda.FuelSphere.1_4293661368
+	sym = Andromeda.FuelSphere.1_4293660920
+	sym = Andromeda.FuelSphere.1_4293660888
+	sym = Andromeda.FuelSphere.1_4293660856
+	sym = Andromeda.FuelSphere.1_4293660824
+	sym = Andromeda.FuelSphere.1_4293660792
+	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.5
+		maxAmount = 4.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 5.5
+		maxAmount = 5.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = Andromeda.FuelSphere.1_4293660728
+	partName = Part
+	persistentId = 3083020440
+	pos = -0.212132081,14.5625,0.212132022
+	attPos = -0.00774414837,-0.0561199188,-0.00774410367
+	attPos0 = 0.21987623,0.0561199188,0.219876125
+	rot = -0.835655153,-0.163199037,-0.346139848,0.393997252
+	attRot = 0,0,0,1
+	attRot0 = 0.163199067,-0.835655093,0.393997192,0.346139908
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Andromeda.FuelSphere.1_4293661368
+	sym = Andromeda.FuelSphere.1_4293660920
+	sym = Andromeda.FuelSphere.1_4293660888
+	sym = Andromeda.FuelSphere.1_4293660856
+	sym = Andromeda.FuelSphere.1_4293660824
+	sym = Andromeda.FuelSphere.1_4293660792
+	sym = Andromeda.FuelSphere.1_4293660760
+	srfN = srfAttach,dalim.adapter.s0p5.s0.1_4293868664,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 4.5
+		maxAmount = 4.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 5.5
+		maxAmount = 5.5
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
 	}
 }
