@@ -1,10 +1,10 @@
-ship = [Luna 3] KSP 1.12
+ship = [Luna 2]
 version = 1.12.2
 description = 
 type = VAB
-size = 0.875,1.44618797,0.884644508
+size = 0.713683903,1.53750038,0.699999988
 steamPublishedFileId = 0
-persistentId = 3382315124
+persistentId = 172294289
 rot = 0,0,0,0
 missionFlag = Squad/Flags/stripes
 vesselType = Debris
@@ -14,9 +14,9 @@ OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
 PART
 {
-	part = ye2a.avionics.s0.1_4293983600
+	part = ye1a.avionics.s0.1_4293988610
 	partName = Part
-	persistentId = 877245309
+	persistentId = 1205347412
 	pos = 0,15,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -25,7 +25,7 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Off
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
@@ -38,16 +38,19 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = ye1a.sensor.micrometeoroid.srf.1_4293983266
-	link = ye1a.sensor.micrometeoroid.srf.1_4293982990
-	link = ye2a.service.module.s0.1_4293982518
-	link = ye2a.low.gain.antenna.srf.1_4293978834
-	link = ye2a.low.gain.antenna.srf.1_4293978300
-	link = ye2a.low.gain.antenna.srf.1_4293978220
-	link = ye2a.low.gain.antenna.srf.1_4293978140
-	link = sp.star.tracker.srf.1_4293970098
-	attN = bottom,ye2a.service.module.s0.1_4293982518_0|-0.34375|0_0|-1|0_0|-0.34375|0_0|-1|0
-	attN = top,Null_0_0|0.34375|0_0|1|0_0|0.34375|0_0|1|0
+	link = ye1a.sensor.magnetometer.srf.1_4293988320
+	link = ye1a.sensor.micrometeoroid.srf.1_4293987954
+	link = ye1a.sensor.micrometeoroid.srf.1_4293987780
+	link = ye2a.low.gain.antenna.srf.1_4293986902
+	link = ye2a.low.gain.antenna.srf.1_4293986368
+	link = ye2a.low.gain.antenna.srf.1_4293986288
+	link = ye2a.low.gain.antenna.srf.1_4293986208
+	link = ye1a.sensor.micrometeoroid.srf.1_4293985242
+	link = ye1a.sensor.micrometeoroid.srf.1_4293985002
+	link = ye2a.low.gain.ribbon.antenna.srf.1_4293961120
+	link = ye2a.low.gain.ribbon.antenna.srf.1_4293960430
+	attN = bottom,Null_0_0|-0.3125|0_0|-1|0_0|-0.3125|0_0|-1|0
+	attN = top,ye1a.sensor.magnetometer.srf.1_4293988320_0|0.3125|0_0|1|0_0|0.3125|0_0|1|0
 	EVENTS
 	{
 	}
@@ -159,25 +162,21 @@ PART
 			CycleAction
 			{
 				actionGroup = None
-				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
 			Activate
 			{
 				actionGroup = None
-				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
 			Deactivate
 			{
 				actionGroup = None
-				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
 			Toggle
 			{
 				actionGroup = None
-				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
 		}
@@ -203,90 +202,18 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleDeployableSolarPanel
+		name = ModuleJettison
 		isEnabled = True
-		efficiencyMult = 1
-		launchUT = -1
-		currentRotation = (0, 0, 0, 1)
-		storedAnimationTime = 0
-		storedAnimationSpeed = 0
-		deployState = EXTENDED
+		activejettisonName = fairing1
+		isJettisoned = True
+		shroudHideOverride = False
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			ExtendPanelsAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ExtendAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			RetractAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleNeptuneCamera
-		isEnabled = True
-		cameraFieldOfView = 4
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionCaptureFullColourImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureRedImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreenImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureBlueImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreyscaleImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureUltravioletImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureInfraredImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionToggleDisplayWindow
+			JettisonAction
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -298,14 +225,27 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleTorqueController
+		name = ModuleScienceExperiment
 		isEnabled = True
+		Deployed = False
+		Inoperable = False
+		cooldownToGo = 0
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
+			DeployAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ResetAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -333,30 +273,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 50
-		maxAmount = 50
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 9
-		maxAmount = 9
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 11
-		maxAmount = 11
+		amount = 100
+		maxAmount = 100
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -366,216 +284,18 @@ PART
 }
 PART
 {
-	part = ye1a.sensor.micrometeoroid.srf.1_4293983266
+	part = ye1a.sensor.magnetometer.srf.1_4293988320
 	partName = Part
-	persistentId = 4152332181
-	pos = -0.291161358,14.7442598,-0.0780164227
-	attPos = 0.0504770279,-0.00572776794,0.0135252848
-	attPos0 = -0.341638386,-0.250012398,-0.0915417075
-	rot = 0,0.60876143,0,0.793353379
-	attRot = 0,0,0,1
-	attRot0 = 0,0.60876143,0,0.793353379
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = ye1a.sensor.micrometeoroid.srf.1_4293982990
-	srfN = srfAttach,ye2a.avionics.s0.1_4293983600,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleScienceExperiment
-		isEnabled = True
-		Deployed = False
-		Inoperable = False
-		cooldownToGo = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DeployAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ResetAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = ye1a.sensor.micrometeoroid.srf.1_4293982990
-	partName = Part
-	persistentId = 1140848051
-	pos = 0.291161358,14.7442598,0.0780164003
-	attPos = -0.0504770279,-0.00572776794,-0.0135252774
-	attPos0 = 0.341638386,-0.250012398,0.0915416777
-	rot = 0,0.793353379,0,-0.608761489
-	attRot = 0,0,0,1
-	attRot0 = 0,0.793353379,0,-0.608761489
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = ye1a.sensor.micrometeoroid.srf.1_4293983266
-	srfN = srfAttach,ye2a.avionics.s0.1_4293983600,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleScienceExperiment
-		isEnabled = True
-		Deployed = False
-		Inoperable = False
-		cooldownToGo = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DeployAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ResetAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = ye2a.service.module.s0.1_4293982518
-	partName = Part
-	persistentId = 1075801078
-	pos = 0,14.46875,0
+	persistentId = 62393374
+	pos = 0,15.3125,0
 	attPos = 0,0,0
-	attPos0 = 0,-0.53125,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
+	attPos0 = 0,0.3125,0
+	rot = 0,0.707106829,-0.707106829,0
+	attRot = 0,0.707106709,-0.707106709,0
+	attRot0 = 0,0.707106829,-0.707106829,0
 	mir = 1,1,1
 	symMethod = Radial
-	autostrutMode = Heaviest
+	autostrutMode = Off
 	rigidAttachment = False
 	istg = -1
 	resPri = 0
@@ -588,14 +308,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = ye2a.low.gain.ribbon.antenna.srf.1_4293977134
-	link = ye2a.low.gain.ribbon.antenna.srf.1_4293976780
-	link = sp.rcs.srf.2_4293974806
-	link = sp.rcs.srf.2_4293973620
-	link = sp.rcs.srf.2_4293973574
-	link = sp.rcs.srf.2_4293973528
-	attN = bottom,Null_0_0|-0.1875|0_0|-1|0_0|-0.1875|0_0|-1|0
-	attN = top,ye2a.avionics.s0.1_4293983600_0|0.1875|0_0|1|0_0|0.1875|0_0|1|0
+	attN = top,ye1a.avionics.s0.1_4293988610_0|0|0_0|0|1_0|0|0_0|0|1
 	EVENTS
 	{
 	}
@@ -622,22 +335,17 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleJettison
+		name = ModuleCargoPart
 		isEnabled = True
-		activejettisonName = fairing1
-		isJettisoned = True
-		shroudHideOverride = False
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			JettisonAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -645,26 +353,23 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleRCSFX
+		name = ModuleScienceExperiment
 		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = True
-		stagingEnabled = False
+		Deployed = False
+		Inoperable = False
+		cooldownToGo = 0
+		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			ToggleAction
+			DeployAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ResetAction
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -674,40 +379,18 @@ PART
 		{
 		}
 	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 9
-		maxAmount = 9
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 11
-		maxAmount = 11
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
 }
 PART
 {
-	part = ye2a.low.gain.antenna.srf.1_4293978834
+	part = ye1a.sensor.micrometeoroid.srf.1_4293987954
 	partName = Part
-	persistentId = 4290013962
-	pos = -2.3701233E-08,15.1866322,-0.271110505
-	attPos = 0,0,0
-	attPos0 = -2.3701233E-08,0.186632156,-0.271110505
-	rot = -4.26056914E-08,0.257270128,-0.966339529,-1.13429817E-08
-	attRot = 0,0,0.999999881,0
-	attRot0 = -4.26056914E-08,0.257270128,-0.966339529,-1.13429817E-08
+	persistentId = 1677283873
+	pos = -0.197336942,15.0711927,-0.197336867
+	attPos = 0.0167918503,-0.00605869293,0.0167919099
+	attPos0 = -0.214128792,0.0772514343,-0.214128777
+	rot = 0.115091339,0.379702508,-0.0476723984,0.916682839
+	attRot = 0,0,0,1
+	attRot0 = -0.115091339,-0.379702449,0.0476723909,-0.916682839
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -723,10 +406,208 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = ye2a.low.gain.antenna.srf.1_4293978300
-	sym = ye2a.low.gain.antenna.srf.1_4293978220
-	sym = ye2a.low.gain.antenna.srf.1_4293978140
-	srfN = srfAttach,ye2a.avionics.s0.1_4293983600,collider,0|0|0,0|0|-1,0|0|0
+	sym = ye1a.sensor.micrometeoroid.srf.1_4293987780
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceExperiment
+		isEnabled = True
+		Deployed = False
+		Inoperable = False
+		cooldownToGo = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DeployAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ResetAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = ye1a.sensor.micrometeoroid.srf.1_4293987780
+	partName = Part
+	persistentId = 2888334741
+	pos = 0.197336927,15.0711927,0.197336882
+	attPos = -0.0167918801,-0.00605869293,-0.0167918801
+	attPos0 = 0.214128807,0.0772514343,0.214128762
+	rot = 0.0476723947,-0.916682839,0.115091339,0.379702479
+	attRot = 0,0,0,1
+	attRot0 = 0.0476723947,-0.916682839,0.115091339,0.379702479
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = ye1a.sensor.micrometeoroid.srf.1_4293987954
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceExperiment
+		isEnabled = True
+		Deployed = False
+		Inoperable = False
+		cooldownToGo = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DeployAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ResetAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = ye2a.low.gain.antenna.srf.1_4293986902
+	partName = Part
+	persistentId = 1104561992
+	pos = -2.38528806E-08,15.1523552,-0.272845149
+	attPos = 0,0,0
+	attPos0 = -2.38528806E-08,0.152355194,-0.272845149
+	rot = 4.31935128E-08,-0.251887292,0.967756629,1.12423892E-08
+	attRot = 0,0,-0.99999994,0
+	attRot0 = 4.31935128E-08,-0.251887292,0.967756629,1.12423892E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = ye2a.low.gain.antenna.srf.1_4293986368
+	sym = ye2a.low.gain.antenna.srf.1_4293986288
+	sym = ye2a.low.gain.antenna.srf.1_4293986208
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -767,7 +648,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = Custom01
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -844,15 +725,15 @@ PART
 }
 PART
 {
-	part = ye2a.low.gain.antenna.srf.1_4293978300
+	part = ye2a.low.gain.antenna.srf.1_4293986368
 	partName = Part
-	persistentId = 3833239408
-	pos = -0.271110475,15.1866322,7.54178586E-09
+	persistentId = 3125507537
+	pos = -0.272845119,15.1523552,7.5900406E-09
 	attPos = 0,0,0
-	attPos0 = -0.271110475,0.186632156,7.54178586E-09
-	rot = -0.683305264,0.181917444,-0.683305204,-0.181917459
-	attRot = 0,0,0.999999881,0
-	attRot0 = -0.683305264,0.181917444,-0.683305204,-0.181917459
+	attPos0 = -0.272845119,0.152355194,7.5900406E-09
+	rot = 0.684307277,-0.178111196,0.684307218,0.17811121
+	attRot = 0,0,-0.99999994,0
+	attRot0 = 0.684307277,-0.178111196,0.684307218,0.17811121
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -868,10 +749,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = ye2a.low.gain.antenna.srf.1_4293978220
-	sym = ye2a.low.gain.antenna.srf.1_4293978140
-	sym = ye2a.low.gain.antenna.srf.1_4293978834
-	srfN = srfAttach,ye2a.avionics.s0.1_4293983600,collider,0|0|0,0|0|-1,0|0|0
+	sym = ye2a.low.gain.antenna.srf.1_4293986288
+	sym = ye2a.low.gain.antenna.srf.1_4293986208
+	sym = ye2a.low.gain.antenna.srf.1_4293986902
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -912,7 +793,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = Custom01
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -989,15 +870,15 @@ PART
 }
 PART
 {
-	part = ye2a.low.gain.antenna.srf.1_4293978220
+	part = ye2a.low.gain.antenna.srf.1_4293986288
 	partName = Part
-	persistentId = 4082544238
-	pos = 4.7402466E-08,15.1866322,0.271110505
+	persistentId = 940802226
+	pos = 4.77057611E-08,15.1523552,0.272845149
 	attPos = 0,0,0
-	attPos0 = 4.7402466E-08,0.186632156,0.271110505
-	rot = -0.966339529,-2.25886154E-08,8.48457304E-08,-0.257270128
-	attRot = 0,0,0.999999881,0
-	attRot0 = -0.966339529,-2.25886154E-08,8.48457304E-08,-0.257270128
+	attPos0 = 4.77057611E-08,0.152355194,0.272845149
+	rot = 0.967756629,2.2252733E-08,-8.54955005E-08,0.251887292
+	attRot = 0,0,-0.99999994,0
+	attRot0 = 0.967756629,2.2252733E-08,-8.54955005E-08,0.251887292
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -1013,10 +894,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = ye2a.low.gain.antenna.srf.1_4293978140
-	sym = ye2a.low.gain.antenna.srf.1_4293978834
-	sym = ye2a.low.gain.antenna.srf.1_4293978300
-	srfN = srfAttach,ye2a.avionics.s0.1_4293983600,collider,0|0|0,0|0|-1,0|0|0
+	sym = ye2a.low.gain.antenna.srf.1_4293986208
+	sym = ye2a.low.gain.antenna.srf.1_4293986902
+	sym = ye2a.low.gain.antenna.srf.1_4293986368
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -1057,7 +938,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = Custom01
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -1134,15 +1015,15 @@ PART
 }
 PART
 {
-	part = ye2a.low.gain.antenna.srf.1_4293978140
+	part = ye2a.low.gain.antenna.srf.1_4293986208
 	partName = Part
-	persistentId = 582750164
-	pos = 0.271110475,15.1866322,-3.98606765E-08
+	persistentId = 3962603401
+	pos = 0.272845119,15.1523552,-4.01157187E-08
 	attPos = 0,0,0
-	attPos0 = 0.271110475,0.186632156,-3.98606765E-08
-	rot = -0.683305204,-0.181917459,0.683305264,-0.181917444
-	attRot = 0,0,0.999999881,0
-	attRot0 = -0.683305204,-0.181917459,0.683305264,-0.181917444
+	attPos0 = 0.272845119,0.152355194,-4.01157187E-08
+	rot = 0.684307218,0.17811121,-0.684307277,0.178111196
+	attRot = 0,0,-0.99999994,0
+	attRot0 = 0.684307218,0.17811121,-0.684307277,0.178111196
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -1158,10 +1039,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = ye2a.low.gain.antenna.srf.1_4293978834
-	sym = ye2a.low.gain.antenna.srf.1_4293978300
-	sym = ye2a.low.gain.antenna.srf.1_4293978220
-	srfN = srfAttach,ye2a.avionics.s0.1_4293983600,collider,0|0|0,0|0|-1,0|0|0
+	sym = ye2a.low.gain.antenna.srf.1_4293986902
+	sym = ye2a.low.gain.antenna.srf.1_4293986368
+	sym = ye2a.low.gain.antenna.srf.1_4293986288
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -1202,7 +1083,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = Custom01
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -1279,15 +1160,15 @@ PART
 }
 PART
 {
-	part = ye2a.low.gain.ribbon.antenna.srf.1_4293977134
+	part = ye1a.sensor.micrometeoroid.srf.1_4293985242
 	partName = Part
-	persistentId = 1217238233
-	pos = -0.191262692,14.4650431,1.31727882E-08
-	attPos = 0.0297400057,0.0297307968,0
-	attPos0 = -0.221002698,-0.0334377289,1.31727882E-08
-	rot = -0.270550042,0.653301358,0.270550072,0.653301418
+	persistentId = 1565022028
+	pos = 0.145039588,14.8097839,-0.145039588
+	attPos = -0.0169811696,0.022269249,0.0169811696
+	attPos0 = 0.162020758,-0.212485313,-0.162020758
+	rot = 0.337405294,0.356250465,0.139757857,-0.860064566
 	attRot = 0,0,0,1
-	attRot0 = -0.270550042,0.653301358,0.270550072,0.653301418
+	attRot0 = 0.337405294,0.356250465,0.139757857,-0.860064566
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -1303,8 +1184,206 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = ye2a.low.gain.ribbon.antenna.srf.1_4293976780
-	srfN = srfAttach,ye2a.service.module.s0.1_4293982518,collider,0|0|0,0|0|-1,0|0|0
+	sym = ye1a.sensor.micrometeoroid.srf.1_4293985002
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceExperiment
+		isEnabled = True
+		Deployed = False
+		Inoperable = False
+		cooldownToGo = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DeployAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ResetAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = ye1a.sensor.micrometeoroid.srf.1_4293985002
+	partName = Part
+	persistentId = 1492591229
+	pos = -0.145039573,14.8097839,0.145039603
+	attPos = 0.0169811696,0.022269249,-0.0169811696
+	attPos0 = -0.162020743,-0.212485313,0.162020773
+	rot = 0.139757842,-0.860064566,-0.337405294,-0.356250435
+	attRot = 0,0,0,1
+	attRot0 = 0.139757842,-0.860064566,-0.337405294,-0.356250435
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = ye1a.sensor.micrometeoroid.srf.1_4293985242
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceExperiment
+		isEnabled = True
+		Deployed = False
+		Inoperable = False
+		cooldownToGo = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DeployAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ResetAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = ye2a.low.gain.ribbon.antenna.srf.1_4293961120
+	partName = Part
+	persistentId = 2039535443
+	pos = -0.217605188,14.8307877,1.47043631E-08
+	attPos = 0.0290930718,0.0226240158,0
+	attPos0 = -0.24669826,-0.191836357,1.47043631E-08
+	rot = -0.229453668,0.668843031,0.229453698,0.668843031
+	attRot = 0,0,0,1
+	attRot0 = -0.229453668,0.668843031,0.229453698,0.668843031
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = ye2a.low.gain.ribbon.antenna.srf.1_4293960430
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -1345,7 +1424,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = Custom01
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -1405,15 +1484,15 @@ PART
 }
 PART
 {
-	part = ye2a.low.gain.ribbon.antenna.srf.1_4293976780
+	part = ye2a.low.gain.ribbon.antenna.srf.1_4293960430
 	partName = Part
-	persistentId = 663697527
-	pos = 0.191262692,14.4650431,-2.98935028E-08
-	attPos = -0.0297400057,0.0297307968,2.59995403E-09
-	attPos0 = 0.221002698,-0.0334377289,-3.24934568E-08
-	rot = 0.270550072,0.653301418,0.270550042,-0.653301358
+	persistentId = 1160284783
+	pos = 0.217605188,14.8307877,-3.37280142E-08
+	attPos = -0.0290930718,0.0226240158,2.54339483E-09
+	attPos0 = 0.24669826,-0.191836357,-3.6271409E-08
+	rot = 0.229453713,0.668843031,0.229453653,-0.668843031
 	attRot = 0,0,0,1
-	attRot0 = 0.270550072,0.653301418,0.270550042,-0.653301358
+	attRot0 = 0.229453713,0.668843031,0.229453653,-0.668843031
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -1429,8 +1508,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = ye2a.low.gain.ribbon.antenna.srf.1_4293977134
-	srfN = srfAttach,ye2a.service.module.s0.1_4293982518,collider,0|0|0,0|0|-1,0|0|0
+	sym = ye2a.low.gain.ribbon.antenna.srf.1_4293961120
+	srfN = srfAttach,ye1a.avionics.s0.1_4293988610,collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
 	}
@@ -1471,7 +1550,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = Custom01
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ExtendAction
@@ -1517,508 +1596,6 @@ PART
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = sp.rcs.srf.2_4293974806
-	partName = Part
-	persistentId = 2417490779
-	pos = 2.1102807E-11,14.5691853,0.267027825
-	attPos = 2.1102807E-11,0.0663375854,-0.00522714853
-	attPos0 = 0,0.0340976715,0.272254974
-	rot = -5.12215714E-10,0.967269719,0.253750592,1.95251082E-09
-	attRot = 0,0,0,1
-	attRot0 = -5.12215714E-10,0.967269719,0.253750592,1.95251082E-09
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = sp.rcs.srf.2_4293973620
-	sym = sp.rcs.srf.2_4293973574
-	sym = sp.rcs.srf.2_4293973528
-	srfN = srfAttach,ye2a.service.module.s0.1_4293982518,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = False
-		enableY = False
-		enableZ = False
-		useThrottle = False
-		fullThrust = True
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = sp.rcs.srf.2_4293973620
-	partName = Part
-	persistentId = 1113474654
-	pos = 0.267027795,14.5691853,1.58949955E-08
-	attPos = -0.00522714853,0.0663375854,-3.32665451E-10
-	attPos0 = 0.272254944,0.0340976715,1.6227661E-08
-	rot = 0.179428771,0.683963001,0.179428771,-0.683963001
-	attRot = 0,0,0,1
-	attRot0 = 0.179428771,0.683963001,0.179428771,-0.683963001
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = sp.rcs.srf.2_4293973574
-	sym = sp.rcs.srf.2_4293973528
-	sym = sp.rcs.srf.2_4293974806
-	srfN = srfAttach,ye2a.service.module.s0.1_4293982518,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = False
-		enableY = False
-		enableZ = False
-		useThrottle = False
-		fullThrust = True
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = sp.rcs.srf.2_4293973574
-	partName = Part
-	persistentId = 2921020326
-	pos = -2.33654163E-08,14.5691853,-0.267027825
-	attPos = 4.35870007E-10,0.0663375854,0.00522714853
-	attPos0 = -2.38012863E-08,0.0340976715,-0.272254974
-	rot = 0.253750592,-4.03281923E-08,-1.05795745E-08,-0.967269719
-	attRot = 0,0,0,1
-	attRot0 = 0.253750592,-4.03281923E-08,-1.05795745E-08,-0.967269719
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = sp.rcs.srf.2_4293973528
-	sym = sp.rcs.srf.2_4293974806
-	sym = sp.rcs.srf.2_4293973620
-	srfN = srfAttach,ye2a.service.module.s0.1_4293982518,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = True
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = False
-		enableY = False
-		enableZ = False
-		useThrottle = False
-		fullThrust = True
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = sp.rcs.srf.2_4293973528
-	partName = Part
-	persistentId = 218022100
-	pos = -0.267027795,14.5691853,1.59372018E-08
-	attPos = 0.00522714853,0.0663375854,-2.90459212E-10
-	attPos0 = -0.272254944,0.0340976715,1.6227661E-08
-	rot = 0.179428771,-0.683963001,-0.179428771,-0.683963001
-	attRot = 0,0,0,1
-	attRot0 = 0.179428771,-0.683963001,-0.179428771,-0.683963001
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = sp.rcs.srf.2_4293974806
-	sym = sp.rcs.srf.2_4293973620
-	sym = sp.rcs.srf.2_4293973574
-	srfN = srfAttach,ye2a.service.module.s0.1_4293982518,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = False
-		enableY = False
-		enableZ = False
-		useThrottle = False
-		fullThrust = True
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = sp.star.tracker.srf.1_4293970098
-	partName = Part
-	persistentId = 4275768021
-	pos = 0.0913294181,14.7381802,-0.340846211
-	attPos = 0,0,0
-	attPos0 = 0.0913294181,-0.261819839,-0.340846211
-	rot = 0,0.130526111,0,-0.991444886
-	attRot = 0,0,0,1
-	attRot0 = 0,0.130526111,0,-0.991444886
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,ye2a.avionics.s0.1_4293983600,collider,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSAS
-		isEnabled = True
-		standaloneToggle = True
 		stagingEnabled = True
 		EVENTS
 		{

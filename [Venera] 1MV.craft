@@ -1,8 +1,8 @@
 ship = [Venera] 1MV
-version = 1.10.1
+version = 1.12.2
 description = 
 type = VAB
-size = 0.793473601,1.53936958,1.12531841
+size = 0.793473542,1.53936958,1.12531817
 steamPublishedFileId = 0
 persistentId = 2249397902
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = 1mv.avionics.s0.1_4294323780
 	partName = Part
-	persistentId = 3108059063
+	persistentId = 1441134312
 	pos = 0,15,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -207,65 +207,6 @@ PART
 	}
 	MODULE
 	{
-		name = kOSProcessor
-		isEnabled = True
-		bootFile = None
-		diskSpace = 10000
-		baseDiskSpace = 10000
-		baseModuleMass = 0
-		additionalCost = 0
-		MaxPartId = 100
-		RequiredPower = 0.0500000007
-		stagingEnabled = True
-		activated = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			Activate
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Deactivate
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			Toggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			TogglePower
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -321,7 +262,7 @@ PART
 {
 	part = 1mv.high.gain.antenna.srf.1_4294193470
 	partName = Part
-	persistentId = 2877012018
+	persistentId = 3226306704
 	pos = 2.67743285E-08,14.9982166,-0.306262612
 	attPos = 0,0,0
 	attPos0 = 2.67743285E-08,-0.00178337097,-0.306262612
@@ -374,7 +315,7 @@ PART
 		isEnabled = True
 		currentRotation = (8.14603354E-08, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -425,9 +366,11 @@ PART
 	}
 	MODULE
 	{
-		name = KOSNameTag
+		name = ModuleCargoPart
 		isEnabled = True
-		nameTag = 
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -444,7 +387,7 @@ PART
 {
 	part = 1mv.solar.srf.1_4294188058
 	partName = Part
-	persistentId = 1800433505
+	persistentId = 2416745098
 	pos = -0.299292266,15.0032892,0.0801951215
 	attPos = 0,0,0
 	attPos0 = -0.299292266,0.00328922272,0.0801951215
@@ -490,6 +433,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -544,28 +505,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = 1mv.solar.srf.1_4294187628
 	partName = Part
-	persistentId = 3249466322
+	persistentId = 1392946965
 	pos = 0.299292266,15.0032892,0.0801951215
 	attPos = 0,0,0
 	attPos0 = 0.299292266,0.00328922272,0.0801951215
@@ -611,6 +556,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -665,28 +628,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = 1mv.sensor.visible.light.camera.s0.1_4294193770
 	partName = Part
-	persistentId = 955333468
+	persistentId = 508756161
 	pos = 0,15.625,0
 	attPos = 0,0,0
 	attPos0 = 0,0.625,0
@@ -765,79 +712,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleNeptuneCamera
-		isEnabled = True
-		cameraFieldOfView = 60
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionCaptureFullColourImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureRedImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreenImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureBlueImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreyscaleImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureUltravioletImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureInfraredImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = 1mv.sensor.cosmic.ray.detector.srf.1_4294192288
 	partName = Part
-	persistentId = 1980981116
+	persistentId = 2227927353
 	pos = 0.15936178,15.4480219,-0.15936175
 	attPos = 0,0,0
 	attPos0 = -0.15936178,-0.176978111,0.15936175
@@ -886,6 +766,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleScienceExperiment
 		isEnabled = True
 		Deployed = False
@@ -928,28 +826,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = 1mv.sensor.magnetometer.srf.1_4294183792
 	partName = Part
-	persistentId = 2755199416
+	persistentId = 3643798038
 	pos = 0.0800972581,14.842658,0.298926979
 	attPos = 0,0,0
 	attPos0 = 0.0800972581,-0.157341957,0.298926979
@@ -995,6 +877,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -1074,28 +974,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = 1mv.sensor.thermometer.srf.1_4294192588
 	partName = Part
-	persistentId = 2686277787
+	persistentId = 3286273512
 	pos = -0.0583678782,15.4485855,0.217832014
 	attPos = 0,0,0
 	attPos0 = 0.0583678782,-0.17641449,-0.217832014
@@ -1141,6 +1025,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -1207,28 +1109,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = 1mv.sensor.ion.trap.srf.1_4294183390
 	partName = Part
-	persistentId = 832228772
+	persistentId = 3825489015
 	pos = 0.153537095,15.1455212,0.26593405
 	attPos = 0,0,0
 	attPos0 = 0.153537095,0.145521164,0.26593405
@@ -1277,6 +1163,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleScienceExperiment
 		isEnabled = True
 		Deployed = False
@@ -1319,28 +1223,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = 1mv.sensor.ion.trap.srf.1_4294183198
 	partName = Part
-	persistentId = 3470617628
+	persistentId = 2105935482
 	pos = 0.15462555,14.8483839,0.267819315
 	attPos = 0,0,0
 	attPos0 = 0.15462555,-0.151616096,0.267819315
@@ -1389,6 +1277,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleScienceExperiment
 		isEnabled = True
 		Deployed = False
@@ -1431,28 +1337,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = 1mv.sensor.ion.trap.srf.1_4294183006
 	partName = Part
-	persistentId = 829871841
+	persistentId = 92396125
 	pos = 0,14.994483,0.306555539
 	attPos = 0,0,0
 	attPos0 = 0,-0.00551700592,0.306555539
@@ -1501,6 +1391,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleScienceExperiment
 		isEnabled = True
 		Deployed = False
@@ -1543,28 +1451,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = sp.star.tracker.srf.1_4294182514
 	partName = Part
-	persistentId = 6343159
+	persistentId = 3913046924
 	pos = -0.159715831,15.4283409,-0.159715801
 	attPos = 0,0,0
 	attPos0 = 0.159715831,-0.196659088,0.159715801
@@ -1613,9 +1505,11 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleSAS
+		name = ModuleCargoPart
 		isEnabled = True
-		standaloneToggle = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1629,9 +1523,9 @@ PART
 	}
 	MODULE
 	{
-		name = KOSNameTag
+		name = ModuleSAS
 		isEnabled = True
-		nameTag = 
+		standaloneToggle = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1648,7 +1542,7 @@ PART
 {
 	part = sp.rcs.srf.2_4294181330
 	partName = Part
-	persistentId = 1120569292
+	persistentId = 2499298700
 	pos = -2.25419718E-08,14.7124996,-0.257850111
 	attPos = 0,0,0
 	attPos0 = -2.25419718E-08,-0.287500381,-0.257850111
@@ -1700,6 +1594,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -1729,28 +1641,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = sp.rcs.srf.2_4294181282
 	partName = Part
-	persistentId = 1036209859
+	persistentId = 1034224975
 	pos = -0.257850081,14.7124996,7.17290627E-09
 	attPos = 0,0,0
 	attPos0 = -0.257850081,-0.287500381,7.17290627E-09
@@ -1802,6 +1698,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -1831,28 +1745,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = sp.rcs.srf.2_4294181236
 	partName = Part
-	persistentId = 3495723703
+	persistentId = 799010949
 	pos = 4.50839437E-08,14.7124996,0.257850111
 	attPos = 0,0,0
 	attPos0 = 4.50839437E-08,-0.287500381,0.257850111
@@ -1904,6 +1802,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -1933,28 +1849,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = sp.rcs.srf.2_4294181190
 	partName = Part
-	persistentId = 2984607083
+	persistentId = 3148890572
 	pos = 0.257850081,14.7124996,-3.79110361E-08
 	attPos = 0,0,0
 	attPos0 = 0.257850081,-0.287500381,-3.79110361E-08
@@ -2006,6 +1906,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2035,28 +1953,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = sp.rcs.linear.srf.1_4294179704
 	partName = Part
-	persistentId = 567672131
+	persistentId = 2614511214
 	pos = -0.0304271001,14.7124996,-0.0304270983
 	attPos = 0,0,0
 	attPos0 = -0.0304271001,-0.287500381,-0.0304270983
@@ -2108,6 +2010,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2137,28 +2057,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = sp.rcs.linear.srf.1_4294179658
 	partName = Part
-	persistentId = 174699526
+	persistentId = 456259725
 	pos = -0.0304270983,14.7124996,0.0304270964
 	attPos = 0,0,0
 	attPos0 = -0.0304270983,-0.287500381,0.0304270964
@@ -2210,6 +2114,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2239,28 +2161,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = sp.rcs.linear.srf.1_4294179616
 	partName = Part
-	persistentId = 1510446957
+	persistentId = 1384222067
 	pos = 0.030427102,14.7124996,0.0304270964
 	attPos = 0,0,0
 	attPos0 = 0.030427102,-0.287500381,0.0304270964
@@ -2312,6 +2218,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2341,28 +2265,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
 	part = sp.rcs.linear.srf.1_4294179574
 	partName = Part
-	persistentId = 1123635133
+	persistentId = 4269768768
 	pos = 0.0304270945,14.7124996,-0.0304271001
 	attPos = 0,0,0
 	attPos0 = 0.0304270945,-0.287500381,-0.0304271001
@@ -2414,6 +2322,24 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleRCSFX
 		isEnabled = True
 		rcsEnabled = True
@@ -2438,22 +2364,6 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 		UPGRADESAPPLIED
 		{

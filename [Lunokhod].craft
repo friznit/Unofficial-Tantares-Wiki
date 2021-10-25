@@ -1,8 +1,8 @@
-ship = [Lunokhod] KSP 1.11.X
-version = 1.11.1
+ship = [Lunokhod]
+version = 1.12.2
 description = 
 type = VAB
-size = 1.8128022,2.74505615,2.019732
+size = 1.81280088,2.74505806,2.019732
 steamPublishedFileId = 0
 persistentId = 3956728654
 rot = 0,0,0,0
@@ -549,8 +549,11 @@ PART
 	{
 		name = ModuleWheelSteering
 		isEnabled = True
+		autoSteeringAdjust = True
 		steeringEnabled = True
 		steeringInvert = False
+		angleTweakable = 30
+		responseTweakable = 2
 		stagingEnabled = True
 		EVENTS
 		{
@@ -561,6 +564,31 @@ PART
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			angleTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			responseTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -748,8 +776,11 @@ PART
 	{
 		name = ModuleWheelSteering
 		isEnabled = True
+		autoSteeringAdjust = True
 		steeringEnabled = True
 		steeringInvert = False
+		angleTweakable = 30
+		responseTweakable = 2
 		stagingEnabled = True
 		EVENTS
 		{
@@ -760,6 +791,31 @@ PART
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			angleTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			responseTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -947,8 +1003,11 @@ PART
 	{
 		name = ModuleWheelSteering
 		isEnabled = True
+		autoSteeringAdjust = True
 		steeringEnabled = False
 		steeringInvert = False
+		angleTweakable = 30
+		responseTweakable = 2
 		stagingEnabled = True
 		EVENTS
 		{
@@ -959,6 +1018,31 @@ PART
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			angleTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			responseTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -1146,8 +1230,11 @@ PART
 	{
 		name = ModuleWheelSteering
 		isEnabled = True
+		autoSteeringAdjust = True
 		steeringEnabled = False
 		steeringInvert = False
+		angleTweakable = 30
+		responseTweakable = 2
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1158,6 +1245,31 @@ PART
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			angleTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			responseTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -1345,8 +1457,11 @@ PART
 	{
 		name = ModuleWheelSteering
 		isEnabled = True
+		autoSteeringAdjust = True
 		steeringEnabled = False
 		steeringInvert = False
+		angleTweakable = 30
+		responseTweakable = 2
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1357,6 +1472,31 @@ PART
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			angleTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			responseTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -1544,8 +1684,11 @@ PART
 	{
 		name = ModuleWheelSteering
 		isEnabled = True
+		autoSteeringAdjust = True
 		steeringEnabled = False
 		steeringInvert = False
+		angleTweakable = 30
+		responseTweakable = 2
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1556,6 +1699,31 @@ PART
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			angleTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			responseTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -1743,8 +1911,11 @@ PART
 	{
 		name = ModuleWheelSteering
 		isEnabled = True
+		autoSteeringAdjust = True
 		steeringEnabled = False
 		steeringInvert = False
+		angleTweakable = 30
+		responseTweakable = 2
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1755,6 +1926,31 @@ PART
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			angleTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			responseTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -1942,8 +2138,11 @@ PART
 	{
 		name = ModuleWheelSteering
 		isEnabled = True
+		autoSteeringAdjust = True
 		steeringEnabled = False
 		steeringInvert = False
+		angleTweakable = 30
+		responseTweakable = 2
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1954,6 +2153,31 @@ PART
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			angleTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			responseTweakable
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -2926,62 +3150,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleNeptuneCamera
-		isEnabled = True
-		cameraFieldOfView = 70
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionCaptureFullColourImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureRedImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreenImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureBlueImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreyscaleImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureUltravioletImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureInfraredImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionToggleDisplayWindow
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
@@ -3071,62 +3239,6 @@ PART
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ResetAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleNeptuneCamera
-		isEnabled = True
-		cameraFieldOfView = 70
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionCaptureFullColourImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureRedImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreenImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureBlueImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreyscaleImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureUltravioletImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureInfraredImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionToggleDisplayWindow
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -3236,62 +3348,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleNeptuneCamera
-		isEnabled = True
-		cameraFieldOfView = 70
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionCaptureFullColourImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureRedImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreenImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureBlueImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreyscaleImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureUltravioletImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureInfraredImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionToggleDisplayWindow
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 }
 PART
 {
@@ -3383,62 +3439,6 @@ PART
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ResetAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleNeptuneCamera
-		isEnabled = True
-		cameraFieldOfView = 70
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionCaptureFullColourImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureRedImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreenImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureBlueImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureGreyscaleImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureUltravioletImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionCaptureInfraredImage
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActionToggleDisplayWindow
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -3576,10 +3576,10 @@ PART
 	part = ye85.landing.leg.srf.1_4293957178
 	partName = Part
 	persistentId = 1078826248
-	pos = 0.478847265,14.0643425,0.683864713
+	pos = 0.478847504,14.0643425,0.683864951
 	attPos = 0,0,0
 	attPos0 = 0.683864295,0.00181484222,-0.478847027
-	rot = -0.000992160174,0.953711867,-0.00314673036,-0.300704241
+	rot = -0.00099216029,0.953711867,-0.00314673036,-0.300704271
 	attRot = 0,0,0,1
 	attRot0 = -0.00292663742,0.461746097,-0.00152351114,-0.887006044
 	mir = 1,1,1
@@ -3718,10 +3718,10 @@ PART
 	part = ye85.landing.leg.srf.1_4293956208
 	partName = Part
 	persistentId = 3805013162
-	pos = -0.478847325,14.0643425,-0.683864653
+	pos = -0.478847563,14.0643425,-0.683864892
 	attPos = 0,0,0
 	attPos0 = -0.683864236,0.00181484222,0.478847086
-	rot = -0.00314673036,-0.300704241,0.00099216029,-0.953711867
+	rot = -0.00314673036,-0.300704271,0.00099216029,-0.953711867
 	attRot = 0,0,0,1
 	attRot0 = -0.00152351102,-0.887006044,0.00292663742,-0.461746097
 	mir = 1,1,1
@@ -3856,7 +3856,7 @@ PART
 	part = ye85.landing.leg.srf.1_4293955548
 	partName = Part
 	persistentId = 293001465
-	pos = 0.478240758,14.0697689,-0.682998061
+	pos = 0.478241026,14.0697689,-0.6829983
 	attPos = 0,0,0
 	attPos0 = -0.682997823,0.00724124908,-0.478240401
 	rot = -0.0125564542,0.300679833,-0.0039590369,-0.953634381
@@ -3994,7 +3994,7 @@ PART
 	part = ye85.landing.leg.srf.1_4293954852
 	partName = Part
 	persistentId = 2518826547
-	pos = -0.478240699,14.0697689,0.68299818
+	pos = -0.478240907,14.0697689,0.682998419
 	attPos = 0,0,0
 	attPos0 = 0.682997882,0.00724124908,0.478240341
 	rot = -0.00395903643,-0.953634381,0.0125564532,-0.300679833
@@ -4269,18 +4269,26 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleJettison
+		name = ModuleRCSFX
 		isEnabled = True
-		activejettisonName = fairings
-		isJettisoned = True
-		shroudHideOverride = False
-		stagingEnabled = True
+		rcsEnabled = True
+		thrustPercentage = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		enableX = True
+		enableY = True
+		enableZ = True
+		useThrottle = False
+		fullThrust = True
+		stagingEnabled = False
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			JettisonAction
+			ToggleAction
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -4323,6 +4331,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAlternator
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleColorChanger
 		isEnabled = True
 		animState = False
@@ -4349,7 +4372,7 @@ PART
 	part = ye85.rcs.srf.2_4293953380
 	partName = Part
 	persistentId = 1401234187
-	pos = -1.1920929E-07,14.0573568,0.577662468
+	pos = -1.1920929E-07,14.0573568,0.577662587
 	attPos = 0,0,0
 	attPos0 = 0.57766211,-0.00517082214,5.96046199E-08
 	rot = -0.707075596,0.707075596,0.00664776564,0.00664791465
@@ -4451,10 +4474,10 @@ PART
 	part = ye85.rcs.srf.2_4293953174
 	partName = Part
 	persistentId = 1996982896
-	pos = 5.96046448E-08,14.0573568,-0.577662468
+	pos = 5.96046448E-08,14.0573568,-0.577662587
 	attPos = 0,0,0
 	attPos0 = -0.57766211,-0.00517082214,0
-	rot = 0.00664779544,0.00664788485,0.707075596,-0.707075596
+	rot = 0.00664776564,0.00664788485,0.707075596,-0.707075596
 	attRot = 0,0,0,1
 	attRot0 = 0.504678607,-0.495277137,0.495277196,-0.504678667
 	mir = 1,1,1
@@ -4553,7 +4576,7 @@ PART
 	part = ye85.rcs.linear.srf.1_4293952962
 	partName = Part
 	persistentId = 4045448882
-	pos = 0.553982377,14.0659513,-0.553982317
+	pos = 0.553982496,14.0659513,-0.553982437
 	attPos = 0,0,0
 	attPos0 = -0.553982079,0.0034236908,-0.553982019
 	rot = -0.00621945737,0.737263143,0.000271547586,-0.675577104
@@ -4655,10 +4678,10 @@ PART
 	part = ye85.rcs.linear.srf.1_4293952684
 	partName = Part
 	persistentId = 3366550186
-	pos = -0.553982317,14.0659513,0.553982377
+	pos = -0.553982437,14.0659513,0.553982496
 	attPos = 0,0,0
 	attPos0 = 0.553982139,0.0034236908,0.55398196
-	rot = 0.000271547586,-0.675577223,0.00621945737,-0.737263143
+	rot = 0.000271547586,-0.675577164,0.0062194569,-0.737263083
 	attRot = 0,0,0,1
 	attRot0 = 0.00458983332,-0.999028921,0.00420580711,-0.0436185598
 	mir = 1,1,1
@@ -4757,10 +4780,10 @@ PART
 	part = ye85.rcs.linear.srf.1_4293952378
 	partName = Part
 	persistentId = 2477323222
-	pos = 0.556693435,14.070034,0.556693614
+	pos = 0.556693554,14.070034,0.556693733
 	attPos = 0,0,0
 	attPos0 = 0.556693256,0.00750637054,-0.556693196
-	rot = -0.675527394,0.00059540337,0.737208784,-0.0136369448
+	rot = -0.675527334,0.00059540337,0.737208724,-0.0136369448
 	attRot = -0.42261833,0,-0.906307876,0
 	attRot0 = 0.0436153114,-0.00922176242,0.99895525,-0.0100637898
 	mir = 1,1,1
@@ -4859,7 +4882,7 @@ PART
 	part = ye85.rcs.linear.srf.1_4293952334
 	partName = Part
 	persistentId = 2092514595
-	pos = -0.556693494,14.070034,-0.556693554
+	pos = -0.556693614,14.070034,-0.556693673
 	attPos = 0,0,0
 	attPos0 = -0.556693196,0.00750637054,0.556693256
 	rot = 0.737208664,-0.0136369448,0.675527275,-0.00059540337
@@ -4961,7 +4984,7 @@ PART
 	part = ye85.fuel.tank.srf.2_4293952104
 	partName = Part
 	persistentId = 656968820
-	pos = 0.462511063,14.0637379,0
+	pos = 0.462511182,14.0637379,0
 	attPos = 0,0,0
 	attPos0 = -4.49030217E-08,0.00121021271,-0.462510794
 	rot = -0.00228194823,0.707103133,-0.00228194776,-0.707103252
@@ -5076,7 +5099,7 @@ PART
 	part = ye85.fuel.tank.srf.2_4293950810
 	partName = Part
 	persistentId = 126006620
-	pos = -0.462511063,14.0637379,2.98023224E-08
+	pos = -0.462511182,14.0637379,2.98023224E-08
 	attPos = 0,0,0
 	attPos0 = 8.53369997E-08,0.00121021271,0.462510794
 	rot = -0.00228194776,-0.707103312,0.00228194823,-0.707103074
